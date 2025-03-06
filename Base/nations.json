@@ -1,0 +1,74 @@
+{
+  "nations": [
+    {
+    "name": "Japan",
+    "demonym": "Japanese",
+    "preferredVictory": "Domination",
+    "preferredReligion": "Shinto",
+    "leaderName": "Oda Nobunaga",
+    "leaderTraits": [
+       "Aggressive",
+       "Unifying",
+       "Innovative"],
+
+    "firstEntered1":["You step into the sandals of Oda Nobunaga, a warlord of unmatched ambition and strategic genius. In a fractured Japan, where rival clans clash for dominance, you emerge as a force of unification. Your relentless campaigns and innovative tactics bring you closer to your ultimate goal: to bring the entire land under your banner. From the burning of Enryakuji to the crushing of the Takeda, your name strikes fear into the hearts of your enemies, while your vision of a centralized Japan promises a new era of prosperity and order."],
+    "firstEntered2":["But the path to unification is fraught with peril. Will you maintain your iron grip on power, or will treachery and betrayal undermine your grand designs? Can you forge alliances strong enough to withstand the storms of war, or will you stand alone against the tide? Will your innovative strategies continue to outmaneuver your opponents, or will the weight of your conquests become too heavy to bear? And, ultimately, will you build a nation that can last for centuries?"],
+
+    "introduction":["Formal salutations. I acknowledge your presence. I propose we engage in a conversation of practical matters."],
+    "peaceLetsHearIt":["I acknowledge your presence. I propose we engage in a conversation of practical matters.","I am prepared to consider your terms","Communicate your requests."],
+    "warLetsHearIt":["Alright, what do you want?","State your terms now.","I don't have much time, so better say it quickly."],
+    "peaceYes":["Your proposal aligns with our strategic objectives. We accept the terms as presented.","After careful consideration, we find your offer satisfactory. Let us formalize the agreement.","The proposed arrangement presents a mutually beneficial opportunity. We agree to proceed."],
+    "peaceNo":["Your proposal does not meet our requirements. We must decline your offer at this time.","We have evaluated your terms and find them unacceptable. We suggest you reconsider your position.","The proposed agreement lacks strategic merit. We cannot agree to such an arrangement."],
+    "warYes":["Your proposition, while presented during conflict, holds potential. We will proceed with the understanding that circumstances may alter our decisions.","We find merit in your suggestion, even amidst hostilities. We will act accordingly, with caution.","Your proposal, though unexpected, aligns with certain strategic calculations. We accept, for the moment."],
+    "warNo":["Your proposal is ill-timed and irrelevant to the current state of conflict. We reject it outright.","We find your suggestion incompatible with our present course of action. It will not be considered.","The timing of your proposition undermines its potential value. We will not be swayed from our objectives."],
+    "declaringWar":["Strategic necessity dictates that hostilities commence. I hereby declare a state of war between our nations."],
+    "attacked":["So, you have chosen this path. We accept your challenge. Let us see who emerges victorious."],
+    "defeated":["The tide of battle has turned against us. For now, I concede. But remember, this is not the end."],
+    "denounced":["Your denouncement is noted. It carries little weight compared to the strength of my armies."],
+    "embassyAccepted":["This agreement will serve as a foundation for future cooperation. We will send our envoys forthwith."],
+    "embassyRejected":["I find your rejection disappointing. You have denied yourself a valuable avenue of communication."],
+
+    "nationOutsideColor": [255,255,255],
+    "nationInsideColor": [237,41,57],
+    "leaderAbilityName": "Rapid Conquest",
+    "leaderAbility": "[Military] units gain a combat bonus against [cities] and [civilizations] with more [cities] than [Japan].",
+    "cities":["Azuchi","Gifu","Kyoto","Nagoya","Osaka","Sakai","Nara","Kamakura","Odawara","Hiroshima","Kofu","Sendai","Yamaguchi","Kanazawa","Matsumoto","Ueda","Tsuruga","Hakodate"],
+    "spyNames":["Karasu","Kitsune","Kage","Yami","Shinobi","Hayabusa","Suzume","Tsubame","Kumogakure","Oni"]
+   },
+   {
+    "name": "Japan",
+    "demonym": "Japanese",
+    "preferredVictory": "Domination",
+    "preferredReligion": "Shinto",
+    "leaderName": "Tokugawa Ieyasu",
+    "leaderTraits": [
+      "Diplomatic",
+      "Isolationist",
+      "Strategic"],
+
+    "firstEntered1": ["You are Tokugawa Ieyasu, a master strategist and patient leader. After years of careful planning and political maneuvering, you have emerged as the shogun, bringing peace and stability to a war-torn land. Your focus is on consolidating power, establishing a lasting dynasty, and ensuring the prosperity of your realm."],
+    "firstEntered2": ["Yet, challenges remain. Can you maintain the delicate balance of power, preventing internal strife and external threats? Will your isolationist policies foster stability or stifle progress? Can you ensure the longevity of your shogunate, or will the seeds of future conflict be sown? And, ultimately, will you build a nation that can last for centuries?"],
+
+    "introduction": ["Greetings. I am Tokugawa Ieyasu. Let us discuss matters of state with prudence and foresight."],
+    "peaceLetsHearIt": ["I am prepared to listen to your proposals. Speak with clarity and reason.","Let us examine the details of your offer.","Present your terms, and I shall consider them."],
+    "warLetsHearIt": ["State your intentions. I require directness.","Speak quickly, and let us determine the course of action.","Your demands are noted. Proceed."],
+    "peaceYes": ["Your terms are acceptable. Let us proceed with the agreement.","I concur with your proposal. It aligns with our interests.","We find the arrangement satisfactory. Let it be so."],
+    "peaceNo": ["Your proposal is unacceptable. We must decline.","I cannot agree to such terms. Reconsider your offer.","The arrangement is unsatisfactory. We will not proceed."],
+    "warYes": ["Your suggestion has merit. We will consider it, even in these times.","We find your terms tolerable, given the circumstances.","Your proposal may serve our strategic interests. We accept."],
+    "warNo": ["Your proposal is ill-timed and irrelevant. We reject it.","We cannot accept your terms during this conflict.","Your offer is insufficient. We will not be swayed."],
+    "declaringWar": ["Due to your actions, I am compelled to declare war. Let us resolve this on the battlefield."],
+    "attacked": ["Your aggression will be met with unwavering resistance. We will defend our lands."],
+    "defeated": ["The course of events has turned against me. I concede, but my legacy will endure."],
+    "denounced": ["Your denouncement is of little consequence. I will continue to govern according to my principles."],
+    "embassyAccepted": ["The establishment of an embassy will foster understanding. We welcome your envoys."],
+    "embassyRejected": ["Your refusal is unwise. You have closed a door to diplomacy."],
+
+    "nationOutsideColor": [253, 218, 13],
+    "nationInsideColor": [0,0,0],
+    "leaderAbilityName": "Shogunate Stability",
+    "leaderAbility": "[Cities] gain increased [loyalty] and [defensive bonuses], [trade routes] within your own borders yield extra [resources].",
+    "cities": ["Edo","Kyoto","Osaka","Nagoya","Kanazawa","Sendai","Hiroshima","Nagasaki","Kofu","Odawara","Matsumoto","Ueda","Tsuruga","Hakodate"],
+    "spyNames": ["Mizukage","Oniwaban","Hattori","Fukuro","Koban","Tora","Jigoku","Kitsune","Senzo","Kaze"]
+  }
+  ]
+}
