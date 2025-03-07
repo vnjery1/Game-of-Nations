@@ -1,10 +1,1133 @@
 {
   "units": [
     {
+        "name": "Warrior",
+        "type": "Melee",
+        "era": "Ancient",
+        "requiredTech": null,
+        "uniqueTo": null,
+        "cost": 40,
+        "strength": 20,
+        "movement": 2,
+        "abilities": [],
+        "replaces": null
+    },
+    {
+        "name": "Archer",
+        "type": "Ranged",
+        "era": "Ancient",
+        "requiredTech": "Archery",
+        "uniqueTo": null,
+        "cost": 50,
+        "strength": 25,
+        "range": 2,
+        "movement": 2,
+        "abilities": [],
+        "replaces": null
+    },
+    {
+        "name": "Swordsman",
+        "type": "Melee",
+        "era": "Ancient",
+        "requiredTech": "Bronze Working",
+        "uniqueTo": null,
+        "cost": 80,
+        "strength": 30,
+        "movement": 2,
+        "abilities": [],
+        "replaces": null
+    },
+    {
+        "name": "Galley",
+        "type": "Militant Naval",
+        "era": "Ancient",
+        "requiredTech": "Sailing",
+        "uniqueTo": null,
+        "cost": 60,
+        "strength": 25,
+        "movement": 3,
+        "abilities": [],
+        "replaces": null
+    },
+    {
+        "name": "Settler",
+        "type": "Civilian",
+        "era": "Ancient",
+        "requiredTech": null,
+        "uniqueTo": null,
+        "cost": 100,
+        "strength": 0,
+        "movement": 2,
+        "abilities": [
+          "Found City: Can found a new city."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Builder",
+        "type": "Civilian",
+        "era": "Ancient",
+        "requiredTech": null,
+        "uniqueTo": null,
+        "cost": 50,
+        "strength": 0,
+        "movement": 2,
+        "abilities": [
+          "Build Improvements: Can build improvements on tiles.",
+          "Repair: Can repair damaged buildings and districts."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Trader",
+        "type": "Civilian",
+        "era": "Ancient",
+        "requiredTech": "Wheel",
+        "uniqueTo": null,
+        "cost": 70,
+        "strength": 0,
+        "movement": 3,
+        "abilities": [
+          "Establish Trade Route: Can establish trade routes between cities.",
+          "Trade Bonuses: Provides bonuses to trade routes."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Scout",
+        "type": "Recon",
+        "era": "Ancient",
+        "requiredTech": null,
+        "uniqueTo": null,
+        "cost": 30,
+        "strength": 10,
+        "movement": 3,
+        "abilities": [
+          "Reconnaissance: Increased visibility range.",
+          "Exploration: Can move through difficult terrain more easily."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Work Boat",
+        "type": "Civilian Naval",
+        "era": "Ancient",
+        "requiredTech": "Fishing",
+        "uniqueTo": null,
+        "cost": 40,
+        "strength": 0,
+        "movement": 2,
+        "abilities": [
+          "Fishing: Can improve sea resources.",
+          "Resource Harvesting: Can harvest bonus resources from sea tiles."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Spy",
+        "type": "Recon",
+        "era": "Renaissance",
+        "requiredTech": "Printing",
+        "uniqueTo": null,
+        "cost": 120,
+        "strength": 0,
+        "movement": 2,
+        "abilities": [
+          "Infiltration: Can infiltrate enemy cities.",
+          "Espionage: Can perform various espionage missions.",
+          "Counter-Espionage: Can detect enemy spies."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Spearman",
+        "type": "Melee",
+        "era": "Classical",
+        "requiredTech": "Bronze Working",
+        "uniqueTo": null,
+        "cost": 65,
+        "strength": 25,
+        "movement": 2,
+        "abilities": [
+          "Anti-Cavalry: +10 [Combat Strength] against [Cavalry] units."
+        ],
+        "upgradesFrom": "Warrior",
+        "replaces": null
+    },
+    {
+        "name": "Horseman",
+        "type": "Cavalry",
+        "era": "Classical",
+        "requiredTech": "Horseback Riding",
+        "uniqueTo": null,
+        "cost": 80,
+        "strength": 32,
+        "movement": 4,
+        "abilities": [
+          "Fast Movement: Increased movement speed."
+        ],
+        "upgradesFrom": "Scout",
+        "replaces": null
+    },
+    {
+        "name": "Catapult",
+        "type": "Siege",
+        "era": "Classical",
+        "requiredTech": "Mathematics",
+        "uniqueTo": null,
+        "cost": 100,
+        "strength": 35,
+        "range": 2,
+        "movement": 2,
+        "abilities": [
+          "Siege Attack: Increases [Damage] against [City Walls]."
+        ],
+        "upgradesFrom": null,
+        "replaces": null
+    },
+    {
+        "name": "Light Chariot",
+        "type": "Cavalry",
+        "era": "Classical",
+        "requiredTech": "Wheel",
+        "uniqueTo": null,
+        "cost": 70,
+        "strength": 30,
+        "movement": 3,
+        "abilities": [
+          "Mobility: Increased movement on flat terrain."
+        ],
+        "upgradesFrom": null,
+        "replaces": null
+    },
+    {
+        "name": "Heavy Chariot",
+        "type": "Cavalry",
+        "era": "Classical",
+        "requiredTech": "Horseback Riding",
+        "uniqueTo": null,
+        "cost": 90,
+        "strength": 35,
+        "movement": 3,
+        "abilities": [
+          "Armored: Increased combat strength against ranged attacks."
+        ],
+        "upgradesFrom": "Chariot",
+        "replaces": null
+    },
+    {
+        "name": "Trireme",
+        "type": "Militant Naval",
+        "era": "Classical",
+        "requiredTech": "Shipbuilding",
+        "uniqueTo": null,
+        "cost": 80,
+        "strength": 30,
+        "movement": 4,
+        "range": 2,
+        "abilities": [
+          "Naval Ranged: Can attack at range."
+        ],
+        "upgradesFrom": "Galley",
+        "replaces": null
+    },
+    {
+        "name": "Caravan",
+        "type": "Civilian",
+        "era": "Classical",
+        "requiredTech": "Animal Husbandry",
+        "uniqueTo": null,
+        "cost": 80,
+        "strength": 0,
+        "movement": 3,
+        "abilities": [
+          "Establish Land Trade Route: Can establish trade routes between cities over land.",
+          "Increased Trade Value: Provides a bonus to the [Gold] yield of trade routes."
+        ],
+        "upgradesFrom": "Trader",
+        "replaces": null
+    },
+    {
+        "name": "Man-at-Arms",
+        "type": "Melee",
+        "era": "Medieval",
+        "requiredTech": "Metal Casting",
+        "uniqueTo": null,
+        "cost": 120,
+        "strength": 40,
+        "movement": 2,
+        "abilities": [
+          "Disciplined: +5 [Combat Strength] <when defending.>"
+        ],
+        "upgradesFrom": "Spearman",
+        "replaces": null
+    },
+    {
+        "name": "Crossbowman",
+        "type": "Ranged",
+        "era": "Medieval",
+        "requiredTech": "Machinery",
+        "uniqueTo": null,
+        "cost": 100,
+        "strength": 40,
+        "range": 2,
+        "movement": 2,
+        "abilities": [
+          "Accuracy: +5 [Combat Strength] <when attacking cities.>"
+        ],
+        "upgradesFrom": "Composite Archer",
+        "replaces": null
+    },
+    {
+        "name": "Composite Archer",
+        "type": "Ranged",
+        "era": "Medieval",
+        "requiredTech": "Archery", 
+        "uniqueTo": null,
+        "cost": 110,
+        "strength": 45, 
+        "range": 3,
+        "movement": 2,
+        "abilities": [
+          "Increased Range: +3 [Range]" 
+        ],
+        "upgradesFrom": "Archer",
+        "replaces": null
+    },
+    {
+        "name": "Knight",
+        "type": "Cavalry",
+        "era": "Medieval",
+        "requiredTech": "Stirrups",
+        "uniqueTo": null,
+        "cost": 140,
+        "strength": 50,
+        "movement": 3,
+        "abilities": [
+          "Shock: Has a chance to inflict additional [Damage] on enemy units."
+        ],
+        "upgradesFrom": "Horseman",
+        "replaces": null
+    },
+    {
+        "name": "Trebuchet",
+        "type": "Siege",
+        "era": "Medieval",
+        "requiredTech": "Engineering",
+        "uniqueTo": null,
+        "cost": 160,
+        "strength": 50,
+        "range": 3,
+        "movement": 2,
+        "abilities": [
+          "City Breaker: +10 [Combat Strength] <when attacking [City Walls].>"
+        ],
+        "upgradesFrom": "Catapult",
+        "replaces": null
+    },
+    {
+        "name": "Quadrireme",
+        "type": "Militant Naval",
+        "era": "Medieval",
+        "requiredTech": "Cartography",
+        "uniqueTo": null,
+        "cost": 120,
+        "strength": 40,
+        "movement": 4,
+        "range": 2,
+        "abilities": [
+          "Boarding: Has a chance to capture enemy ships."
+        ],
+        "upgradesFrom": "Trireme",
+        "replaces": null
+    },
+    {
+        "name": "Musketman",
+        "type": "Ranged",
+        "era": "Renaissance",
+        "requiredTech": "Gunpowder",
+        "uniqueTo": null,
+        "cost": 140,
+        "strength": 50,
+        "range": 2,
+        "movement": 2,
+        "abilities": [
+          "Gunfire: Ignores defensive bonuses from terrain."
+        ],
+        "upgradesFrom": "Crossbowman",
+        "replaces": null
+    },
+    {
+        "name": "Pikeman",
+        "type": "Melee",
+        "era": "Renaissance",
+        "requiredTech": "Gunpowder",
+        "uniqueTo": null,
+        "cost": 130,
+        "strength": 45,
+        "movement": 2,
+        "abilities": [
+          "Anti-Cavalry Wall: +15 combat strength against cavalry units."
+        ],
+        "upgradesFrom": "Man-at-Arms",
+        "replaces": null
+    },
+    {
+        "name": "Bombard",
+        "type": "Siege",
+        "era": "Medieval",
+        "requiredTech": "Gunpowder",
+        "uniqueTo": null,
+        "cost": 170,
+        "strength": 55,
+        "range": 3,
+        "movement": 2,
+        "abilities": [
+          "Siege Weapon: +12 [Combat Strength] against [City Walls]."
+        ],
+        "upgradesFrom": "Trebuchet",
+        "replaces": null
+    },
+    {
+        "name": "Cannon",
+        "type": "Siege",
+        "era": "Renaissance",
+        "requiredTech": "Gunpowder",
+        "uniqueTo": null,
+        "cost": 180,
+        "strength": 60,
+        "range": 3,
+        "movement": 2,
+        "abilities": [
+          "Siege Barrage: +15 combat strength against city walls."
+        ],
+        "upgradesFrom": "Trebuchet",
+        "replaces": null
+    },
+    {
+        "name": "Caravel",
+        "type": "Militant Naval",
+        "era": "Renaissance",
+        "requiredTech": "Navigation",
+        "uniqueTo": null,
+        "cost": 150,
+        "strength": 50,
+        "movement": 5,
+        "range": 2,
+        "abilities": [
+          "Exploration: Increased visibility range and movement on ocean tiles."
+        ],
+        "upgradesFrom": "Quadrireme",
+        "replaces": null
+    },
+    {
+        "name": "Arquebusier",
+        "type": "Ranged",
+        "era": "Renaissance",
+        "requiredTech": "Gunpowder",
+        "uniqueTo": null,
+        "cost": 150,
+        "strength": 55,
+        "range": 2,
+        "movement": 2,
+        "abilities": [
+          "Early Firearms: Increases [Damage] against [Melee] units."
+        ],
+        "upgradesFrom": "Musketman",
+        "replaces": null
+    },
+    {
+        "name": "Galleon",
+        "type": "Naval",
+        "era": "Renaissance",
+        "requiredTech": "Navigation",
+        "uniqueTo": null,
+        "cost": 170,
+        "strength": 60,
+        "movement": 4,
+        "range": 2,
+        "abilities": [
+          "Heavy Broadside: Increased combat strength against naval units."
+        ],
+        "upgradesFrom": "Caravel",
+        "replaces": null
+    },
+    {
+        "name": "Lancer",
+        "type": "Cavalry",
+        "era": "Renaissance",
+        "requiredTech": "Military Tactics",
+        "uniqueTo": null,
+        "cost": 160,
+        "strength": 60,
+        "movement": 3,
+        "abilities": [
+          "Charge: Increased combat strength when attacking open terrain."
+        ],
+        "upgradesFrom": "Knight",
+        "replaces": null
+    },
+    {
+        "name": "Merchant",
+        "type": "Civilian",
+        "era": "Renaissance",
+        "requiredTech": "Banking",
+        "uniqueTo": null,
+        "cost": 100,
+        "strength": 0,
+        "movement": 3,
+        "abilities": [
+          "Trade Mission: Can establish [Trade Routes] with increased [Gold] yields.",
+          "Purchase Resources: Can purchase [Strategic] resources in cities."
+        ],
+        "upgradesFrom": "Caravan",
+        "replaces": null
+    },
+    {
+        "name": "Explorer",
+        "type": "Civilian",
+        "era": "Renaissance",
+        "requiredTech": "Cartography",
+        "uniqueTo": null,
+        "cost": 90,
+        "strength": 0,
+        "movement": 4,
+        "abilities": [
+          "Expedition: Increased [Visibility] and [Movement] in unexplored territories.",
+          "Find Natural Wonders: Increased chance to discover natural wonders."
+        ],
+        "upgradesFrom": "Scout",
+        "replaces": null
+    },
+    {
+        "name": "Line Infantry",
+        "type": "Melee",
+        "era": "Industrial",
+        "requiredTech": "Military Science",
+        "uniqueTo": null,
+        "cost": 200,
+        "strength": 70,
+        "movement": 2,
+        "abilities": [
+          "Bayonet Charge: +10 combat strength when attacking."
+        ],
+        "upgradesFrom": "Musketman",
+        "replaces": null
+    },
+    {
+        "name": "Rifleman",
+        "type": "Ranged",
+        "era": "Industrial",
+        "requiredTech": "Rifling",
+        "uniqueTo": null,
+        "cost": 180,
+        "strength": 65,
+        "range": 3,
+        "movement": 2,
+        "abilities": [
+          "Long Range: Increased range and accuracy."
+        ],
+        "upgradesFrom": "Arquebusier",
+        "replaces": null
+    },
+    {
+        "name": "Dragoon",
+        "type": "Cavalry",
+        "era": "Industrial",
+        "requiredTech": "Ballistics",
+        "uniqueTo": null,
+        "cost": 220,
+        "strength": 75,
+        "movement": 4,
+        "abilities": [
+          "Mounted Assault: Can attack after moving.",
+          "Pistol Attack: Can make a ranged attack."
+        ],
+        "upgradesFrom": "Lancer",
+        "replaces": null
+    },
+    {
+        "name": "Cuirassier",
+        "type": "Cavalry",
+        "era": "Industrial",
+        "requiredTech": "Metallurgy",
+        "uniqueTo": null,
+        "cost": 240,
+        "strength": 80,
+        "movement": 3,
+        "abilities": [
+          "Heavy Armor: Increased defense against ranged attacks."
+        ],
+        "upgradesFrom": "Knight",
+        "replaces": null
+    },
+    {
+        "name": "Field Cannon",
+        "type": "Siege",
+        "era": "Industrial",
+        "requiredTech": "Ballistics",
+        "uniqueTo": null,
+        "cost": 250,
+        "strength": 80,
+        "range": 4,
+        "movement": 2,
+        "abilities": [
+          "Explosive Rounds: Increased damage against fortifications."
+        ],
+        "upgradesFrom": "Cannon",
+        "replaces": null
+    },
+    {
+        "name": "Ironclad",
+        "type": "Militant Naval",
+        "era": "Industrial",
+        "requiredTech": "Steam Power",
+        "uniqueTo": null,
+        "cost": 280,
+        "strength": 85,
+        "movement": 4,
+        "range": 2,
+        "abilities": [
+          "Iron Hull: Increased defense against attacks."
+        ],
+        "upgradesFrom": "Galleon",
+        "replaces": null
+    },
+    {
+        "name": "Privateer",
+        "type": "Militant Naval",
+        "era": "Industrial",
+        "requiredTech": "Economics",
+        "uniqueTo": null,
+        "cost": 200,
+        "strength": 65,
+        "movement": 6,
+        "range": 2,
+        "abilities": [
+          "Raider: Increased movement and combat strength when raiding trade routes."
+        ],
+        "upgradesFrom": "Caravel",
+        "replaces": null
+    },
+    {
+        "name": "Engineer",
+        "type": "Civilian",
+        "era": "Industrial",
+        "requiredTech": "Steam Power",
+        "uniqueTo": null,
+        "cost": 150,
+        "strength": 0,
+        "movement": 2,
+        "abilities": [
+          "Rapid Construction: Speeds up the construction of improvements and infrastructure.",
+          "Infrastructure Specialist: Provides a bonus to the production of railroads and factories."
+        ],
+        "upgradesFrom": "Builder",
+        "replaces": null
+    },
+    {
+        "name": "Journalist",
+        "type": "Civilian",
+        "era": "Industrial",
+        "requiredTech": "Printing Press",
+        "uniqueTo": null,
+        "cost": 160,
+        "strength": 0,
+        "movement": 3,
+        "abilities": [
+          "Cultural Influence: Increases [Cultural Influence] over [Puppeted], [Conquered] or [Neighbouring] cities.",
+          "Propaganda: Can spread [Cultural Influnce] to weaken enemy cities."
+        ],
+        "upgradesFrom": null,
+        "replaces": null
+    },
+    {
+        "name": "Infantry",
+        "type": "Melee",
+        "era": "Modern",
+        "requiredTech": "Replaceable Parts",
+        "uniqueTo": null,
+        "cost": 250,
+        "strength": 80,
+        "movement": 2,
+        "abilities": [
+          "Modern Warfare: Increased combat strength in all terrains."
+        ],
+        "upgradesFrom": "Line Infantry",
+        "replaces": null
+    },
+    {
+        "name": "Machine Gun",
+        "type": "Ranged",
+        "era": "Modern",
+        "requiredTech": "Machine Guns",
+        "uniqueTo": null,
+        "cost": 230,
+        "strength": 75,
+        "range": 2,
+        "movement": 2,
+        "abilities": [
+          "Suppressive Fire: Increased combat strength when defending."
+        ],
+        "upgradesFrom": "Rifleman",
+        "replaces": null
+    },
+    {
+        "name": "Tank",
+        "type": "Armoured",
+        "era": "Modern",
+        "requiredTech": "Tanks",
+        "uniqueTo": null,
+        "cost": 300,
+        "strength": 90,
+        "movement": 4,
+        "abilities": [
+          "Blitzkrieg: Increased combat strength when attacking."
+        ],
+        "upgradesFrom": "Cuirassier",
+        "replaces": null
+    },
+    {
+        "name": "Fighter",
+        "type": "Aircraft",
+        "era": "Modern",
+        "requiredTech": "Flight",
+        "uniqueTo": null,
+        "cost": 280,
+        "strength": 80,
+        "movement": 4,
+        "range": 2,
+        "abilities": [
+          "Air Superiority: Increased combat strength against other aircraft."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Bomber",
+        "type": "Aircraft",
+        "era": "Modern",
+        "requiredTech": "Flight",
+        "uniqueTo": null,
+        "cost": 320,
+        "strength": 90,
+        "movement": 3,
+        "range": 3,
+        "abilities": [
+          "Strategic Bombing: Increased damage against cities and fortifications."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Destroyer",
+        "type": "Naval",
+        "era": "Modern",
+        "requiredTech": "Electricity",
+        "uniqueTo": null,
+        "cost": 350,
+        "strength": 95,
+        "movement": 5,
+        "range": 2,
+        "abilities": [
+          "Anti-Submarine Warfare: Increased combat strength against submarines."
+        ],
+        "upgradesFrom": "Ironclad",
+        "replaces": null
+    },
+    {
+        "name": "Submarine",
+        "type": "Naval",
+        "era": "Modern",
+        "requiredTech": "Radio",
+        "uniqueTo": null,
+        "cost": 300,
+        "strength": 85,
+        "movement": 4,
+        "abilities": [
+          "Stealth: Invisible to most units unless revealed by radar or sonar."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Diplomat",
+        "type": "Civilian",
+        "era": "Modern",
+        "requiredTech": "Radio",
+        "uniqueTo": null,
+        "cost": 200,
+        "strength": 0,
+        "movement": 3,
+        "abilities": [
+          "Diplomatic Negotiation: Enhances diplomatic relations and can negotiate treaties.",
+          "Intelligence Gathering: Gathers information about other civilizations."
+        ],
+        "upgradesFrom": null,
+        "replaces": null
+    },
+    {
+        "name": "Mechanized Infantry",
+        "type": "Melee",
+        "era": "Atomic",
+        "requiredTech": "Combined Arms",
+        "uniqueTo": null,
+        "cost": 350,
+        "strength": 90,
+        "movement": 3,
+        "abilities": [
+          "Rapid Deployment: Increased movement and combat strength in open terrain."
+        ],
+        "upgradesFrom": "Infantry",
+        "replaces": null
+    },
+    {
+        "name": "Rocket Artillery",
+        "type": "Siege",
+        "era": "Atomic",
+        "requiredTech": "Rocketry",
+        "uniqueTo": null,
+        "cost": 380,
+        "strength": 100,
+        "range": 4,
+        "movement": 2,
+        "abilities": [
+          "Long-Range Barrage: Increased range and damage against fortifications."
+        ],
+        "upgradesFrom": "Field Cannon",
+        "replaces": null
+    },
+    {
+        "name": "Modern Armor",
+        "type": "Armoured",
+        "era": "Atomic",
+        "requiredTech": "Advanced Ballistics",
+        "uniqueTo": null,
+        "cost": 400,
+        "strength": 110,
+        "movement": 5,
+        "abilities": [
+          "Armor Plating: Increased defense against ranged attacks.",
+          "Rapid Fire: chance to attack twice."
+        ],
+        "upgradesFrom": "Tank",
+        "replaces": null
+    },
+    {
+        "name": "Jet Fighter",
+        "type": "Aircraft",
+        "era": "Atomic",
+        "requiredTech": "Advanced Flight",
+        "uniqueTo": null,
+        "cost": 380,
+        "strength": 100,
+        "movement": 5,
+        "range": 2,
+        "abilities": [
+          "Air Superiority: Significant combat bonuses against other aircraft.",
+          "Interceptor: Can intercept enemy air units."
+        ],
+        "replaces": "Fighter"
+    },
+    {
+        "name": "Stealth Bomber",
+        "type": "Aircraft",
+        "era": "Atomic",
+        "requiredTech": "Advanced Flight",
+        "uniqueTo": null,
+        "cost": 420,
+        "strength": 110,
+        "movement": 4,
+        "range": 3,
+        "abilities": [
+          "Stealth Bombing: Increased damage against cities and fortifications, hard to be detected."
+        ],
+        "replaces": "Bomber"
+    },
+    {
+        "name": "Nuclear Submarine",
+        "type": "Naval",
+        "era": "Atomic",
+        "requiredTech": "Nuclear Fission",
+        "uniqueTo": null,
+        "cost": 450,
+        "strength": 120,
+        "movement": 5,
+        "abilities": [
+          "Nuclear Strike: Can launch nuclear missiles.",
+          "Stealth: Invisible to most units unless revealed by advanced detection."
+        ],
+        "replaces": "Submarine"
+    },
+    {
+        "name": "Missile Destroyer",
+        "type": "Naval",
+        "era": "Atomic",
+        "requiredTech": "Guided Missiles",
+        "uniqueTo": null,
+        "cost": 420,
+        "strength": 115,
+        "movement": 6,
+        "range": 3,
+        "abilities": [
+          "Guided Missiles: Increased damage against naval and land units.",
+          "Anti-Air Defense: Strong defense against air attacks."
+        ],
+        "replaces": "Destroyer"
+    },
+    {
+        "name": "Propagandist",
+        "type": "Civilian",
+        "era": "Atomic",
+        "requiredTech": "Mass Media",
+        "uniqueTo": null,
+        "cost": 240,
+        "strength": 0,
+        "movement": 3,
+        "abilities": [
+          "Mass Propaganda: Increases cultural influence over nearby cities.",
+          "Moral Breaker: Lowers the morale of enemy cities."
+        ],
+        "upgradesFrom": null,
+        "replaces": null
+    },
+    {
+        "name": "Modern Infantry",
+        "type": "Melee",
+        "era": "Information",
+        "requiredTech": "Advanced Materials",
+        "uniqueTo": null,
+        "cost": 400,
+        "strength": 110,
+        "movement": 3,
+        "abilities": [
+          "Advanced Tactics: Increased combat strength and defense in all terrains."
+        ],
+        "upgradesFrom": "Mechanized Infantry",
+        "replaces": null
+    },
+    {
+        "name": "Modern Tank",
+        "type": "Cavalry",
+        "era": "Information",
+        "requiredTech": "Advanced Composites",
+        "uniqueTo": null,
+        "cost": 450,
+        "strength": 130,
+        "movement": 6,
+        "abilities": [
+          "Advanced Armor: High defense against all attacks.",
+          "Precision Strike: Increased accuracy and damage against all units."
+        ],
+        "upgradesFrom": "Modern Armor",
+        "replaces": null
+    },
+    {
+        "name": "Modern Jet Fighter",
+        "type": "Aircraft",
+        "era": "Information",
+        "requiredTech": "Advanced Flight",
+        "uniqueTo": null,
+        "cost": 430,
+        "strength": 120,
+        "movement": 6,
+        "range": 3,
+        "abilities": [
+          "Advanced Air Superiority: Extreme combat bonuses against other aircraft, and interception capabilities."
+        ],
+        "upgradesFrom": "Jet Fighter",
+        "replaces": null
+    },
+    {
+        "name": "Modern Stealth Bomber",
+        "type": "Aircraft",
+        "era": "Information",
+        "requiredTech": "Advanced Flight",
+        "uniqueTo": null,
+        "cost": 470,
+        "strength": 130,
+        "movement": 5,
+        "range": 4,
+        "abilities": [
+          "Advanced Stealth Bombing: Devastating damage against cities and fortifications, nearly undetectable."
+        ],
+        "upgradesFrom": "Stealth Bomber",
+        "replaces": null
+    },
+    {
+        "name": "Modern Destroyer",
+        "type": "Naval",
+        "era": "Information",
+        "requiredTech": "Advanced Naval Tactics",
+        "uniqueTo": null,
+        "cost": 470,
+        "strength": 135,
+        "movement": 7,
+        "range": 4,
+        "abilities": [
+          "Advanced Missile Systems: High damage against all naval and land units, and strong anti-air defense."
+        ],
+        "upgradesFrom": "Missile Destroyer",
+        "replaces": null
+    },
+    {
+        "name": "Modern Submarine",
+        "type": "Naval",
+        "era": "Information",
+        "requiredTech": "Advanced Submarine Technology",
+        "uniqueTo": null,
+        "cost": 480,
+        "strength": 140,
+        "movement": 6,
+        "abilities": [
+          "Advanced Stealth: Near-undetectable, and nuclear missile capabilities."
+        ],
+        "upgradesFrom": "Nuclear Submarine",
+        "replaces": null
+    },
+    {
+        "name": "Modern Helicopter",
+        "type": "Aircraft",
+        "era": "Information",
+        "requiredTech": "Helicopters",
+        "uniqueTo": null,
+        "cost": 420,
+        "strength": 115,
+        "movement": 5,
+        "range": 2,
+        "abilities": [
+          "Rapid Deployment: Can move over all terrain, and attack after moving."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Cyber Warfare Specialist",
+        "type": "Civilian",
+        "era": "Information",
+        "requiredTech": "Internet",
+        "uniqueTo": null,
+        "cost": 300,
+        "strength": 0,
+        "movement": 3,
+        "abilities": [
+          "Cyber Attack: Performs cyber attacks to disrupt enemy infrastructure.",
+          "Cyber Defense: Defends against cyber attacks.",
+          "Infrastructure Disruption: Can disrupt enemy technological advancements."
+        ],
+        "replaces": "Propagandist"
+    },
+    {
+        "name": "Modern Diplomat",
+        "type": "Civilian",
+        "era": "Information",
+        "requiredTech": "Satellites",
+        "uniqueTo": null,
+        "cost": 280,
+        "strength": 0,
+        "movement": 3,
+        "abilities": [
+          "Advanced treaty: Ability to negotiate very complex international treaties",
+          "Advanced trading: Ability to conduct very complex, and rewarding trade deals"
+        ],
+        "upgradesFrom": "Diplomat",
+        "replaces": null
+    },
+    {
+        "name": "Giant Death Robot",
+        "type": "Melee",
+        "era": "Future",
+        "requiredTech": "Robotics",
+        "uniqueTo": null,
+        "cost": 500,
+        "strength": 150,
+        "movement": 3,
+        "abilities": [
+          "Devastating Assault: High combat strength and bonus damage against all units and cities."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Exo-Suit Soldier",
+        "type": "Melee",
+        "era": "Future",
+        "requiredTech": "Powered Exoskeleton",
+        "uniqueTo": null,
+        "cost": 550,
+        "strength": 180,
+        "movement": 4,
+        "abilities": [
+          "Enhanced Strength: High combat strength and defense.",
+          "Powered Exoskeleton: Increased movement and ability to traverse difficult terrain."
+        ],
+        "upgradesFrom": "Modern Infantry",
+        "replaces": null
+    },
+    {
+        "name": "Hover Tank",
+        "type": "Cavalry",
+        "era": "Future",
+        "requiredTech": "Hovering Motors",
+        "uniqueTo": null,
+        "cost": 600,
+        "strength": 200,
+        "movement": 7,
+        "abilities": [
+          "Hover Technology: Increased movement and ignores terrain costs.",
+          "Advanced Weaponry: High damage against all unit types."
+        ],
+        "upgradesFrom": "Modern Tank",
+        "replaces": null
+    },
+    {
+        "name": "Space Fighter",
+        "type": "Aircraft",
+        "era": "Future",
+        "requiredTech": "Space Shuttles",
+        "uniqueTo": null,
+        "cost": 580,
+        "strength": 180,
+        "movement": 8,
+        "range": 4,
+        "abilities": [
+          "Space Superiority: High combat strength against air and space units.",
+          "Orbital Interception: Can intercept enemy units in space."
+        ],
+        "upgradesFrom": "Modern Jet Fighter",
+        "replaces": null
+    },
+    {
+        "name": "Orbital Satellite",
+        "type": "Siege",
+        "era": "Future",
+        "requiredTech": "Space Shuttles",
+        "uniqueTo": null,
+        "cost": 650,
+        "strength": 220,
+        "range": 6,
+        "movement": 0,
+        "abilities": [
+          "Orbital Bombardment: Extremely high damage against cities and fortifications.",
+          "Global Surveillance: Provides vision across the entire map."
+        ],
+        "replaces": null
+    },
+    {
+        "name": "Space Carrier",
+        "type": "Aircraft",
+        "era": "Future",
+        "requiredTech": "Space Shuttles",
+        "uniqueTo": null,
+        "cost": 700,
+        "strength": 250,
+        "movement": 6,
+        "abilities": [
+          "Mobile Base: Can launch and support space fighters.",
+          "Advanced Defense Systems: High defense against all attacks."
+        ],
+        "replaces": null
+    },
+    {
       "name": "Samurai",
       "type": "Melee",
       "era": "Medieval",
-      "requiredTech": "Metalcasting",
+      "requiredTech": "Metal Casting",
       "uniqueTo":"Japan",
       "cost": 120,
       "strength": 45,
