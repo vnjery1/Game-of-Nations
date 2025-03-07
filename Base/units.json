@@ -509,7 +509,7 @@
         "strength": 70,
         "movement": 2,
         "abilities": [
-          "Bayonet Charge: +10 combat strength when attacking."
+          "Bayonet Charge: +10 [Combat Strength] <when attacking.>"
         ],
         "upgradesFrom": "Musketman",
         "replaces": null
@@ -525,7 +525,7 @@
         "range": 3,
         "movement": 2,
         "abilities": [
-          "Long Range: Increased range and accuracy."
+          "Long Range: Increases [Range] and [Accuracy]."
         ],
         "upgradesFrom": "Arquebusier",
         "replaces": null
@@ -541,7 +541,7 @@
         "movement": 4,
         "abilities": [
           "Mounted Assault: Can attack after moving.",
-          "Pistol Attack: Can make a ranged attack."
+          "Pistol Attack: Can make a [Ranged] attack."
         ],
         "upgradesFrom": "Lancer",
         "replaces": null
@@ -556,7 +556,7 @@
         "strength": 80,
         "movement": 3,
         "abilities": [
-          "Heavy Armor: Increased defense against ranged attacks."
+          "Heavy Armor: Increased [Defense] against [Ranged] attacks."
         ],
         "upgradesFrom": "Knight",
         "replaces": null
@@ -572,7 +572,7 @@
         "range": 4,
         "movement": 2,
         "abilities": [
-          "Explosive Rounds: Increased damage against fortifications."
+          "Explosive Rounds: Increased [Damage] against [Fortifications]."
         ],
         "upgradesFrom": "Cannon",
         "replaces": null
@@ -588,7 +588,7 @@
         "movement": 4,
         "range": 2,
         "abilities": [
-          "Iron Hull: Increased defense against attacks."
+          "Iron Hull: Increased [Defense] against attacks."
         ],
         "upgradesFrom": "Galleon",
         "replaces": null
@@ -604,7 +604,7 @@
         "movement": 6,
         "range": 2,
         "abilities": [
-          "Raider: Increased movement and combat strength when raiding trade routes."
+          "Raider: Increased [Movement] and [Combat Strength] <when raiding [Trade Routes].>"
         ],
         "upgradesFrom": "Caravel",
         "replaces": null
@@ -651,7 +651,7 @@
         "strength": 80,
         "movement": 2,
         "abilities": [
-          "Modern Warfare: Increased combat strength in all terrains."
+          "Modern Warfare: Increased [Combat Strength] in all [Open] terrains."
         ],
         "upgradesFrom": "Line Infantry",
         "replaces": null
@@ -667,7 +667,7 @@
         "range": 2,
         "movement": 2,
         "abilities": [
-          "Suppressive Fire: Increased combat strength when defending."
+          "Suppressive Fire: Increased [Combat Strength] <when defending.>"
         ],
         "upgradesFrom": "Rifleman",
         "replaces": null
@@ -682,7 +682,7 @@
         "strength": 90,
         "movement": 4,
         "abilities": [
-          "Blitzkrieg: Increased combat strength when attacking."
+          "Blitzkrieg: Increased [Combat Strength] <when attacking.>"
         ],
         "upgradesFrom": "Cuirassier",
         "replaces": null
@@ -698,7 +698,7 @@
         "movement": 4,
         "range": 2,
         "abilities": [
-          "Air Superiority: Increased combat strength against other aircraft."
+          "Air Superiority: +10 [Combat Strength] against enemy's [Aircraft] units."
         ],
         "replaces": null
     },
@@ -713,13 +713,13 @@
         "movement": 3,
         "range": 3,
         "abilities": [
-          "Strategic Bombing: Increased damage against cities and fortifications."
+          "Strategic Bombing: Increased [Damage] against [Cities] and [Fortifications]."
         ],
         "replaces": null
     },
     {
         "name": "Destroyer",
-        "type": "Naval",
+        "type": "Militant Naval",
         "era": "Modern",
         "requiredTech": "Electricity",
         "uniqueTo": null,
@@ -728,14 +728,14 @@
         "movement": 5,
         "range": 2,
         "abilities": [
-          "Anti-Submarine Warfare: Increased combat strength against submarines."
+          "Anti-Submarine Warfare: Increased [Combat Strength] against [Militant Deep Naval] units."
         ],
         "upgradesFrom": "Ironclad",
         "replaces": null
     },
     {
         "name": "Submarine",
-        "type": "Naval",
+        "type": "Militant Deep Naval",
         "era": "Modern",
         "requiredTech": "Radio",
         "uniqueTo": null,
@@ -743,7 +743,7 @@
         "strength": 85,
         "movement": 4,
         "abilities": [
-          "Stealth: Invisible to most units unless revealed by radar or sonar."
+          "Stealth: Invisible to most units unless the enemy has discovered [Radio]."
         ],
         "replaces": null
     },
@@ -773,7 +773,7 @@
         "strength": 90,
         "movement": 3,
         "abilities": [
-          "Rapid Deployment: Increased movement and combat strength in open terrain."
+          "Rapid Deployment: Increased [Movement] and [Combat Strength] in [Open] terrains."
         ],
         "upgradesFrom": "Infantry",
         "replaces": null
@@ -789,7 +789,7 @@
         "range": 4,
         "movement": 2,
         "abilities": [
-          "Long-Range Barrage: Increased range and damage against fortifications."
+          "Long-Range Barrage: Increased [Range] and [Damage] against [Fortifications]."
         ],
         "upgradesFrom": "Field Cannon",
         "replaces": null
@@ -804,8 +804,8 @@
         "strength": 110,
         "movement": 5,
         "abilities": [
-          "Armor Plating: Increased defense against ranged attacks.",
-          "Rapid Fire: chance to attack twice."
+          "Armor Plating: Increased [Defense] against [Ranged] attacks.",
+          "Rapid Fire: Can attack twice."
         ],
         "upgradesFrom": "Tank",
         "replaces": null
@@ -821,10 +821,10 @@
         "movement": 5,
         "range": 2,
         "abilities": [
-          "Air Superiority: Significant combat bonuses against other aircraft.",
+          "Air Superiority: +10 [Combat Strength] against enemy's [Aircraft] units.",
           "Interceptor: Can intercept enemy air units."
         ],
-        "replaces": "Fighter"
+        "upgradesFrom": "Fighter"
     },
     {
         "name": "Stealth Bomber",
@@ -837,13 +837,13 @@
         "movement": 4,
         "range": 3,
         "abilities": [
-          "Stealth Bombing: Increased damage against cities and fortifications, hard to be detected."
+          "Stealth Bombing: Increased [Damage] against [Cities] and [Fortifications], hard to be detected."
         ],
-        "replaces": "Bomber"
+        "upgradesFrom": "Bomber"
     },
     {
         "name": "Nuclear Submarine",
-        "type": "Naval",
+        "type": "Militant Deep Naval",
         "era": "Atomic",
         "requiredTech": "Nuclear Fission",
         "uniqueTo": null,
@@ -852,13 +852,13 @@
         "movement": 5,
         "abilities": [
           "Nuclear Strike: Can launch nuclear missiles.",
-          "Stealth: Invisible to most units unless revealed by advanced detection."
+          "Stealth: Invisible to most units unless the enemy has discovered [Advanced Naval Tactics]."
         ],
-        "replaces": "Submarine"
+        "upgradesFrom": "Submarine"
     },
     {
         "name": "Missile Destroyer",
-        "type": "Naval",
+        "type": "Militant Naval",
         "era": "Atomic",
         "requiredTech": "Guided Missiles",
         "uniqueTo": null,
@@ -867,10 +867,10 @@
         "movement": 6,
         "range": 3,
         "abilities": [
-          "Guided Missiles: Increased damage against naval and land units.",
-          "Anti-Air Defense: Strong defense against air attacks."
+          "Guided Missiles: Increased [Damage] against [Militant Naval] and [Land] units.",
+          "Anti-Air Defense: Strong [Defense] against [Air] attacks."
         ],
-        "replaces": "Destroyer"
+        "upgradesFrom": "Destroyer"
     },
     {
         "name": "Propagandist",
@@ -882,8 +882,8 @@
         "strength": 0,
         "movement": 3,
         "abilities": [
-          "Mass Propaganda: Increases cultural influence over nearby cities.",
-          "Moral Breaker: Lowers the morale of enemy cities."
+          "Mass Propaganda: Increases [Cultural Influence] over [Neighbouring] cities.",
+          "Moral Breaker: Lowers the [Happiness] of enemy [Cities]."
         ],
         "upgradesFrom": null,
         "replaces": null
@@ -898,7 +898,7 @@
         "strength": 110,
         "movement": 3,
         "abilities": [
-          "Advanced Tactics: Increased combat strength and defense in all terrains."
+          "Advanced Tactics: Increased [Combat Strength] and [Defense] in all terrains."
         ],
         "upgradesFrom": "Mechanized Infantry",
         "replaces": null
@@ -913,8 +913,8 @@
         "strength": 130,
         "movement": 6,
         "abilities": [
-          "Advanced Armor: High defense against all attacks.",
-          "Precision Strike: Increased accuracy and damage against all units."
+          "Advanced Armor: High [Defense] against all attacks.",
+          "Precision Strike: Increased [Accuracy] and [Damage] against all units."
         ],
         "upgradesFrom": "Modern Armor",
         "replaces": null
@@ -930,7 +930,7 @@
         "movement": 6,
         "range": 3,
         "abilities": [
-          "Advanced Air Superiority: Extreme combat bonuses against other aircraft, and interception capabilities."
+          "Advanced Air Superiority: Increased by 150% [Combat Strength] against enemy [Aircraft] units, and interception capabilities."
         ],
         "upgradesFrom": "Jet Fighter",
         "replaces": null
@@ -946,14 +946,14 @@
         "movement": 5,
         "range": 4,
         "abilities": [
-          "Advanced Stealth Bombing: Devastating damage against cities and fortifications, nearly undetectable."
+          "Advanced Stealth Bombing: Devastating [Damage] against [Cities] and [Fortifications], nearly undetectable."
         ],
         "upgradesFrom": "Stealth Bomber",
         "replaces": null
     },
     {
         "name": "Modern Destroyer",
-        "type": "Naval",
+        "type": "Militant Naval",
         "era": "Information",
         "requiredTech": "Advanced Naval Tactics",
         "uniqueTo": null,
@@ -962,14 +962,14 @@
         "movement": 7,
         "range": 4,
         "abilities": [
-          "Advanced Missile Systems: High damage against all naval and land units, and strong anti-air defense."
+          "Advanced Missile Systems: High [Damage] against all [Water] and [Land] units, and strong anti-air [Defense]."
         ],
         "upgradesFrom": "Missile Destroyer",
         "replaces": null
     },
     {
         "name": "Modern Submarine",
-        "type": "Naval",
+        "type": "Militant Deep Naval",
         "era": "Information",
         "requiredTech": "Advanced Submarine Technology",
         "uniqueTo": null,
@@ -1007,11 +1007,11 @@
         "strength": 0,
         "movement": 3,
         "abilities": [
-          "Cyber Attack: Performs cyber attacks to disrupt enemy infrastructure.",
-          "Cyber Defense: Defends against cyber attacks.",
+          "Cyber Attack: Performs [Cyber] attacks to disrupt enemy infrastructure.",
+          "Cyber Defense: Defends against [Cyber] attacks.",
           "Infrastructure Disruption: Can disrupt enemy technological advancements."
         ],
-        "replaces": "Propagandist"
+        "upgradesFrom": "Propagandist"
     },
     {
         "name": "Modern Diplomat",
@@ -1023,8 +1023,8 @@
         "strength": 0,
         "movement": 3,
         "abilities": [
-          "Advanced treaty: Ability to negotiate very complex international treaties",
-          "Advanced trading: Ability to conduct very complex, and rewarding trade deals"
+          "Advanced Treaty: Ability to negotiate very complex international treaties.",
+          "Advanced Trading: Ability to conduct very complex, and rewarding trade deals."
         ],
         "upgradesFrom": "Diplomat",
         "replaces": null
@@ -1039,7 +1039,7 @@
         "strength": 150,
         "movement": 3,
         "abilities": [
-          "Devastating Assault: High combat strength and bonus damage against all units and cities."
+          "Devastating Assault: High [Combat Strength] and bonus [Damage] against all units and cities."
         ],
         "replaces": null
     },
@@ -1053,8 +1053,8 @@
         "strength": 180,
         "movement": 4,
         "abilities": [
-          "Enhanced Strength: High combat strength and defense.",
-          "Powered Exoskeleton: Increased movement and ability to traverse difficult terrain."
+          "Enhanced Strength: High [Combat Strength] and [Defense].",
+          "Powered Exoskeleton: Increased [Movement] and ability to traverse difficult terrain."
         ],
         "upgradesFrom": "Modern Infantry",
         "replaces": null
@@ -1069,15 +1069,15 @@
         "strength": 200,
         "movement": 7,
         "abilities": [
-          "Hover Technology: Increased movement and ignores terrain costs.",
-          "Advanced Weaponry: High damage against all unit types."
+          "Hover Technology: Increased [Movement] and ignores terrain costs.",
+          "Advanced Weaponry: High [Damage] against all units."
         ],
         "upgradesFrom": "Modern Tank",
         "replaces": null
     },
     {
         "name": "Space Fighter",
-        "type": "Aircraft",
+        "type": "Spacecraft",
         "era": "Future",
         "requiredTech": "Space Shuttles",
         "uniqueTo": null,
@@ -1086,7 +1086,7 @@
         "movement": 8,
         "range": 4,
         "abilities": [
-          "Space Superiority: High combat strength against air and space units.",
+          "Space Superiority: High [Combat Strength] against [Aircraft] and [Spacecraft] units.",
           "Orbital Interception: Can intercept enemy units in space."
         ],
         "upgradesFrom": "Modern Jet Fighter",
@@ -1103,14 +1103,14 @@
         "range": 6,
         "movement": 0,
         "abilities": [
-          "Orbital Bombardment: Extremely high damage against cities and fortifications.",
+          "Orbital Bombardment: Extremely high [Damage] against [Cities] and [Fortifications].",
           "Global Surveillance: Provides vision across the entire map."
         ],
         "replaces": null
     },
     {
         "name": "Space Carrier",
-        "type": "Aircraft",
+        "type": "Spacecraft",
         "era": "Future",
         "requiredTech": "Space Shuttles",
         "uniqueTo": null,
@@ -1118,8 +1118,8 @@
         "strength": 250,
         "movement": 6,
         "abilities": [
-          "Mobile Base: Can launch and support space fighters.",
-          "Advanced Defense Systems: High defense against all attacks."
+          "Mobile Base: Can launch and support [Spacecraft] units.",
+          "Advanced Defense Systems: High [Defense] against all attacks."
         ],
         "replaces": null
     },
@@ -1217,6 +1217,61 @@
         ],
         "cost": 100,
         "pointsPerTurn": 3
+      },
+      {
+        "name": "Great Scientist",
+        "type": "Great Person",
+        "era": "Classical",
+        "abilities": [
+          "Eureka Momentum: Provides a boost to a random technology.",
+          "Scientific Breakthrough: Instantly completes a technology."
+        ],
+        "cost": 120,
+        "pointsPerTurn": 4
+      },
+      {
+        "name": "Great Writer",
+        "type": "Great Person",
+        "era": "Classical",
+        "abilities": [
+          "Literary Work: Creates a [Great Work of Writing], providing [Culture].",
+          "Political Treatise: Provides culture and diplomatic bonuses."
+        ],
+        "cost": 80,
+        "pointsPerTurn": 2
+      },
+      {
+        "name": "Great Artist",
+        "type": "Great Person",
+        "era": "Classical",
+        "abilities": [
+          "Artistic Masterpiece: Creates a [Great Work of Art], providing [Culture].",
+          "Cultural Influence: Increases [Cultural Influence] over [Puppeted], [Conquered] or [Neighbouring] cities."
+        ],
+        "cost": 80,
+        "pointsPerTurn": 2
+      },
+      {
+        "name": "Great Merchant",
+        "type": "Great Person",
+        "era": "Classical",
+        "abilities": [
+          "Trade Mission: Establishes a trade route with increased [Gold] yields.",
+          "Economic Boost: Provides a large amount of [Gold]."
+        ],
+        "cost": 90,
+        "pointsPerTurn": 3
+      },
+      {
+        "name": "Great Engineer",
+        "type": "Great Person",
+        "era": "Classical",
+        "abilities": [
+          "Engineering Marvel: Instantly completes a wonder or building.",
+          "Infrastructure Boost: Provides a production bonus to a city."
+        ],
+        "cost": 110,
+        "pointsPerTurn": 4
       }
   ]
 }
