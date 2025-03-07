@@ -1,0 +1,53 @@
+{
+  "buildings": [
+    {
+      "name": "Tea House",
+      "era": "Medieval",
+      "requiredTech": "Drama and Poetry",
+      "uniqueTo": "Japan",
+      "cost": 80,
+      "yields": {
+        "culture": 2,
+        "amenities": 1
+      },
+      "abilities": [
+        "Cultural Influence: Increases [Cultural Influence] over [Puppeted], [Conquered] or [Neighbouring] cities.",
+        "Loyalty Bonus: Provides a [Loyalty] bonus of 15% to the city."
+      ],
+      "replaces": "Amphitheater"
+    },
+    {
+      "name": "Dojo",
+      "era": "Classical",
+      "requiredTech": "Iron Working",
+      "uniqueTo": "Japan",
+      "cost": 100,
+      "yields": {
+        "production": 1,
+        "battleExperience": 2,
+        "cityDefense": 1
+      },
+      "abilities": [
+        "Unit Training: Units trained in this city gain additional [Battle Experience].",
+        "Defense Bonus: Provides a [Defense] bonus of 15% to the city."
+      ],
+      "replaces": "Barracks"
+    },
+    {
+      "name": "Electronic Factory",
+      "era": "Atomic",
+      "requiredTech": "Electronics",
+      "uniqueTo": "Japan",
+      "cost": 200,
+      "yields": {
+        "production": 3,
+        "science": 1
+      },
+      "abilities": [
+        "Production Boost: Increases [Production] by 25% in this city.",
+        "Scientific Research: Provides a [Science] bonus of 10%."
+      ],
+      "replaces": "Factory"
+    }
+  ]
+}
