@@ -1194,5 +1194,29 @@
           "Bombardment: +10 [Combat Strength] against [City Walls]."],
         "replaces": "Bombard"
     }
+  ],
+  "great_units": [
+    {
+        "name": "Great General",
+        "type": "Great Person",
+        "era": "Classical",
+        "abilities": [
+          "Military Tactics: Provides a combat bonus to nearby military units.",
+          "Instant Army: Can instantly create a military unit."
+        ],
+        "cost": 100,
+        "pointsPerTurn": 3
+      },
+      {
+        "name": "Great Admiral",
+        "type": "Great Person",
+        "era": "Classical",
+        "abilities": [
+          "Naval Tactics: Provides a combat bonus to nearby naval units.",
+          "Instant Fleet: Can instantly create a naval unit."
+        ],
+        "cost": 100,
+        "pointsPerTurn": 3
+      }
   ]
 }
