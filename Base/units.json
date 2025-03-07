@@ -1,0 +1,75 @@
+{
+  "units": [
+    {
+      "name": "Samurai",
+      "type": "Melee",
+      "era": "Medieval",
+      "requiredTech": "Metalcasting",
+      "uniqueTo":"Japan",
+      "cost": 120,
+      "strength": 45,
+      "movement": 2,
+      "abilities": [
+        "Bushido: +5 [Combat Strength] against [Injured] units.",
+        "Loyalty: +10 [Combat Strength] <when in [Japan]'s territory>."],
+      "replaces": "Swordsman"
+    },
+    {
+      "name": "Zero Fighter",
+      "type": "Aircraft",
+      "era": "Modern",
+      "requiredTech":"Flight",
+      "uniqueTo":"Japan",
+      "cost": 250,
+      "strength": 60,
+      "movement": 4,
+      "range": 2,
+      "abilities": [
+        "Agile: +1 [Movement]",
+        "Air Superiority: +10 [Combat Strength] against enemy's [Aircraft] units."],
+      "replaces": "Fighter"
+    },
+    {
+        "name": "Teppo Ashigaru",
+        "type": "Ranged",
+        "era": "Renaissance",
+        "requiredTech": "Gunpowder",
+        "uniqueTo": "Japan",
+        "cost": 90,
+        "strength": 35,
+        "range": 2,
+        "movement": 2,
+        "abilities": [
+          "Volley Fire: +5 [Combat Strength] <when attacking with 2 adjacent [Teppo Ashigaru] or more.>"],
+        "replaces": "Musketman"
+    },
+    {
+        "name": "Yumi Archer",
+        "type": "Ranged",
+        "era": "Classical",
+        "requiredTech": "Archery",
+        "uniqueTo": "Japan",
+        "cost": 60,
+        "strength": 25,
+        "range": 2,
+        "movement": 2,
+        "abilities": [
+          "Long Range: +1 [Range] <when attacking from [Hills] or [Forest] tiles.>"],
+        "replaces": "Archer"
+    },
+    {
+        "name": "Mortar Ashigaru",
+        "type": "Siege",
+        "era": "Renaissance",
+        "requiredTech": "Gunpowder",
+        "uniqueTo": "Japan",
+        "cost": 110,
+        "strength": 40,
+        "range": 3,
+        "movement": 2,
+        "abilities": [
+          "Bombardment: +10 [Combat Strength] against [City Walls]."],
+        "replaces": "Bombard"
+    }
+  ]
+}
