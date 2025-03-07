@@ -3,7 +3,7 @@
 A 4x game that is focused on nations of the world. We aimed to have a small number base nations before adding new nations into it. For now, we aren't launching it yet.
 
 **Base Nations:**
-   - Japan (Oda Nobunaga and Tokugawa Ieyasu) (12% Completed)
+   - Japan (Oda Nobunaga and Tokugawa Ieyasu) (15% Completed)
    - China (Qin Shi Huang and Tang Taizong) (0% Completed)
    - Russia (Pyort the Great and Ekaterina the Great) (0% Completed)
    - India (Chandragupta Maurya and Mahatma Gandhi) (0% Completed)
