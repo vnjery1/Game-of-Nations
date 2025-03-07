@@ -1,6 +1,828 @@
 {
   "buildings": [
     {
+      "name": "Palace",
+      "era": "Ancient",
+      "requiredTech": null,
+      "uniqueTo": null,
+      "cost": 60,
+      "yields": {
+        "gold": 2,
+        "culture": 1
+      },
+      "abilities": [
+        "Government Center: Provides administrative bonuses to the city."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Granary",
+      "era": "Ancient",
+      "requiredTech": "Pottery",
+      "uniqueTo": null,
+      "cost": 50,
+      "yields": {
+        "food": 2
+      },
+      "abilities": [
+        "Food Storage: Increases [Food] storage capacity."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Monument",
+      "era": "Ancient",
+      "requiredTech": null,
+      "uniqueTo": null,
+      "cost": 40,
+      "yields": {
+        "culture": 2
+      },
+      "abilities": [
+        "Cultural Heritage: Provides a bonus to [Culture] generation."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Barracks",
+      "era": "Ancient",
+      "requiredTech": "Bronze Working",
+      "uniqueTo": null,
+      "cost": 60,
+      "yields": {
+        "production": 1
+      },
+      "abilities": [
+        "Military Training: Increases [Battle Experience] for units trained in the city."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Library",
+      "era": "Ancient",
+      "requiredTech": "Writing",
+      "uniqueTo": null,
+      "cost": 70,
+      "yields": {
+        "science": 2
+      },
+      "abilities": [
+        "Knowledge Preservation: Provides a bonus to [Science] generation."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Shrine",
+      "era": "Ancient",
+      "requiredTech": "Astrology",
+      "uniqueTo": null,
+      "cost": 40,
+      "yields": {
+        "faith": 2
+      },
+      "abilities": [
+        "Religious Center: Allows the founding of a religion."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Market",
+      "era": "Ancient",
+      "requiredTech": "Currency",
+      "uniqueTo": null,
+      "cost": 60,
+      "yields": {
+        "gold": 2
+      },
+      "abilities": [
+        "Trade Hub: Increases [Trade Route] capacity and [Gold] generation."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Walls",
+      "era": "Ancient",
+      "requiredTech": "Masonry",
+      "uniqueTo": null,
+      "cost": 70,
+      "yields": {
+        "production": 1
+      },
+      "abilities": [
+        "Fortification: Increases city defense strength."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Amphitheater",
+      "era": "Classical",
+      "requiredTech": "Drama and Poetry",
+      "uniqueTo": null,
+      "cost": 80,
+      "yields": {
+        "culture": 2,
+        "amenities": 1
+      },
+      "abilities": [
+        "Entertainment: Provides [Amenities] to the city."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Water Mill",
+      "era": "Classical",
+      "requiredTech": "Engineering",
+      "uniqueTo": null,
+      "cost": 90,
+      "yields": {
+        "food": 3
+      },
+      "abilities": [
+        "Improved Irrigation: Increases [Food] production from the city's [Farms]."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Temple",
+      "era": "Classical",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 70,
+      "yields": {
+        "faith": 3
+      },
+      "abilities": [
+        "Religious Devotion: Provides a bonus to [Faith] generation."
+      ],
+      "replaces": "Shrine"
+    },
+    {
+      "name": "Workshop",
+      "era": "Classical",
+      "requiredTech": "Mathematics",
+      "uniqueTo": null,
+      "cost": 80,
+      "yields": {
+        "production": 2
+      },
+      "abilities": [
+        "Improved Craftsmanship: Provides a bonus to [Production]."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Courthouse",
+      "era": "Classical",
+      "requiredTech": "Code of Laws",
+      "uniqueTo": null,
+      "cost": 100,
+      "yields": {
+        "gold": 3
+      },
+      "abilities": [
+        "Law and Order: Increases [City Stability] and reduces [Corruption]."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Stable",
+      "era": "Classical",
+      "requiredTech": "Horseback Riding",
+      "uniqueTo": null,
+      "cost": 85,
+      "yields": {
+        "production": 1
+      },
+      "abilities": [
+        "Cavalry Training: Increases [Production] of [Cavalry] units."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Aqueduct",
+      "era": "Classical",
+      "requiredTech": "Engineering",
+      "uniqueTo": null,
+      "cost": 95,
+      "yields": {
+        "food": 1,
+        "amenities": 1
+      },
+      "abilities": [
+        "Water Supply: Increases [City Growth] and provides fresh water."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Colosseum",
+      "era": "Classical",
+      "requiredTech": "Construction",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "culture": 2,
+        "amenities": 2
+      },
+      "abilities": [
+        "Entertainment: Provides a significant boost to [Amenities] and [Culture]."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "University",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 120,
+      "yields": {
+        "science": 3
+      },
+      "abilities": [
+        "Advanced Learning: Provides a significant bonus to [Science] generation."
+      ],
+      "replaces": "Library"
+    },
+    {
+      "name": "Armory",
+      "era": "Medieval",
+      "requiredTech": "Military Tactics",
+      "uniqueTo": null,
+      "cost": 130,
+      "yields": {
+        "production": 3
+      },
+      "abilities": [
+        "Military Production: Increases [Production] and [Battle Experience] for [Militant] units."
+      ],
+      "replaces": "Barracks"
+    },
+    {
+      "name": "Marketplace",
+      "era": "Medieval",
+      "requiredTech": "Banking",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "gold": 3
+      },
+      "abilities": [
+        "Trade Expansion: Increases [Gold] generation and [Trade Route] capacity."
+      ],
+      "replaces": "Market"
+    },
+    {
+      "name": "Castle",
+      "era": "Medieval",
+      "requiredTech": "Castles",
+      "uniqueTo": null,
+      "cost": 140,
+      "yields": {
+        "production": 1
+      },
+      "abilities": [
+        "Fortified Defense: Increases [City Defense] strength and provides a military bonus."
+      ],
+      "replaces": "Walls"
+    },
+    {
+      "name": "Guild Hall",
+      "era": "Medieval",
+      "requiredTech": "Guilds",
+      "uniqueTo": null,
+      "cost": 120,
+      "yields": {
+        "gold": 2,
+        "production": 1
+      },
+      "abilities": [
+        "Trade Connections: Increases [Trade Route] capacity and provides a bonus to [Gold] generation.",
+        "Guild Training: Increases [Production] of [Civilian] units."
+      ],
+      "replaces": "Marketplace"
+    },
+    {
+      "name": "Monastery",
+      "era": "Medieval",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 100,
+      "yields": {
+        "faith": 4,
+        "culture": 2
+      },
+      "abilities": [
+        "Religious Community: Provides a significant bonus to [Faith] generation and [Culture].",
+        "Monastic Learning: Generates [Science]."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Shipyard",
+      "era": "Medieval",
+      "requiredTech": "Cartography",
+      "uniqueTo": null,
+      "cost": 130,
+      "yields": {
+        "production": 3
+      },
+      "abilities": [
+        "Naval Construction: Increases [Production] of [Militant Naval] units.",
+        "Naval Training: Increases [Battle Experience] for [Militant Naval] units trained in the city."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Opera House",
+      "era": "Renaissance",
+      "requiredTech": "Opera",
+      "uniqueTo": null,
+      "cost": 150,
+      "yields": {
+        "culture": 4,
+        "amenities": 2
+      },
+      "abilities": [
+        "Cultural Performance: Provides a significant boost to [Culture] and [Amenities]."
+      ],
+      "replaces": "Amphitheater"
+    },
+    {
+      "name": "Arsenal",
+      "era": "Renaissance",
+      "requiredTech": "Gunpowder",
+      "uniqueTo": null,
+      "cost": 160,
+      "yields": {
+        "production": 4
+      },
+      "abilities": [
+        "Military Manufacturing: Increases [Production] and [Battle Experience] for [Militant] units, and provides [City Defense]."
+      ],
+      "replaces": "Armory"
+    },
+    {
+      "name": "Bank",
+      "era": "Renaissance",
+      "requiredTech": "Banking",
+      "uniqueTo": null,
+      "cost": 140,
+      "yields": {
+        "gold": 4
+      },
+      "abilities": [
+        "Financial Institution: Increases [Gold] generation and [Trade Route] capacity."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Observatory",
+      "era": "Renaissance",
+      "requiredTech": "Astronomy",
+      "uniqueTo": null,
+      "cost": 150,
+      "yields": {
+        "science": 4
+      },
+      "abilities": [
+        "Scientific Observation: Provides a significant bonus to [Science] generation."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Printing Press",
+      "era": "Renaissance",
+      "requiredTech": "Printing Press",
+      "uniqueTo": null,
+      "cost": 130,
+      "yields": {
+        "culture": 2
+      },
+      "abilities": [
+        "Information Dissemination: Increases [Culture] and reduces [Policy] cost."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Custom House",
+      "era": "Renaissance",
+      "requiredTech": "Navigation",
+      "uniqueTo": null,
+      "cost": 160,
+      "yields": {
+        "gold": 4
+      },
+      "abilities": [
+        "Coastal Trade: Significantly increases [Gold] generation and [Trade Route] capacity in [Coastal] cities."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Theater",
+      "era": "Renaissance",
+      "requiredTech": "Drama and Poetry",
+      "uniqueTo": null,
+      "cost": 140,
+      "yields": {
+        "culture": 3
+      },
+      "abilities": [
+        "Dramatic Performances: Provides [Culture] and [Great Work of Literature] and [Great Work of Art] slots."
+      ],
+      "replaces": "Amphitheater"
+    },
+    {
+      "name": "Mint",
+      "era": "Renaissance",
+      "requiredTech": "Banking",
+      "uniqueTo": null,
+      "cost": 150,
+      "yields": {
+        "gold": 3
+      },
+      "abilities": [
+        "Currency Stabilization: Increases [Gold] generation and [City Stability]."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Factory",
+      "era": "Industrial",
+      "requiredTech": "Industrialization",
+      "uniqueTo": null,
+      "cost": 200,
+      "yields": {
+        "production": 6
+      },
+      "abilities": [
+        "Mass Production: Greatly increases [Production] in the city and provides additional [Great Engineer Points]."
+      ],
+      "replaces": "Workshop"
+    },
+    {
+      "name": "Coal Power Plant",
+      "era": "Industrial",
+      "requiredTech": "Electricity",
+      "requiredResource":"Coal",
+      "uniqueTo": null,
+      "cost": 250,
+      "yields": {
+        "power": 10
+      },
+      "abilities": [
+        "Electricity Generation: Provides a large amount of [Power] to the city, increasing [Production] and other yields."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Stock Exchange",
+      "era": "Industrial",
+      "requiredTech": "Economics",
+      "uniqueTo": null,
+      "cost": 220,
+      "yields": {
+        "gold": 6
+      },
+      "abilities": [
+        "Market Boom: Increases [Gold] generation and [Trade Route] capacity, boosting the city's economy."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Research Lab",
+      "era": "Industrial",
+      "requiredTech": "Scientific Theory",
+      "uniqueTo": null,
+      "cost": 220,
+      "yields": {
+        "science": 6
+      },
+      "abilities": [
+        "Advanced Research: Significantly increases [Science] output, accelerating technological progress."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Broadcast Center",
+      "era": "Industrial",
+      "requiredTech": "Radio",
+      "uniqueTo": null,
+      "cost": 240,
+      "yields": {
+        "culture": 4,
+        "amenities": 3
+      },
+      "abilities": [
+        "Mass Media: Provides [Amenities] and increases [Culture], influencing the city's [Population] and [Tourism]."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Museum",
+      "era": "Industrial",
+      "requiredTech": "Archaeology",
+      "uniqueTo": null,
+      "cost": 180,
+      "yields": {
+        "culture": 5,
+        "tourism": 2
+      },
+      "abilities": [
+        "Cultural Exhibits: Generates [Culture] and [Tourism].",
+        "Archaeological Missions: Can launch archaeological missions to acquire [Artifacts]."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Hospital",
+      "era": "Industrial",
+      "requiredTech": "Medicine",
+      "uniqueTo": null,
+      "cost": 210,
+      "yields": {
+        "amenities": 2,
+        "science": 1
+      },
+      "abilities": [
+        "Healthcare: Provides [Amenities] and reduces [Disease] in the city.",
+        "Medical Research: Generates a small amount of [Science]."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Police Station",
+      "era": "Industrial",
+      "requiredTech": "Replaceable Parts",
+      "uniqueTo": null,
+      "cost": 190,
+      "yields": {
+        "production": 1,
+        "gold": 2
+      },
+      "abilities": [
+        "Law Enforcement: Increases [City Stability].",
+        "Precinct: Provides [Production] and [Gold]."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Hydro Plant",
+      "era": "Modern",
+      "requiredTech": "Hydroelectric Power",
+      "uniqueTo": null,
+      "cost": 350,
+      "yields": {
+        "power": 15
+      },
+      "abilities": [
+        "Renewable Energy: Provides a substantial amount of [Power] to the city without consuming resources."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Airport",
+      "era": "Modern",
+      "requiredTech": "Flight",
+      "uniqueTo": null,
+      "cost": 400,
+      "yields": {
+        "tourism": 5,
+        "amenities": 2
+      },
+      "abilities": [
+        "Air Travel: Increases [Tourism] and provides [Amenities], connecting the city to the world."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Stadium",
+      "era": "Modern",
+      "requiredTech": "Urbanization",
+      "uniqueTo": null,
+      "cost": 300,
+      "yields": {
+        "amenities": 4
+      },
+      "abilities": [
+        "Sporting Events: Provides a large amount of [Amenities], improving the city's quality of life."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Modern University",
+      "era": "Modern",
+      "requiredTech": "Computers",
+      "uniqueTo": null,
+      "cost": 350,
+      "yields": {
+        "science": 8
+      },
+      "abilities": [
+        "Higher Education: Increases science output and provides great scientist points, fostering research and development."
+      ],
+      "replaces": "University"
+    },
+    {
+      "name": "Supermarket",
+      "era": "Modern",
+      "requiredTech": "Refrigeration",
+      "uniqueTo": null,
+      "cost": 280,
+      "yields": {
+        "food": 4,
+        "amenities": 2
+      },
+      "abilities": [
+        "Food Distribution: Provides [Food] and [Amenities], improving the city's standard of living."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Nuclear Power Plant",
+      "era": "Atomic",
+      "requiredTech": "Nuclear Fission",
+      "uniqueTo": null,
+      "cost": 550,
+      "yields": {
+        "power": 25
+      },
+      "abilities": [
+        "Nuclear Energy: Provides a massive amount of [Power] to the city, but carries the risk of [Nuclear Meltdown]."
+      ],
+      "replaces": "Coal Power Plant"
+    },
+    {
+      "name": "Modern Research Lab",
+      "era": "Atomic",
+      "requiredTech": "Rocketry",
+      "uniqueTo": null,
+      "cost": 500,
+      "yields": {
+        "science": 10
+      },
+      "abilities": [
+        "Advanced Research: Further increases [Science] output, accelerating technological progress."
+      ],
+      "replaces": "Research Lab"
+    },
+    {
+      "name": "Intelligence Agency",
+      "era": "Atomic",
+      "requiredTech": "Cryptography",
+      "uniqueTo": null,
+      "cost": 450,
+      "yields": {
+        "gold": 3
+      },
+      "abilities": [
+        "Espionage Operations: Provides additional [Spy] slots and increases the effectiveness of [Espionage Operations]."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Missile Silo",
+      "era": "Atomic",
+      "requiredTech": "Rocketry",
+      "uniqueTo": null,
+      "cost": 480,
+      "yields": {
+      },
+      "abilities": [
+        "Nuclear Deterrent: Allows for the construction and storage of nuclear weapons."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Seaport",
+      "era": "Atomic",
+      "requiredTech": "Combustion",
+      "uniqueTo": null,
+      "cost": 420,
+      "yields": {
+        "gold": 5,
+        "production": 3
+      },
+      "abilities": [
+        "Modernized Port: Increases [Gold] and [Production] from international [Trade Routes] in [Coastal] cities."
+      ],
+      "replaces": "Harbor"
+    },
+    {
+      "name": "Broadcast Tower",
+      "era": "Atomic",
+      "requiredTech": "Satellites",
+      "uniqueTo": null,
+      "cost": 480,
+      "yields": {
+        "culture": 6,
+        "amenities": 4
+      },
+      "abilities": [
+        "Global Communication: Further increases [Culture] and [Amenities], influencing a wider area."
+      ],
+      "replaces": "Broadcast Center"
+    },
+    {
+      "name": "Military Base",
+      "era": "Atomic",
+      "requiredTech": "Combined Arms",
+      "uniqueTo": null,
+      "cost": 500,
+      "yields": {
+        "production": 4
+      },
+      "abilities": [
+        "Strategic Defense: Provides a strong [Defense} bonus to the city and increases military production."
+      ],
+      "replaces": "Arsenal"
+    },
+    {
+      "name": "Electronics Factory",
+      "era": "Atomic",
+      "requiredTech": "Electronics",
+      "uniqueTo": null,
+      "cost": 460,
+      "yields": {
+        "production": 5,
+        "science": 2
+      },
+      "abilities": [
+        "Advanced Manufacturing: Increases [Production] and generates [Science], driving technological advancement."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Internet Hub",
+      "era": "Information",
+      "requiredTech": "Internet",
+      "uniqueTo": null,
+      "cost": 600,
+      "yields": {
+        "science": 8,
+        "gold": 6
+      },
+      "abilities": [
+        "Global Network: Increases [Science] and [Gold] generation, connecting the city to the global information network."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Data Center",
+      "era": "Information",
+      "requiredTech": "Advanced Computing",
+      "uniqueTo": null,
+      "cost": 650,
+      "yields": {
+        "science": 10,
+        "production": 4
+      },
+      "abilities": [
+        "Information Processing: Enhances [Science] and [Production], reflecting the era's focus on data processing and automation."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Spaceport",
+      "era": "Information",
+      "requiredTech": "Satellites",
+      "uniqueTo": null,
+      "cost": 700,
+      "yields": {
+        "production": 6
+      },
+      "abilities": [
+        "Space Exploration: Enables the construction of space-related projects, such as satellites and space stations."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Advanced Research Lab",
+      "era": "Information",
+      "requiredTech": "Nanotechnology",
+      "uniqueTo": null,
+      "cost": 750,
+      "yields": {
+        "science": 12
+      },
+      "abilities": [
+        "Cutting-Edge Research: Further boosts [Science] output and provides [Great Scientist Points], driving innovation."
+      ],
+      "replaces": "Modern Research Lab"
+    },
+    {
+      "name": "Cybersecurity Center",
+      "era": "Information",
+      "requiredTech": "Cybernetics",
+      "uniqueTo": null,
+      "cost": 680,
+      "yields": {
+        "defense": 3
+      },
+      "abilities": [
+        "Digital Defense: Enhances [City Defense] against [Cyber] attacks and increases espionage capabilities."
+      ],
+      "replaces": "Intelligence Agency"
+    },
+    {
       "name": "Tea House",
       "era": "Medieval",
       "requiredTech": "Drama and Poetry",
@@ -32,22 +854,158 @@
         "Defense Bonus: Provides a [Defense] bonus of 15% to the city."
       ],
       "replaces": "Barracks"
-    },
+    }
+  ],
+  "religiousBuildings":[
     {
-      "name": "Electronic Factory",
-      "era": "Atomic",
-      "requiredTech": "Electronics",
-      "uniqueTo": "Japan",
-      "cost": 200,
+      "name": "Synagogue",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
       "yields": {
-        "production": 3,
-        "science": 1
+        "faith": 4,
+        "culture": 1
       },
       "abilities": [
-        "Production Boost: Increases [Production] by 25% in this city.",
-        "Scientific Research: Provides a [Science] bonus of 10%."
+        "Religious Gathering: Provides a significant bonus to faith generation and some culture.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
       ],
-      "replaces": "Factory"
+      "replaces": null
+    },
+    {
+      "name": "Mosque",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "faith": 4,
+        "culture": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a significant bonus to faith generation and some culture.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Cathedral",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "faith": 4,
+        "culture": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a significant bonus to faith generation and some culture.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Gompa",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "faith": 4,
+        "culture": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a significant bonus to faith generation and some culture.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Pagoda",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "faith": 4,
+        "culture": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a significant bonus to faith generation and some culture.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    { 
+      "name": "Mandir",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "faith": 4,
+        "culture": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a significant bonus to faith generation and some culture.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Wat",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "faith": 4,
+        "culture": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a significant bonus to faith generation and some culture.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Gurdwara",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "faith": 4,
+        "culture": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a significant bonus to faith generation and some culture.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Basilica",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "faith": 4,
+        "culture": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a significant bonus to faith generation and some culture.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Chapel",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "faith": 4,
+        "culture": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a significant bonus to faith generation and some culture.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
     }
   ]
 }

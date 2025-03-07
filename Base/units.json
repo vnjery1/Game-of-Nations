@@ -1201,8 +1201,8 @@
         "type": "Great Person",
         "era": "Classical",
         "abilities": [
-          "Military Tactics: Provides a combat bonus to nearby military units.",
-          "Instant Army: Can instantly create a military unit."
+          "Military Tactics: Provides a combat bonus to nearby [Militant] units.",
+          "Instant Army: Can instantly create a [Militant] unit."
         ],
         "cost": 100,
         "pointsPerTurn": 3
@@ -1212,8 +1212,8 @@
         "type": "Great Person",
         "era": "Classical",
         "abilities": [
-          "Naval Tactics: Provides a combat bonus to nearby naval units.",
-          "Instant Fleet: Can instantly create a naval unit."
+          "Naval Tactics: Provides a combat bonus to nearby [Militant Naval] units.",
+          "Instant Fleet: Can instantly create a [Militant Naval] unit."
         ],
         "cost": 100,
         "pointsPerTurn": 3
