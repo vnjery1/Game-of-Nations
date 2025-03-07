@@ -185,6 +185,22 @@
       "replaces": null
     },
     {
+      "name": "Harbor",
+      "era": "Classical",
+      "requiredTech": "Navigation", 
+      "uniqueTo": null,
+      "cost": 80,
+      "yields": {
+        "gold": 2,
+        "food": 1 
+      },
+      "abilities": [
+        "Coastal Trade: +1 Trade Route capacity.", 
+        "Fishing Grounds: Provides additional food for coastal cities." 
+      ],
+      "replaces": null
+    },
+    {
       "name": "Stable",
       "era": "Classical",
       "requiredTech": "Horseback Riding",
@@ -405,7 +421,7 @@
     {
       "name": "Custom House",
       "era": "Renaissance",
-      "requiredTech": "Navigation",
+      "requiredTech": "Shipyards",
       "uniqueTo": null,
       "cost": 160,
       "yields": {
@@ -413,6 +429,21 @@
       },
       "abilities": [
         "Coastal Trade: Significantly increases [Gold] generation and [Trade Route] capacity in [Coastal] cities."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Shipyard",
+      "era": "Renaissance",
+      "requiredTech": "Shipyards",
+      "uniqueTo": null,
+      "cost": 140,
+      "yields": {
+        "production": 3
+      },
+      "abilities": [
+        "Naval Construction: Increases production of naval units.",
+        "Naval Training: Increases experience for naval units trained in the city."
       ],
       "replaces": null
     },

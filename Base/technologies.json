@@ -1,0 +1,904 @@
+{
+  "technologies": [
+    {
+      "name": "Agriculture",
+      "era": "Ancient",
+      "cost": 20,
+      "prerequisites":null,
+      "unlocks": [
+        "Ability to build Farms",
+        "Ability to harvest resources",
+        "Bonus yields from terrain"
+      ]
+    },
+    {
+      "name": "Animal Husbandry",
+      "era": "Ancient",
+      "cost": 35,
+      "prerequisites":["Agriculture"],
+      "unlocks": [
+        "Ability to build Pastures",
+        "Ability to train Horsemen",
+        "Reveals Horses"
+      ]
+    },
+    {
+      "name": "Archery",
+      "era": "Ancient",
+      "cost": 35,
+      "prerequisites":["Agriculture"],
+      "unlocks": [
+        "Ability to train Archers",
+        "Bonus combat strength against anti-cavalry units"
+      ]
+    },
+    {
+      "name": "Mining",
+      "era": "Ancient",
+      "cost": 35,
+      "prerequisites":["Agriculture"],
+      "unlocks": [
+        "Ability to build Mines",
+        "Reveals Iron"
+      ]
+    },
+    {
+      "name": "Pottery",
+      "era": "Ancient",
+      "cost": 35,
+      "prerequisites":["Agriculture"],
+      "unlocks": [
+        "Ability to build Holy Sites",
+        "Ability to build Granaries"
+      ]
+    },
+    {
+      "name": "Sailing",
+      "era": "Ancient",
+      "cost": 35,
+      "prerequisites":["Agriculture"],
+      "unlocks": [
+        "Ability to embark units on water",
+        "Ability to build Galleys"
+      ]
+    },
+    {
+      "name": "Writing",
+      "era": "Ancient",
+      "cost": 55,
+      "prerequisites":["Agriculture"],
+      "unlocks": [
+        "Ability to build Campuses",
+        "Ability to build Libraries",
+        "+1 trade route capacity"
+      ]
+    },
+    {
+      "name": "Bronze Working",
+      "era": "Ancient",
+      "cost": 55,
+      "prerequisites": ["Mining"],
+      "unlocks": [
+        "Ability to train Warriors and Swordsmen",
+        "Ability to build Barracks",
+        "Reveals Copper"
+      ]
+    },
+    {
+      "name": "Wheel",
+      "era": "Ancient",
+      "cost": 55,
+      "prerequisites": ["Mining"],
+      "unlocks": [
+        "Ability to train [Light Chariots] and [Heavy Chariots]",
+        "Improved movement on roads"
+      ]
+    },
+    {
+      "name": "Masonry",
+      "era": "Ancient",
+      "cost": 55,
+      "prerequisites": ["Mining"],
+      "unlocks": [
+        "Ability to build Walls",
+        "Improved construction of wonders"
+      ]
+    },
+    {
+      "name": "Astrology",
+      "era": "Ancient",
+      "cost": 55,
+      "prerequisites": ["Pottery"],
+      "unlocks": [
+        "Ability to build Shrines",
+        "Reveals resources related to faith"
+      ]
+    },
+    {
+      "name": "Currency",
+      "era": "Ancient",
+      "cost": 55,
+      "prerequisites": ["Writing"],
+      "unlocks": [
+        "Ability to build Markets",
+        "Improved trade yields"
+      ]
+    },
+    {
+      "name": "Irrigation",
+      "era": "Ancient",
+      "cost": 55,
+      "prerequisites": ["Agriculture"],
+      "unlocks": [
+        "Improved farm yields"
+      ]
+    },
+    {
+      "name": "Shipbuilding",
+      "era": "Ancient",
+      "cost": 55,
+      "prerequisites": ["Sailing"],
+      "unlocks": [
+        "Ability to build better naval units"
+      ]
+    },
+    {
+      "name": "Horseback Riding",
+      "era": "Classical",
+      "cost": 80,
+      "prerequisites": ["Animal Husbandry"],
+      "unlocks": [
+        "Ability to train Horsemen and Cavalry units",
+        "Reveals strategic resources related to horses"
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "era": "Classical",
+      "cost": 90,
+      "prerequisites": ["Writing"],
+      "unlocks": [
+        "Ability to build Workshops",
+        "Improved science generation"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "era": "Classical",
+      "cost": 90,
+      "prerequisites": ["Mathematics", "Masonry"],
+      "unlocks": [
+        "Ability to build Aqueducts",
+        "Improved building construction speed"
+      ]
+    },
+    {
+      "name": "Drama and Poetry",
+      "era": "Classical",
+      "cost": 80,
+      "prerequisites": ["Writing"],
+      "unlocks": [
+        "Ability to build Amphitheaters",
+        "Improved culture generation"
+      ]
+    },
+    {
+      "name": "Iron Working",
+      "era": "Classical",
+      "cost": 90,
+      "prerequisites": ["Bronze Working"],
+      "unlocks": [
+        "Ability to train Swordsmen and Legionaries",
+        "Reveals Iron resources"
+      ]
+    },
+    {
+      "name": "Construction",
+      "era": "Classical",
+      "cost": 90,
+      "prerequisites": ["Masonry"],
+      "unlocks": [
+        "Ability to build Colosseums",
+        "Further improved building construction speed"
+      ]
+    },
+    {
+      "name": "Philosophy",
+      "era": "Classical",
+      "cost": 80,
+      "prerequisites": ["Writing"],
+      "unlocks": [
+        "Improved faith and culture generation",
+        "Unlocks certain social policies"
+      ]
+    },
+    {
+      "name": "Code of Laws",
+      "era": "Classical",
+      "cost": 80,
+      "prerequisites": ["Writing"],
+      "unlocks": [
+        "Ability to build Courthouses",
+        "Unlocks government types"
+      ]
+    },
+    {
+      "name": "Theology",
+      "era": "Classical",
+      "cost": 100,
+      "prerequisites": ["Astrology", "Philosophy"],
+      "unlocks": [
+        "Unlocks religious buildings",
+        "Allows the creation of religious units"
+      ]
+    },
+    {
+      "name": "Navigation",
+      "era": "Classical",
+      "cost": 85,
+      "prerequisites": ["Shipbuilding"],
+      "unlocks": [
+        "Improved naval unit movement",
+        "Increased trade route range for coastal cities"
+      ]
+    },
+    {
+      "name": "Optics",
+      "era": "Classical",
+      "cost": 85,
+      "prerequisites": ["Mathematics"],
+      "unlocks": [
+        "Improved ranged naval units",
+        "Increased visibility range for naval units"
+      ]
+    },
+    {
+      "name": "Military Tactics",
+      "era": "Medieval",
+      "cost": 120,
+      "prerequisites": ["Iron Working", "Horseback Riding"],
+      "unlocks": [
+        "Ability to train Knights and Man-at-Arms",
+        "Improved combat tactics"
+      ]
+    },
+    {
+      "name": "Education",
+      "era": "Medieval",
+      "cost": 130,
+      "prerequisites": ["Mathematics", "Philosophy"],
+      "unlocks": [
+        "Ability to build Universities",
+        "Improved science generation"
+      ]
+    },
+    {
+      "name": "Banking",
+      "era": "Medieval",
+      "cost": 120,
+      "prerequisites": ["Currency"],
+      "unlocks": [
+        "Ability to build Banks",
+        "Improved gold generation"
+      ]
+    },
+    {
+      "name": "Castles",
+      "era": "Medieval",
+      "cost": 130,
+      "prerequisites": ["Construction", "Military Tactics"],
+      "unlocks": [
+        "Ability to build Castles",
+        "Improved city defenses"
+      ]
+    },
+    {
+      "name": "Guilds",
+      "era": "Medieval",
+      "cost": 120,
+      "prerequisites": ["Banking"],
+      "unlocks": [
+        "Ability to build Guild Halls",
+        "Improved trade and production of civilian units"
+      ]
+    },
+    {
+      "name": "Machinery",
+      "era": "Medieval",
+      "cost": 130,
+      "prerequisites": ["Engineering"],
+      "unlocks": [
+        "Ability to train Siege units",
+        "Improved production speed"
+      ]
+    },
+    {
+      "name": "Steel",
+      "era": "Medieval",
+      "cost": 130,
+      "prerequisites": ["Iron Working", "Mathematics"],
+      "unlocks": [
+        "Ability to train Longswordsmen",
+        "Improved melee combat"
+      ]
+    },
+    {
+      "name": "Cartography",
+      "era": "Medieval",
+      "cost": 120,
+      "prerequisites": ["Navigation"],
+      "unlocks": [
+        "Improved naval exploration",
+        "Increased trade route range for naval trade"
+      ]
+    },
+    {
+      "name": "Chivalry",
+      "era": "Medieval",
+      "cost": 125,
+      "prerequisites": ["Military Tactics"],
+      "unlocks": [
+        "Improved cavalry unit combat strength",
+        "Unlocks unique cavalry units"
+      ]
+    },
+    {
+      "name": "Civil Service",
+      "era": "Medieval",
+      "cost": 125,
+      "prerequisites": ["Code of Laws"],
+      "unlocks": [
+        "Improved city growth",
+        "Improved infrastructure building speed"
+      ]
+    },
+    {
+      "name": "Gunpowder",
+      "era": "Renaissance",
+      "cost": 160,
+      "prerequisites": ["Machinery", "Steel"],
+      "unlocks": [
+        "Ability to train Musketmen and Cannons",
+        "Improved siege warfare"
+      ]
+    },
+    {
+      "name": "Printing Press",
+      "era": "Renaissance",
+      "cost": 150,
+      "prerequisites": ["Education"],
+      "unlocks": [
+        "Ability to build Printing Presses",
+        "Increased culture generation",
+        "Reduced civic cost"
+      ]
+    },
+    {
+      "name": "Astronomy",
+      "era": "Renaissance",
+      "cost": 160,
+      "prerequisites": ["Mathematics", "Navigation"],
+      "unlocks": [
+        "Ability to build Observatories",
+        "Improved science generation",
+        "Improved map visibility"
+      ]
+    },
+    {
+      "name": "Shipyards",
+      "era": "Renaissance",
+      "cost": 150,
+      "prerequisites": ["Cartography"],
+      "unlocks": [
+        "Ability to build Shipyards",
+        "Improved naval unit production and maintenance"
+      ]
+    },
+    {
+      "name": "Banking",
+      "era": "Renaissance",
+      "cost": 150,
+      "prerequisites": ["Guilds"],
+      "unlocks": [
+        "Ability to build Banks",
+        "Improved gold generation"
+      ]
+    },
+    {
+      "name": "Opera",
+      "era": "Renaissance",
+      "cost": 150,
+      "prerequisites": ["Drama and Poetry"],
+      "unlocks": [
+        "Ability to build Opera Houses",
+        "Improved culture and amenity generation"
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "era": "Renaissance",
+      "cost": 170,
+      "prerequisites": ["Astronomy", "Gunpowder"],
+      "unlocks": [
+        "Unlocks advanced military units and industrial technologies",
+        "Improved resource extraction"
+      ]
+    },
+    {
+      "name": "Military Engineering",
+      "era": "Renaissance",
+      "cost": 160,
+      "prerequisites": ["Chemistry", "Shipyards"],
+      "unlocks": [
+        "Improved siege unit strength and range",
+        "Improved city defense buildings"
+      ]
+    },
+    {
+      "name": "Industrialization",
+      "era": "Industrial",
+      "cost": 200,
+      "prerequisites": ["Chemistry", "Steam Power"],
+      "unlocks": [
+        "Ability to build Factories",
+        "Improved production generation"
+      ]
+    },
+    {
+      "name": "Electricity",
+      "era": "Industrial",
+      "cost": 220,
+      "prerequisites": ["Industrialization"],
+      "unlocks": [
+        "Ability to build Coal Power Plants",
+        "Improved infrastructure yields"
+      ]
+    },
+    {
+      "name": "Economics",
+      "era": "Industrial",
+      "cost": 210,
+      "prerequisites": ["Banking"],
+      "unlocks": [
+        "Ability to build Stock Exchanges",
+        "Improved gold generation"
+      ]
+    },
+    {
+      "name": "Scientific Theory",
+      "era": "Industrial",
+      "cost": 210,
+      "prerequisites": ["Astronomy"],
+      "unlocks": [
+        "Ability to build Research Labs",
+        "Improved science generation"
+      ]
+    },
+    {
+      "name": "Radio",
+      "era": "Industrial",
+      "cost": 230,
+      "prerequisites": ["Electricity"],
+      "unlocks": [
+        "Ability to build Broadcast Centers",
+        "Improved culture and amenities"
+      ]
+    },
+    {
+      "name": "Steam Power",
+      "era": "Industrial",
+      "cost": 190,
+      "prerequisites": ["Machinery"],
+      "unlocks": [
+        "Ability to train Ironclads and other steam-powered units",
+        "Improved industrial improvements"
+      ]
+    },
+    {
+      "name": "Replaceable Parts",
+      "era": "Industrial",
+      "cost": 200,
+      "prerequisites": ["Steam Power", "Military Engineering"],
+      "unlocks": [
+        "Ability to build Police Stations",
+        "Improved military production"
+      ]
+    },
+    {
+      "name": "Medicine",
+      "era": "Industrial",
+      "cost": 210,
+      "prerequisites": ["Chemistry"],
+      "unlocks": [
+        "Ability to build Hospitals",
+        "Improved city health and amenities"
+      ]
+    },
+    {
+      "name": "Archaeology",
+      "era": "Industrial",
+      "cost": 200,
+      "prerequisites": ["Scientific Theory", "Drama and Poetry"],
+      "unlocks": [
+        "Ability to build Museums",
+        "Improved culture and tourism"
+      ]
+    },
+    {
+      "name": "Steelworking",
+      "era": "Industrial",
+      "cost": 220,
+      "prerequisites": ["Steel", "Industrialization"],
+      "unlocks": [
+        "Improved industrial improvements",
+        "Ability to train advanced military units"
+      ]
+    },
+    {
+      "name": "Flight",
+      "era": "Modern",
+      "cost": 350,
+      "prerequisites": ["Steelworking", "Radio"],
+      "unlocks": [
+        "Ability to build Airports",
+        "Ability to train Biplanes and Fighters"
+      ]
+    },
+    {
+      "name": "Refrigeration",
+      "era": "Modern",
+      "cost": 300,
+      "prerequisites": ["Medicine"],
+      "unlocks": [
+        "Ability to build Supermarkets",
+        "Improved food production"
+      ]
+    },
+    {
+      "name": "Computers",
+      "era": "Modern",
+      "cost": 360,
+      "prerequisites": ["Scientific Theory", "Electronics"],
+      "unlocks": [
+        "Ability to build Universities",
+        "Improved science generation"
+      ]
+    },
+    {
+      "name": "Urbanization",
+      "era": "Modern",
+      "cost": 320,
+      "prerequisites": ["Replaceable Parts"],
+      "unlocks": [
+        "Ability to build Stadiums",
+        "Improved amenities"
+      ]
+    },
+    {
+      "name": "Hydroelectric Power",
+      "era": "Modern",
+      "cost": 340,
+      "prerequisites": ["Electricity"],
+      "unlocks": [
+        "Ability to build Hydro Plants",
+        "Clean energy production"
+      ]
+    },
+    {
+      "name": "Combustion",
+      "era": "Modern",
+      "cost": 330,
+      "prerequisites": ["Steam Power"],
+      "unlocks": [
+        "Ability to train Tanks and Destroyers",
+        "Improved land and naval warfare"
+      ]
+    },
+    {
+      "name": "Mass Production",
+      "era": "Modern",
+      "cost": 310,
+      "prerequisites": ["Industrialization"],
+      "unlocks": [
+        "Improved industrial output"
+      ]
+    },
+    {
+      "name": "Advanced Flight",
+      "era": "Modern",
+      "cost": 380,
+      "prerequisites": ["Flight"],
+      "unlocks": [
+        "Ability to train Jet Fighters and Bombers",
+        "Improved air warfare"
+      ]
+    },
+    {
+      "name": "Electronics",
+      "era": "Modern",
+      "cost": 340,
+      "prerequisites": ["Radio", "Replaceable Parts"],
+      "unlocks": [
+        "Unlocks electronic based buildings and units"
+      ]
+    },
+    {
+      "name": "Nuclear Fission",
+      "era": "Atomic",
+      "cost": 500,
+      "prerequisites": ["Rocketry", "Electronics"],
+      "unlocks": [
+        "Ability to build Nuclear Power Plants",
+        "Ability to build Atomic Bombs"
+      ]
+    },
+    {
+      "name": "Rocketry",
+      "era": "Atomic",
+      "cost": 450,
+      "prerequisites": ["Advanced Flight", "Combustion"],
+      "unlocks": [
+        "Ability to build Missile Silos",
+        "Space exploration projects"
+      ]
+    },
+    {
+      "name": "Cryptography",
+      "era": "Atomic",
+      "cost": 420,
+      "prerequisites": ["Computers"],
+      "unlocks": [
+        "Ability to build Intelligence Agencies",
+        "Improved espionage capabilities"
+      ]
+    },
+    {
+      "name": "Computers",
+      "era": "Modern",
+      "cost": 360,
+      "prerequisites": ["Electronics"],
+      "unlocks": [
+        "Ability to build Universities",
+        "Improved science generation"
+      ]
+    },
+    {
+      "name": "Satellites",
+      "era": "Atomic",
+      "cost": 480,
+      "prerequisites": ["Rocketry", "Electronics"],
+      "unlocks": [
+        "Improved map visibility",
+        "Strategic resource reveals"
+      ]
+    },
+    {
+      "name": "Combined Arms",
+      "era": "Atomic",
+      "cost": 460,
+      "prerequisites": ["Combustion", "Advanced Flight"],
+      "unlocks": [
+        "Ability to train Modern Armor and Helicopters",
+        "Improved land warfare"
+      ]
+    },
+    {
+      "name": "Nuclear Fusion",
+      "era": "Atomic",
+      "cost": 550,
+      "prerequisites": ["Nuclear Fission"],
+      "unlocks": [
+        "Ability to build Fusion Power Plants",
+        "Ability to build Hydrogen Bombs"
+      ]
+    },
+    {
+      "name": "Advanced Ballistics",
+      "era": "Atomic",
+      "cost": 520,
+      "prerequisites": ["Rocketry"],
+      "unlocks": [
+        "Improved missile range and accuracy"
+      ]
+    },
+    {
+      "name": "Radar",
+      "era": "Atomic",
+      "cost": 440,
+      "prerequisites": ["Electronics"],
+      "unlocks": [
+        "Improved military detection",
+        "Improved city defense"
+      ]
+    },
+    {
+      "name": "Synthetic Materials",
+      "era": "Atomic",
+      "cost": 500,
+      "prerequisites": ["Chemistry", "Nuclear Fission"],
+      "unlocks": [
+        "Advanced building materials",
+        "Improved military equipment"
+      ]
+    },
+    {
+      "name": "Internet",
+      "era": "Information",
+      "cost": 600,
+      "prerequisites": ["Satellites", "Computers"],
+      "unlocks": [
+        "Ability to build Internet Hubs",
+        "Improved global communication"
+      ]
+    },
+    {
+      "name": "Advanced Computing",
+      "era": "Information",
+      "cost": 650,
+      "prerequisites": ["Computers", "Synthetic Materials"],
+      "unlocks": [
+        "Ability to build Data Centers",
+        "Improved data processing"
+      ]
+    },
+    {
+      "name": "Advanced Satellites",
+      "era": "Information",
+      "cost": 700,
+      "prerequisites": ["Satellites", "Internet"],
+      "unlocks": [
+        "Improved global awareness",
+        "Advanced reconnaissance capabilities"
+      ]
+    },
+    {
+      "name": "Nanotechnology",
+      "era": "Information",
+      "cost": 700,
+      "prerequisites": ["Advanced Computing", "Genetic Engineering"],
+      "unlocks": [
+        "Ability to build Advanced Research Labs",
+        "Improved scientific innovation"
+      ]
+    },
+    {
+      "name": "Cybernetics",
+      "era": "Information",
+      "cost": 680,
+      "prerequisites": ["Artificial Intelligence", "Robotics"],
+      "unlocks": [
+        "Ability to build Cybersecurity Centers",
+        "Improved cyber defense"
+      ]
+    },
+    {
+      "name": "Robotics",
+      "era": "Information",
+      "cost": 630,
+      "prerequisites": ["Advanced Computing", "Synthetic Materials"],
+      "unlocks": [
+        "Improved automation",
+        "Advanced production capabilities"
+      ]
+    },
+    {
+      "name": "Genetic Engineering",
+      "era": "Information",
+      "cost": 620,
+      "prerequisites": ["Medicine", "Advanced Computing"],
+      "unlocks": [
+        "Improved biological advancements",
+        "Advanced medical capabilities"
+      ]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "era": "Information",
+      "cost": 670,
+      "prerequisites": ["Advanced Computing", "Internet"],
+      "unlocks": [
+        "Improved automation",
+        "Advanced strategic capabilities"
+      ]
+    },
+    {
+      "name": "Quantum Computing",
+      "era": "Information",
+      "cost": 750,
+      "prerequisites": ["Nanotechnology", "Artificial Intelligence"],
+      "unlocks": [
+        "Improved processing power",
+        "Advanced research capabilities"
+      ]
+    },
+    {
+      "name": "Advanced Naval Tactics",
+      "era": "Information",
+      "cost": 720,
+      "prerequisites": ["Cybernetics", "Robotics"],
+      "unlocks": [
+        "Ability to train advanced naval units",
+        "Improved naval combat capabilities",
+        "Ability to build advanced naval buildings."
+      ]
+    },
+    {
+      "name": "Fusion Reactors",
+      "era": "Information",
+      "cost": 780,
+      "prerequisites": ["Nuclear Fusion", "Nanotechnology"],
+      "unlocks": [
+        "Advanced power generation",
+        "Unlocks new strategic resources"
+      ]
+    },
+    {
+      "name": "Space Colonization",
+      "era": "Information",
+      "cost": 800,
+      "prerequisites": ["Advanced Satellites", "Robotics"],
+      "unlocks": [
+        "Ability to establish off-world colonies",
+        "Unlocks space-based infrastructure"
+      ]
+    },
+    {
+      "name": "Powered Exoskeleton",
+      "era": "Future",
+      "cost": 1000,
+      "prerequisites": ["Robotics", "Synthetic Materials"],
+      "unlocks": [
+        "Increased unit strength and movement",
+        "Unlocks Exoskeleton units"
+      ]
+    },
+    {
+      "name": "Hovering Motors",
+      "era": "Future",
+      "cost": 1100,
+      "prerequisites": ["Advanced Flight", "Synthetic Materials"],
+      "unlocks": [
+        "Unlocks Hovering units",
+        "Improved city infrastructure"
+      ]
+    },{
+      "name": "Interstellar Travel",
+      "era": "Future",
+      "cost": 1400,
+      "prerequisites": ["Space Shuttles", "Fusion Reactors"],
+      "unlocks": [
+        "Ability to travel to other star systems",
+        "Unlocks interstellar exploration and colonization"
+      ]
+    },
+    {
+      "name": "Space Shuttles",
+      "era": "Future",
+      "cost": 1200,
+      "prerequisites": ["Space Colonization", "Advanced Ballistics"],
+      "unlocks": [
+        "Improved space travel capabilities",
+        "Unlocks space-based projects"
+      ]
+    },
+    {
+      "name": "Mega-Engineering",
+      "era": "Future",
+      "cost": 1300,
+      "prerequisites": ["Advanced AI Networks", "Space Colonization"],
+      "unlocks": [
+        "Ability to construct megastructures",
+        "Unlocks powerful strategic advantages"
+      ]
+    },
+    {
+      "name": "Future Techs",
+      "era": "Future",
+      "cost": 1500,
+      "prerequisites": ["Interstellar Travel", "Mega-Engineering"],
+      "unlocks": [
+        "Culmination of technological advancement"
+      ]
+    }
+  ]
+}

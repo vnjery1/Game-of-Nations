@@ -688,6 +688,23 @@
         "replaces": null
     },
     {
+      "name": "Biplane",
+      "era": "Modern",
+      "type":"Aircraft",
+      "uniqueTo": null,
+      "cost": 120,
+      "maintenance": 2,
+      "strength": 35,
+      "movement": 5,
+      "range": 2,
+      "requiredTech": "Flight",
+      "abilities": [
+        "Air Combat: Effective against other air units and ground units.",
+        "Reconnaissance: Increased visibility range."
+      ],
+      "replaces": null
+    },
+    {
         "name": "Fighter",
         "type": "Aircraft",
         "era": "Modern",
@@ -743,7 +760,7 @@
         "strength": 85,
         "movement": 4,
         "abilities": [
-          "Stealth: Invisible to most units unless the enemy has discovered [Radio]."
+          "Stealth: Invisible to most units unless the enemy has discovered [Radar]."
         ],
         "replaces": null
     },
