@@ -1,0 +1,76 @@
+{
+  "unit_types": [
+    {
+      "name": "Melee",
+      "terrain": "Land"
+    },
+    {
+      "name": "Ranged",
+      "terrain": "Land"
+    },
+    {
+      "name": "Civilian",
+      "terrain": "Land"
+    },
+    {
+      "name": "Militant Naval",
+      "terrain": "Water"
+    },
+    {
+      "name": "Civilian Naval",
+      "terrain": "Water"
+    },
+    {
+      "name": "Militant Deep Naval",
+      "terrain": "Water"
+    },
+    {
+      "name": "Recon",
+      "terrain": "Land"
+    },
+    {
+      "name": "Cavalry",
+      "terrain": "Land"
+    },
+    {
+      "name": "Armoured",
+      "terrain": "Land"
+    },
+    {
+      "name": "Aircraft",
+      "terrain": "Both"
+    },
+    {
+      "name": "Spacecraft",
+      "terrain": "Both"
+    },
+    {
+      "name": "Siege",
+      "terrain": "Land"
+    },
+    {
+      "name": "Gunpowder",
+      "terrain": "Land"
+    },
+    {
+      "name": "Great Person",
+      "terrain": "Both"
+    },
+    {
+      "name": "Religious Melee",
+      "terrain": "Land"
+    },
+    {
+      "name": "Religious Missionary",
+      "terrain": "Land"
+    },
+    {
+      "name": "Religious Apostle",
+      "terrain": "Land"
+    },
+    {
+      "name": "Religious Cavalry",
+      "terrain": "Land"
+    }
+  ]
+}

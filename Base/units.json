@@ -438,7 +438,7 @@
     },
     {
         "name": "Galleon",
-        "type": "Naval",
+        "type": "Militant Naval",
         "era": "Renaissance",
         "requiredTech": "Navigation",
         "uniqueTo": null,
@@ -922,7 +922,7 @@
     },
     {
         "name": "Modern Tank",
-        "type": "Cavalry",
+        "type": "Armoured",
         "era": "Information",
         "requiredTech": "Advanced Composites",
         "uniqueTo": null,
@@ -1078,7 +1078,7 @@
     },
     {
         "name": "Hover Tank",
-        "type": "Cavalry",
+        "type": "Armoured",
         "era": "Future",
         "requiredTech": "Hovering Motors",
         "uniqueTo": null,
@@ -1486,7 +1486,7 @@
     },
     {
       "name": "Hospitaller",
-      "type": "Religious Support",
+      "type": "Religious Melee",
       "era": "Medieval",
       "requiredTech": "Education",
       "uniqueTo": null,
