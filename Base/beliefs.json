@@ -2,7 +2,7 @@
   "pantheon_beliefs": [
     {
       "name": "Divine Spark",
-      "description": "+1 Science from every 4 population in a city.",
+      "description": "+1 [Science] from every 4 population in a city.",
       "yields": {
         "science_per_population": 0.25
       },
@@ -11,7 +11,7 @@
     },
     {
       "name": "God of Craftsmen",
-      "description": "+1 Production from improved [Resources].",
+      "description": "+1 [Production] from improved [Resources].",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -20,7 +20,7 @@
     },
     {
       "name": "God of the Open Sky",
-      "description": "+1 Culture from [Pastures].",
+      "description": "+1 [Culture] from [Pastures].",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -30,7 +30,7 @@
     },
     {
       "name": "God of the Sea",
-      "description": "+1 Production from Fishing Boats.",
+      "description": "+1 [Production] from [Fishing Boats].",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -40,7 +40,7 @@
     },
     {
       "name": "Lady of the Reeds and Marshes",
-      "description": "+1 Food from Marsh tiles.",
+      "description": "+1 [Food] from [Marsh] tiles.",
       "yields": null,
       "terrain_yields": {
         "food": 1,
@@ -50,7 +50,7 @@
     },
     {
       "name": "Monument to the Gods",
-      "description": "+1 Culture from Ancient and Classical Wonders.",
+      "description": "+1 [Culture] from Ancient and Classical Wonders.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -69,7 +69,7 @@
     },
     {
       "name": "Earth Goddess",
-      "description": "+1 Faith from tiles with Charming or better Appeal.",
+      "description": "+1 [Faith] from tiles with Charming or better Appeal.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -79,7 +79,7 @@
     },
     {
       "name": "Dance of the Aurora",
-      "description": "+1 Faith from Tundra tiles.",
+      "description": "+1 [Faith] from Tundra tiles.",
       "yields": null,
       "terrain_yields": {
         "faith": 1,
@@ -89,7 +89,7 @@
     },
     {
       "name": "Desert Folklore",
-      "description": "+1 Faith from Desert tiles.",
+      "description": "+1 [Faith] from Desert tiles.",
       "yields": null,
       "terrain_yields": {
         "faith": 1,
@@ -99,7 +99,7 @@
     },
     {
       "name": "River Goddess",
-      "description": "+1 Amenity to cities with a River.",
+      "description": "+1 [Amenity] to cities with a River.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -109,7 +109,7 @@
     },
     {
       "name": "Sacred Path",
-      "description": "+1 Culture from Rainforest tiles.",
+      "description": "+1 [Culture] from Rainforest tiles.",
       "yields": null,
       "terrain_yields": {
         "culture": 1,
@@ -119,7 +119,7 @@
     },
     {
       "name": "Stone Circles",
-      "description": "+2 Faith from Quarries.",
+      "description": "+2 [Faith] from Quarries.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -129,7 +129,7 @@
     },
     {
       "name": "Goddess of Festivals",
-      "description": "+1 Food and +1 Culture from Plantations.",
+      "description": "+1 [Food] and +1 [Culture] from Plantations.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -140,7 +140,7 @@
     },
     {
       "name": "God-King",
-      "description": "+1 to Faith, Culture, Gold, Production, and Science in the Capital.",
+      "description": "+1 to [Faith], [Culture], [Gold], [Production], and [Science] in the Capital.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -154,7 +154,7 @@
     },
     {
       "name": "Initiation Rites",
-      "description": "100 Gold for each Barbarian unit defeated.",
+      "description": "100 [Gold] for each Barbarian unit defeated.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -163,7 +163,7 @@
     },
     {
       "name": "Oral Tradition",
-      "description": "+1 Culture from Plantations.",
+      "description": "+1 [Culture] from Plantations.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -173,7 +173,7 @@
     },
     {
       "name": "Religious Idols",
-      "description": "+1 Culture from Mines.",
+      "description": "+1 [Culture] from Mines.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -183,7 +183,7 @@
     },
     {
       "name": "Fertility Rites",
-      "description": "+1 Food from Farms.",
+      "description": "+1 [Food] from Farms.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -193,7 +193,7 @@
     },
     {
       "name": "City Patron Goddess",
-      "description": "+1 Production towards buildings in the city where Pantheon is founded.",
+      "description": "+1 [Production] towards buildings in the city where Pantheon is founded.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -203,7 +203,7 @@
     },
     {
         "name":"God of War",
-        "description": "+1 Culture for each enemy unit killed within your territory.",
+        "description": "+1 [Culture] for each enemy unit killed within your territory.",
         "yields":null,
         "terrain_yields":null,
         "resource_yields":{
@@ -213,7 +213,7 @@
     },
     {
       "name": "Tutelary Deities",
-      "description": "+1 Faith from strategic resources.",
+      "description": "+1 [Faith] from strategic resources.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -223,7 +223,7 @@
     },
     {
       "name": "Fire Goddess",
-      "description": "+2 Faith from Geothermal Fissures.",
+      "description": "+2 [Faith] from Geothermal Fissures.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -233,7 +233,7 @@
     },
     {
       "name": "God of the Forge",
-      "description": "+2 Production from Iron resources.",
+      "description": "+2 [Production] from Iron resources.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -243,7 +243,7 @@
     },
     {
       "name": "God of Wine",
-      "description": "+1 Gold from Wine resources and +1 Amenity in cities with Wine.",
+      "description": "+1 [Gold] from Wine resources and +1 [Amenity] in cities with Wine.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -254,7 +254,7 @@
     },
     {
       "name": "Religious Colonization",
-      "description": "New cities on a different continent gain +2 Faith per turn.",
+      "description": "New cities on a different continent gain +2 [Faith] per turn.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -263,7 +263,7 @@
     },
     {
       "name": "Spirit of the Hunt",
-      "description": "+1 Food and +1 Production from Camps.",
+      "description": "+1 [Food] and +1 [Production] from Camps.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -274,7 +274,7 @@
     },
     {
       "name": "Celestial Navigation",
-      "description": "+1 Movement for naval units.",
+      "description": "+1 [Movement] for naval units.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -283,7 +283,7 @@
     },
     {
       "name": "God of Festivals",
-      "description": "+1 Food and +1 Culture from Plantations.",
+      "description": "+1 [Food] and +1 [Culture] from Plantations.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -294,7 +294,7 @@
     },
     {
       "name": "Keeper of the Flame",
-      "description": "+2 Faith from burning resources.",
+      "description": "+2 [Faith] from burning resources.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -304,7 +304,7 @@
     },
     {
       "name": "God of Commerce",
-      "description": "+2 Gold from trade routes.",
+      "description": "+2 [Gold] from trade routes.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
@@ -314,13 +314,279 @@
     },
     {
       "name": "God of the Underworld",
-      "description": "+1 Faith and +1 Production from resources in Volcanic Soil.",
+      "description": "+1 [Faith] and +1 [Production] from resources in Volcanic Soil.",
       "yields": null,
       "terrain_yields": null,
       "resource_yields": {
         "faith": 1,
         "production": 1,
         "volcanic_soil": true
+      }
+    }
+  ],
+  "founder_beliefs": [
+    {
+      "name": "Tithe",
+      "description": "+1 [Gold] for every 4 followers of this religion.",
+      "yields": {
+        "gold_per_follower": 0.25
+      },
+      "follower_yields": {
+        "gold": 0.25
+      }
+    },
+    {
+      "name": "Church Property",
+      "description": "+1 [Production] for every 4 followers in cities following this religion.",
+      "yields": {
+        "production_per_follower": 0.25
+      },
+      "follower_yields": {
+        "production": 0.25
+      }
+    },
+    {
+      "name": "World Church",
+      "description": "+2 [Faith] for every city following this religion.",
+      "yields": {
+        "faith_per_city": 2
+      },
+      "city_yields": {
+        "faith": 2
+      }
+    },
+    {
+      "name": "Pacifism",
+      "description": "+1 [Amenity] in cities following this religion.",
+      "yields": {
+        "amenities_per_city": 1
+      },
+      "city_yields": {
+        "amenities": 1
+      }
+    },
+    {
+      "name": "Pilgrimage",
+      "description": "+1 [Faith] for every foreign city following this religion.",
+      "yields": {
+        "faith_per_foreign_city": 1
+      },
+      "foreign_city_yields": {
+        "faith": 1
+      }
+    },
+    {
+      "name": "Scripture",
+      "description": "+1 [Science] for every 4 followers of this religion.",
+      "yields": {
+        "science_per_follower": 0.25
+      },
+      "follower_yields": {
+        "science": 0.25
+      }
+    },
+    {
+      "name": "Monasticism",
+      "description": "+1 [Culture] for every 4 followers of this religion.",
+      "yields": {
+        "culture_per_follower": 0.25
+      },
+      "follower_yields": {
+        "culture": 0.25
+      }
+    },
+    {
+      "name": "Religious Community",
+      "description": "+1 [Production] in cities with at least 4 followers of this religion.",
+      "yields": {
+        "production_per_4_follower_city": 1
+      },
+      "city_follower_requirements": {
+        "production": 1,
+        "follower_count": 4
+      }
+    },
+    {
+      "name": "Divine Inspiration",
+      "description": "+2 [Culture] from Natural Wonders in cities following this religion.",
+      "yields": {
+        "culture_from_natural_wonders": 2
+      },
+      "city_natural_wonder_yields": {
+        "culture": 2
+      }
+    },
+    {
+      "name": "Lay Ministry",
+      "description": "Reduces the cost of purchasing religious units by 15%.",
+      "yields": null,
+      "religious_unit_cost_reduction": 0.15
+    },
+    {
+      "name": "Defender of the Faith",
+      "description": "+5 Combat Strength to religious units in friendly territory following this religion.",
+      "yields": null,
+      "religious_unit_combat_bonus": {
+        "combat_strength": 5,
+        "friendly_territory": true
+      }
+    },
+    {
+      "name": "Missionary Zeal",
+      "description": "+1 [Movement] to religious units.",
+      "yields": null,
+      "religious_unit_movement_bonus": 1
+    },
+    {
+      "name": "Religious Tolerance",
+      "description": "+1 [Amenity] in cities with at least two different religions.",
+      "yields": {
+        "amenities_per_mixed_religion_city": 1
+      },
+      "city_mixed_religion_yields": {
+        "amenities": 1
+      }
+    },
+    {
+        "name":"[Faith] Healers",
+        "description":"Units heal +10 hit points per turn in friendly territory following this religion.",
+        "yields":null,
+        "unit_healing_bonus":{
+            "healing_amount":10,
+            "friendly_territory":true
+        }
+    },
+    {
+      "name": "Holy Sites",
+      "description": "+1 [Faith] from Natural Wonders in cities following this religion.",
+      "yields": {
+        "faith_from_natural_wonders": 1
+      },
+      "city_natural_wonder_yields": {
+        "faith": 1
+      }
+    },
+    {
+      "name": "Religious Texts",
+      "description": "+1 [Culture] from Great Works of Writing in cities following this religion.",
+      "yields": {
+        "culture_from_great_works": 1
+      },
+      "city_great_work_yields": {
+        "culture": 1,
+        "great_work_type": "Writing"
+      }
+    },
+    {
+      "name": "Religious Art",
+      "description": "+1 [Culture] from Great Works of Art in cities following this religion.",
+      "yields": {
+        "culture_from_great_works": 1
+      },
+      "city_great_work_yields": {
+        "culture": 1,
+        "great_work_type": "Art"
+      }
+    },
+    {
+      "name": "Religious Music",
+      "description": "+1 [Culture] from Great Works of Music in cities following this religion.",
+      "yields": {
+        "culture_from_great_works": 1
+      },
+      "city_great_work_yields": {
+        "culture": 1,
+        "great_work_type": "Music"
+      }
+    },
+    {
+      "name": "Divine Right",
+      "description": "+1 [Loyalty] per turn in cities following this religion.",
+      "yields": {
+        "loyalty_per_turn": 1
+      },
+      "city_loyalty_yields": {
+        "loyalty": 1
+      }
+    },
+    {
+      "name": "Religious Schools",
+      "description": "+1 [Science] in cities with a Temple following this religion.",
+      "yields": {
+        "science_per_temple": 1
+      },
+      "city_temple_yields": {
+        "science": 1
+      }
+    },
+    {
+      "name": "Religious Trade",
+      "description": "+1 [Gold] from trade routes to cities following this religion.",
+      "yields": {
+        "gold_per_trade_route_to": 1
+      },
+      "trade_route_yields": {
+        "gold": 1,
+        "to_religious_city": true
+      }
+    },
+    {
+      "name": "Religious Festivals",
+      "description": "+1 [Amenity] in cities during a Golden Age if following this religion.",
+      "yields": {
+        "amenities_golden_age": 1
+      },
+      "city_golden_age_yields": {
+        "amenities": 1
+      }
+    },
+    {
+      "name": "Religious Zealots",
+      "description": "Religious units gain +2 [Combat Strength] when fighting in foreign territory.",
+      "yields": null,
+      "religious_unit_combat_bonus": {
+        "combat_strength": 2,
+        "foreign_territory": true
+      }
+    },
+    {
+      "name": "Religious Scholars",
+      "description": "+1 [Science] from Libraries in cities following this religion.",
+      "yields": {
+        "science_per_library": 1
+      },
+      "city_library_yields": {
+        "science": 1
+      }
+    },
+    {
+      "name": "Religious Architects",
+      "description": "+1 [Production] towards Wonders in cities following this religion.",
+      "yields": {
+        "production_towards_wonders": 1
+      },
+      "city_wonder_yields": {
+        "production": 1
+      }
+    },
+    {
+      "name": "Religious Diplomats",
+      "description": "+1 [Influence] per turn with City-States following this religion.",
+      "yields": {
+        "city_state_influence": 1
+      },
+      "city_state_yields": {
+        "influence": 1
+      }
+    },
+    {
+      "name": "Religious Maritime",
+      "description": "+1 [Production] from Harbors in cities following this religion.",
+      "yields": {
+        "production_per_harbor": 1
+      },
+      "city_harbor_yields": {
+        "production": 1
       }
     }
   ]
