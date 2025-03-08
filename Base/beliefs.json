@@ -1,0 +1,327 @@
+{
+  "pantheon_beliefs": [
+    {
+      "name": "Divine Spark",
+      "description": "+1 Science from every 4 population in a city.",
+      "yields": {
+        "science_per_population": 0.25
+      },
+      "terrain_yields": null,
+      "resource_yields": null
+    },
+    {
+      "name": "God of Craftsmen",
+      "description": "+1 Production from improved [Resources].",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "production": 1
+      }
+    },
+    {
+      "name": "God of the Open Sky",
+      "description": "+1 Culture from [Pastures].",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "culture": 1,
+        "pasture": true
+      }
+    },
+    {
+      "name": "God of the Sea",
+      "description": "+1 Production from Fishing Boats.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "production": 1,
+        "fishing_boats": true
+      }
+    },
+    {
+      "name": "Lady of the Reeds and Marshes",
+      "description": "+1 Food from Marsh tiles.",
+      "yields": null,
+      "terrain_yields": {
+        "food": 1,
+        "marsh": true
+      },
+      "resource_yields": null
+    },
+    {
+      "name": "Monument to the Gods",
+      "description": "+1 Culture from Ancient and Classical Wonders.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "culture": 1,
+        "wonder_ancient_classical": true
+      }
+    },
+    {
+      "name": "Religious Settlements",
+      "description": "+15% faster border expansion.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "border_expansion": 0.15
+      }
+    },
+    {
+      "name": "Earth Goddess",
+      "description": "+1 Faith from tiles with Charming or better Appeal.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "faith": 1,
+        "appeal_charming_or_better": true
+      }
+    },
+    {
+      "name": "Dance of the Aurora",
+      "description": "+1 Faith from Tundra tiles.",
+      "yields": null,
+      "terrain_yields": {
+        "faith": 1,
+        "tundra": true
+      },
+      "resource_yields": null
+    },
+    {
+      "name": "Desert Folklore",
+      "description": "+1 Faith from Desert tiles.",
+      "yields": null,
+      "terrain_yields": {
+        "faith": 1,
+        "desert": true
+      },
+      "resource_yields": null
+    },
+    {
+      "name": "River Goddess",
+      "description": "+1 Amenity to cities with a River.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "amenities": 1,
+        "river": true
+      }
+    },
+    {
+      "name": "Sacred Path",
+      "description": "+1 Culture from Rainforest tiles.",
+      "yields": null,
+      "terrain_yields": {
+        "culture": 1,
+        "rainforest": true
+      },
+      "resource_yields": null
+    },
+    {
+      "name": "Stone Circles",
+      "description": "+2 Faith from Quarries.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "faith": 2,
+        "quarry": true
+      }
+    },
+    {
+      "name": "Goddess of Festivals",
+      "description": "+1 Food and +1 Culture from Plantations.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "food": 1,
+        "culture": 1,
+        "plantation": true
+      }
+    },
+    {
+      "name": "God-King",
+      "description": "+1 to Faith, Culture, Gold, Production, and Science in the Capital.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "faith": 1,
+        "culture": 1,
+        "gold": 1,
+        "production": 1,
+        "science": 1,
+        "capital": true
+      }
+    },
+    {
+      "name": "Initiation Rites",
+      "description": "100 Gold for each Barbarian unit defeated.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "gold_per_barbarian": 100
+      }
+    },
+    {
+      "name": "Oral Tradition",
+      "description": "+1 Culture from Plantations.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "culture": 1,
+        "plantation": true
+      }
+    },
+    {
+      "name": "Religious Idols",
+      "description": "+1 Culture from Mines.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "culture": 1,
+        "mine": true
+      }
+    },
+    {
+      "name": "Fertility Rites",
+      "description": "+1 Food from Farms.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "food": 1,
+        "farm": true
+      }
+    },
+    {
+      "name": "City Patron Goddess",
+      "description": "+1 Production towards buildings in the city where Pantheon is founded.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "production_towards_buildings": 1,
+        "city_pantheon_founded": true
+      }
+    },
+    {
+        "name":"God of War",
+        "description": "+1 Culture for each enemy unit killed within your territory.",
+        "yields":null,
+        "terrain_yields":null,
+        "resource_yields":{
+            "culture_per_enemy_kill":1,
+            "within_territory": true
+        }
+    },
+    {
+      "name": "Tutelary Deities",
+      "description": "+1 Faith from strategic resources.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "faith": 1,
+        "strategic_resource": true
+      }
+    },
+    {
+      "name": "Fire Goddess",
+      "description": "+2 Faith from Geothermal Fissures.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "faith": 2,
+        "geothermal_fissure": true
+      }
+    },
+    {
+      "name": "God of the Forge",
+      "description": "+2 Production from Iron resources.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "production": 2,
+        "iron": true
+      }
+    },
+    {
+      "name": "God of Wine",
+      "description": "+1 Gold from Wine resources and +1 Amenity in cities with Wine.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "gold": 1,
+        "amenities": 1,
+        "wine": true
+      }
+    },
+    {
+      "name": "Religious Colonization",
+      "description": "New cities on a different continent gain +2 Faith per turn.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "faith_per_turn_different_continent": 2
+      }
+    },
+    {
+      "name": "Spirit of the Hunt",
+      "description": "+1 Food and +1 Production from Camps.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "food": 1,
+        "production": 1,
+        "camp": true
+      }
+    },
+    {
+      "name": "Celestial Navigation",
+      "description": "+1 Movement for naval units.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "naval_unit_movement": 1
+      }
+    },
+    {
+      "name": "God of Festivals",
+      "description": "+1 Food and +1 Culture from Plantations.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "food": 1,
+        "culture": 1,
+        "plantation": true
+      }
+    },
+    {
+      "name": "Keeper of the Flame",
+      "description": "+2 Faith from burning resources.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "faith_per_burning_resource": 2,
+        "burning_resource": true
+      }
+    },
+    {
+      "name": "God of Commerce",
+      "description": "+2 Gold from trade routes.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "gold_per_trade_route": 2,
+        "trade_route": true
+      }
+    },
+    {
+      "name": "God of the Underworld",
+      "description": "+1 Faith and +1 Production from resources in Volcanic Soil.",
+      "yields": null,
+      "terrain_yields": null,
+      "resource_yields": {
+        "faith": 1,
+        "production": 1,
+        "volcanic_soil": true
+      }
+    }
+  ]
+}

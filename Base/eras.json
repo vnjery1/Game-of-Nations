@@ -1,0 +1,84 @@
+{
+  "eras": [
+    {
+      "name": "Ancient Era",
+      "description": "The dawn of civilization, marked by the development of agriculture and basic technologies.",
+      "color": "#D2B48C",
+      "bonuses": {
+        "production": 0.05,
+        "food": 0.1
+      }
+    },
+    {
+      "name": "Classical Era",
+      "description": "The rise of empires and the development of philosophy, arts, and advanced warfare.",
+      "color": "#CD853F",
+      "bonuses": {
+        "culture": 0.1,
+        "gold": 0.05
+      }
+    },
+    {
+      "name": "Medieval Era",
+      "description": "A time of castles, knights, and the spread of organized religion.",
+      "color": "#808080",
+      "bonuses": {
+        "faith": 0.15,
+        "defense": 0.1
+      }
+    },
+    {
+      "name": "Renaissance Era",
+      "description": "A period of cultural rebirth and scientific discovery, bridging the medieval and modern worlds.",
+      "color": "#B8860B",
+      "bonuses": {
+        "science": 0.1,
+        "culture": 0.1
+      }
+    },
+    {
+      "name": "Industrial Era",
+      "description": "The age of machines, factories, and rapid technological advancement.",
+      "color": "#A9A9A9",
+      "bonuses": {
+        "production": 0.2,
+        "gold": 0.1
+      }
+    },
+    {
+      "name": "Modern Era",
+      "description": "An era marked by global conflicts, technological innovation, and societal change.",
+      "color": "#008B8B",
+      "bonuses": {
+        "science": 0.15,
+        "amenities": 0.1
+      }
+    },
+    {
+      "name": "Atomic Era",
+      "description": "The age of nuclear power and the space race, shaping the world with new possibilities and dangers.",
+      "color": "#8B0000",
+      "bonuses": {
+        "production": 0.15,
+        "defense": 0.15
+      }
+    },
+    {
+      "name": "Information Era",
+      "description": "The digital age, characterized by global communication and rapid information access.",
+      "color": "#00008B",
+      "bonuses": {
+        "science": 0.2,
+        "gold": 0.15
+      }
+    },
+    {
+      "name": "Future Era",
+      "description": "An era of transhumanism, interstellar travel, and the potential for technological singularity.",
+      "color": "#4B0082",
+      "bonuses": {
+        "all_yields": 0.1
+      }
+    }
+  ]
+}
