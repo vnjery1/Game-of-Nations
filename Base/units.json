@@ -1290,5 +1290,295 @@
         "cost": 110,
         "pointsPerTurn": 4
       }
+  ],
+  "religiousUnits":[
+    {
+      "name": "Warrior Monk",
+      "type": "Religious Melee",
+      "era": "Classical",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 150,
+      "strength": 30,
+      "movement": 2,
+      "abilities": [
+        "Faith Combat: Uses Faith instead of Gold to purchase.",
+        "Religious Combat: Stronger when fighting units of other religions."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Missionary Zealot",
+      "type": "Religious Missionary",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 120,
+      "strength": 0,
+      "movement": 3,
+      "abilities": [
+        "Rapid Conversion: Spreads religion faster than standard missionaries.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Apostle Healer",
+      "type": "Religious Apostle",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 180,
+      "strength": 0,
+      "movement": 2,
+      "abilities": [
+        "Heal Religious Units: Can heal nearby religious units.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Holy Inquisitor",
+      "type": "Religious Melee",
+      "era": "Renaissance",
+      "requiredTech": "Printing",
+      "uniqueTo": null,
+      "cost": 220,
+      "strength": 40,
+      "movement": 2,
+      "abilities": [
+        "Purge Heresy: Removes a large amount of foreign religion from a city.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Dervish Warrior",
+      "type": "Religious Cavalry",
+      "era": "Medieval",
+      "requiredTech": "Chivalry",
+      "uniqueTo": null,
+      "cost": 250,
+      "strength": 45,
+      "movement": 3,
+      "abilities": [
+        "Fast Movement: Increased movement on open terrain.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Rabbi Scholar",
+      "type": "Religious Apostle",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 180,
+      "strength": 0,
+      "movement": 2,
+      "abilities": [
+        "Spread Wisdom: Provides a boost to science in cities it visits.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Bhikkhu Monk",
+      "type": "Religious Apostle",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 180,
+      "strength": 0,
+      "movement": 2,
+      "abilities": [
+        "Meditation: Provides a boost to culture in cities it visits.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Lama Mystic",
+      "type": "Religious Apostle",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 180,
+      "strength": 0,
+      "movement": 2,
+      "abilities": [
+        "Spiritual Guidance: Provides a boost to faith in cities it visits.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Brahmin Priest",
+      "type": "Religious Apostle",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 180,
+      "strength": 0,
+      "movement": 2,
+      "abilities": [
+        "Divine Blessing: Provides a boost to food in cities it visits.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Shaman Oracle",
+      "type": "Religious Apostle",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 180,
+      "strength": 0,
+      "movement": 2,
+      "abilities": [
+        "Nature's Wisdom: Provides a boost to production in cities it visits.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Imam Preacher",
+      "type": "Religious Missionary",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 120,
+      "strength": 0,
+      "movement": 3,
+      "abilities": [
+        "Inspiring Sermon: Spreads religion effectively.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Elder Prophet",
+      "type": "Religious Apostle",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 180,
+      "strength": 0,
+      "movement": 2,
+      "abilities": [
+        "Prophetic Vision: Provides a boost to faith and culture in cities it visits.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Hospitaller",
+      "type": "Religious Support",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 200,
+      "strength": 0,
+      "movement": 2,
+      "abilities": [
+        "Combat Healing: Heals nearby military units in combat.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Guru Guide",
+      "type": "Religious Missionary",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 120,
+      "strength": 0,
+      "movement": 3,
+      "abilities": [
+        "Spiritual Guidance: Spreads religion and provides a small culture bonus.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Jain Monk",
+      "type": "Religious Apostle",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 180,
+      "strength": 0,
+      "movement": 2,
+      "abilities": [
+        "Ahimsa: Prevents war weariness in nearby cities.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Moksha Seeker",
+      "type": "Religious Missionary",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 120,
+      "strength": 0,
+      "movement": 3,
+      "abilities": [
+        "Enlightenment: Provides a small science bonus when spreading religion.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Disciple Missionary",
+      "type": "Religious Missionary",
+      "era": "Medieval",
+      "requiredTech": "Education",
+      "uniqueTo": null,
+      "cost": 120,
+      "strength": 0,
+      "movement": 3,
+      "abilities": [
+        "Evangelism: Can spread religion to multiple cities at once.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    },
+    {
+      "name": "Jesuit Educator",
+      "type": "Religious Apostle",
+      "era": "Renaissance",
+      "requiredTech": "Printing",
+      "uniqueTo": null,
+      "cost": 180,
+      "strength": 0,
+      "movement": 2,
+      "abilities": [
+        "Scholarly Teachings: Provides a significant science boost to cities it visits.",
+        "Faith Purchase: Uses Faith instead of Gold to purchase."
+      ],
+      "upgradesFrom": null,
+      "replaces": null
+    }
   ]
 }

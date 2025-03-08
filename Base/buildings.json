@@ -1024,7 +1024,7 @@
       "replaces": null
     },
     {
-      "name": "Chapel",
+      "name": "Stupa",
       "requiredTech": "Theology",
       "uniqueTo": null,
       "cost": 110,
@@ -1034,6 +1034,126 @@
       },
       "abilities": [
         "Religious Gathering: Provides a significant bonus to faith generation and some culture.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Vihara",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "science": 2,
+        "faith": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a bonus to science and faith generation.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Dar-e Mehr",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "culture": 2,
+        "faith": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a bonus to culture and faith generation.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Shikhara",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "faith": 2,
+        "production": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a bonus to faith and production generation.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Kiva",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "culture": 2,
+        "food": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a bonus to culture and food generation.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Lamasary",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "faith": 2,
+        "gold": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a bonus to faith and gold generation.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Ashram",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "science": 2,
+        "culture": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a bonus to science and culture generation.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Zaviya",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "gold": 2,
+        "faith": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a bonus to gold and faith generation.",
+        "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
+      ],
+      "replaces": null
+    },
+    {
+      "name": "Beth Midrash",
+      "requiredTech": "Theology",
+      "uniqueTo": null,
+      "cost": 110,
+      "yields": {
+        "science": 2,
+        "gold": 1
+      },
+      "abilities": [
+        "Religious Gathering: Provides a bonus to science and gold generation.",
         "Belief Requirement: Can only be built if the city's dominant religion has the appropriate belief."
       ],
       "replaces": null

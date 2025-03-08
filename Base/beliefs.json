@@ -417,46 +417,6 @@
       }
     },
     {
-      "name": "Lay Ministry",
-      "description": "Reduces the cost of purchasing religious units by 15%.",
-      "yields": null,
-      "religious_unit_cost_reduction": 0.15
-    },
-    {
-      "name": "Defender of the Faith",
-      "description": "+5 Combat Strength to religious units in friendly territory following this religion.",
-      "yields": null,
-      "religious_unit_combat_bonus": {
-        "combat_strength": 5,
-        "friendly_territory": true
-      }
-    },
-    {
-      "name": "Missionary Zeal",
-      "description": "+1 [Movement] to religious units.",
-      "yields": null,
-      "religious_unit_movement_bonus": 1
-    },
-    {
-      "name": "Religious Tolerance",
-      "description": "+1 [Amenity] in cities with at least two different religions.",
-      "yields": {
-        "amenities_per_mixed_religion_city": 1
-      },
-      "city_mixed_religion_yields": {
-        "amenities": 1
-      }
-    },
-    {
-        "name":"[Faith] Healers",
-        "description":"Units heal +10 hit points per turn in friendly territory following this religion.",
-        "yields":null,
-        "unit_healing_bonus":{
-            "healing_amount":10,
-            "friendly_territory":true
-        }
-    },
-    {
       "name": "Holy Sites",
       "description": "+1 [Faith] from Natural Wonders in cities following this religion.",
       "yields": {
@@ -588,6 +548,790 @@
       "city_harbor_yields": {
         "production": 1
       }
+    }
+  ],
+  "believer_beliefs":[
+    {
+        "name": "Mandirs",
+        "description": "Unlocks the Mandir religious building, which provides +2 Faith and +1 Culture.",
+        "unlocks": {
+          "religious_building": {
+            "name": "Mandir",
+            "yields": {
+              "faith": 2,
+              "culture": 1
+            }
+          }
+        }
+      },
+      {
+        "name":"Viharas",
+        "description":"Unlocks the Vihara religious building, which provides +2 Science and +1 Faith.",
+        "unlocks":{
+            "religious_building":{
+                "name":"Vihara",
+                "yields":{
+                    "science":2,
+                    "faith":1
+                }
+            }
+        }
+    },
+    {
+        "name": "Warrior Monks",
+        "description": "Unlocks the Warrior Monk religious unit.",
+        "unlocks": {
+          "religious_unit": "Warrior Monk"
+        }
+    },
+    {
+        "name":"Dar-e Mehrs",
+        "description":"Unlocks the Dar-e Mehr religious building, which provides +2 Culture and +1 Faith.",
+        "unlocks":{
+            "religious_building":{
+                "name":"Dar-e Mehr",
+                "yields":{
+                    "culture":2,
+                    "faith":1
+                }
+            }
+        }
+    },
+    {
+        "name":"Shikharas",
+        "description":"Unlocks the Shikhara religious building, which provides +2 Faith and +1 Production.",
+        "unlocks":{
+            "religious_building":{
+                "name":"Shikhara",
+                "yields":{
+                    "faith":2,
+                    "production":1
+                }
+            }
+        }
+    },
+    {
+        "name":"Kivas",
+        "description":"Unlocks the Kiva religious building, which provides +2 Culture and +1 Food.",
+        "unlocks":{
+          "religious_building":{
+            "name":"Kiva",
+            "yields":{
+              "culture":2,
+              "food":1
+            }
+          }
+        }
+      },
+      {
+        "name":"Lamasaries",
+        "description":"Unlocks the Lamasary religious building, which provides +2 Faith and +1 Gold.",
+        "unlocks":{
+            "religious_building":{
+                "name":"Lamasary",
+                "yields":{
+                    "faith":2,
+                    "gold":1
+                }
+            }
+        }
+    },
+    {
+        "name":"Ashrams",
+        "description":"Unlocks the Ashram religious building, which provides +2 Science and +1 Culture.",
+        "unlocks":{
+            "religious_building":{
+                "name":"Ashram",
+                "yields":{
+                    "science":2,
+                    "culture":1
+                }
+            }
+        }
+    },
+    {
+        "name":"Zaviyas",
+        "description":"Unlocks the Zaviya religious building, which provides +2 Gold and +1 Faith.",
+        "unlocks":{
+            "religious_building":{
+                "name":"Zaviya",
+                "yields":{
+                    "gold":2,
+                    "faith":1
+                }
+            }
+        }
+    },
+    {
+        "name":"Beth Midrash",
+        "description":"Unlocks the Beth Midrash religious building, which provides +2 Science and +1 Gold.",
+        "unlocks":{
+            "religious_building":{
+                "name":"Beth Midrash",
+                "yields":{
+                    "science":2,
+                    "gold":1
+                }
+            }
+        }
+    },
+    {
+        "name": "Synagogues",
+        "description": "Unlocks the Synagogue religious building, which provides +2 Science and +1 Faith.",
+        "unlocks": {
+          "religious_building": {
+            "name": "Synagogue",
+            "yields": {
+              "science": 2,
+              "faith": 1
+            }
+          }
+        }
+      },
+      {
+        "name": "Mosques",
+        "description": "Unlocks the Mosque religious building, which provides +2 Gold and +1 Faith.",
+        "unlocks": {
+          "religious_building": {
+            "name": "Mosque",
+            "yields": {
+              "gold": 2,
+              "faith": 1
+            }
+          }
+        }
+      },
+      {
+        "name": "Cathedrals",
+        "description": "Unlocks the Cathedral religious building, which provides +2 Culture and +1 Faith.",
+        "unlocks": {
+          "religious_building": {
+            "name": "Cathedral",
+            "yields": {
+              "culture": 2,
+              "faith": 1
+            }
+          }
+        }
+      },
+      {
+        "name": "Gompas",
+        "description": "Unlocks the Gompa religious building, which provides +2 Faith and +1 Science.",
+        "unlocks": {
+          "religious_building": {
+            "name": "Gompa",
+            "yields": {
+              "faith": 2,
+              "science": 1
+            }
+          }
+        }
+      },
+      {
+        "name": "Pagodas",
+        "description": "Unlocks the Pagoda religious building, which provides +2 Culture and +1 Faith.",
+        "unlocks": {
+          "religious_building": {
+            "name": "Pagoda",
+            "yields": {
+              "culture": 2,
+              "faith": 1
+            }
+          }
+        }
+      },
+      {
+        "name": "Wats",
+        "description": "Unlocks the Wat religious building, which provides +2 Science and +1 Culture.",
+        "unlocks": {
+          "religious_building": {
+            "name": "Wat",
+            "yields": {
+              "science": 2,
+              "culture": 1
+            }
+          }
+        }
+      },
+      {
+        "name": "Gurdwaras",
+        "description": "Unlocks the Gurdwara religious building, which provides +2 Food and +1 Faith.",
+        "unlocks": {
+          "religious_building": {
+            "name": "Gurdwara",
+            "yields": {
+              "food": 2,
+              "faith": 1
+            }
+          }
+        }
+      },
+      {
+        "name": "Basilicas",
+        "description": "Unlocks the Basilica religious building, which provides +2 Faith and +1 Gold.",
+        "unlocks": {
+          "religious_building": {
+            "name": "Basilica",
+            "yields": {
+              "faith": 2,
+              "gold": 1
+            }
+          }
+        }
+      },
+      {
+        "name": "Stupas",
+        "description": "Unlocks the Stupa religious building, which provides +2 Faith and +1 Culture.",
+        "unlocks": {
+          "religious_building": {
+            "name": "Stupa",
+            "yields": {
+              "faith": 2,
+              "culture": 1
+            }
+          }
+        }
+      },
+      {
+      "name": "Missionary Zealots",
+      "description": "Unlocks the Missionary Zealot religious unit.",
+      "unlocks": {
+        "religious_unit": "Missionary Zealot"
+      }
+    },
+    {
+        "name": "Apostle Healers",
+        "description": "Unlocks the Apostle Healer religious unit.",
+        "unlocks": {
+          "religious_unit": "Apostle Healer"
+        }
+    },
+    {
+        "name": "Holy Inquisitors",
+        "description": "Unlocks the Holy Inquisitor religious unit.",
+        "unlocks": {
+          "religious_unit": "Holy Inquisitor"
+        }
+    },
+    {
+        "name": "Dervish Warriors",
+        "description": "Unlocks the Dervish Warrior religious unit.",
+        "unlocks": {
+          "religious_unit": "Dervish Warrior"
+        }
+    },
+    {
+        "name": "Rabbi Scholars",
+        "description": "Unlocks the Rabbi Scholar religious unit.",
+        "unlocks": {
+          "religious_unit": "Rabbi Scholar"
+        }
+    },
+    {
+        "name": "Bhikkhu Monks",
+        "description": "Unlocks the Bhikkhu Monk religious unit.",
+        "unlocks": {
+          "religious_unit": "Bhikkhu Monk"
+        }
+    },
+    {
+        "name": "Lama Mystics",
+        "description": "Unlocks the Lama Mystic religious unit.",
+        "unlocks": {
+          "religious_unit": "Lama Mystic"
+        }
+    },
+    {
+        "name": "Brahmin Priests",
+        "description": "Unlocks the Brahmin Priest religious unit.",
+        "unlocks": {
+          "religious_unit": "Brahmin Priest"
+        }
+    },
+    {
+        "name": "Shaman Oracles",
+        "description": "Unlocks the Shaman Oracle religious unit.",
+        "unlocks": {
+          "religious_unit": "Shaman Oracle"
+        }
+    },
+    {
+        "name":"Imam Preachers",
+        "description":"Unlocks the Imam Preacher religious unit.",
+        "unlocks":{
+            "religious_unit":"Imam Preacher"
+        }
+    },
+    {
+        "name":"Elder Prophets",
+        "description":"Unlocks the Elder Prophet religious unit.",
+        "unlocks":{
+            "religious_unit":"Elder Prophet"
+        }
+    },
+    {
+        "name":"Hospitallers",
+        "description":"Unlocks the Hospitaller religious unit.",
+        "unlocks":{
+            "religious_unit":"Hospitaller"
+        }
+    },
+    {
+        "name":"Guru Guides",
+        "description":"Unlocks the Guru Guide religious unit.",
+        "unlocks":{
+            "religious_unit":"Guru Guide"
+        }
+    },
+    {
+        "name":"Jain Monks",
+        "description":"Unlocks the Jain Monk religious unit.",
+        "unlocks":{
+            "religious_unit":"Jain Monk"
+        }
+    },
+    {
+        "name":"Moksha Seekers",
+        "description":"Unlocks the Moksha Seeker religious unit.",
+        "unlocks":{
+            "religious_unit":"Moksha Seeker"
+        }
+    },
+    {
+        "name":"Disciple Missionaries",
+        "description":"Unlocks the Disciple Missionary religious unit.",
+        "unlocks":{
+            "religious_unit":"Disciple Missionary"
+        }
+    },
+    {
+        "name":"Jesuit Educators",
+        "description":"Unlocks the Jesuit Educator religious unit.",
+        "unlocks":{
+            "religious_unit":"Jesuit Educator"
+        }
+    },
+    {
+        "name": "Monastic Isolation",
+        "description": "+1 Faith and +1 Culture in cities with at least 6 followers of this religion, but no other religions present.",
+        "yields": {
+          "faith_per_city": 1,
+          "culture_per_city": 1
+        },
+        "city_follower_requirements": {
+          "faith": 1,
+          "culture": 1,
+          "follower_count": 6,
+          "only_religion": true
+        }
+    },
+    {
+        "name": "Religious Tolerance",
+        "description": "+1 Amenity in cities with at least two different religions.",
+        "yields": {
+          "amenities_per_city": 1
+        },
+        "city_mixed_religion_yields": {
+          "amenities": 1
+        }
+    },
+    {
+        "name": "Sacred Sites",
+        "description": "+1 Faith from Natural Wonders in cities following this religion.",
+        "yields": {
+          "faith_per_natural_wonder": 1
+        },
+        "city_natural_wonder_yields": {
+          "faith": 1
+        }
+    },
+    {
+        "name": "Lay Ministry",
+        "description": "Reduces the cost of purchasing religious units by 15%.",
+        "yields": null,
+        "religious_unit_cost_reduction": 0.15
+    },
+    {
+        "name": "Defender of the Faith",
+        "description": "+5 Combat Strength to religious units in friendly territory following this religion.",
+        "yields": null,
+        "religious_unit_combat_bonus": {
+          "combat_strength": 5,
+          "friendly_territory": true
+        }
+    },
+    {
+        "name": "Missionary Zeal",
+        "description": "+1 Movement to religious units.",
+        "yields": null,
+        "religious_unit_movement_bonus": 1
+    },
+    {
+        "name":"Faith Healers",
+        "description":"Units heal +10 hit points per turn in friendly territory following this religion.",
+        "yields":null,
+        "unit_healing_bonus":{
+            "healing_amount":10,
+            "friendly_territory":true
+        }
+    },
+    {
+        "name": "Reliquaries",
+        "description": "+2 Faith from Relics.",
+        "yields": {
+          "faith_per_relic": 2
+        },
+        "city_relic_yields": {
+          "faith": 2
+        }
+    },
+    {
+        "name": "Zen Meditation",
+        "description": "+1 Amenity in cities with at least 4 followers of this religion.",
+        "yields": {
+          "amenities_per_4_follower_city": 1
+        },
+        "city_follower_requirements": {
+          "amenities": 1,
+          "follower_count": 4
+        }
+    },
+    {
+        "name":"Feed the Poor",
+        "description":"+1 Food from every 4 followers of this religion.",
+        "yields":{
+            "food_per_follower":0.25
+        },
+        "follower_yields":{
+            "food":0.25
+        }
+    },
+    {
+        "name":"Religious Harmony",
+        "description":"+1 Culture in cities with at least 4 followers of this religion and at least 2 different religions present.",
+        "yields":{
+            "culture_per_city":1
+        },
+        "city_follower_requirements":{
+            "culture":1,
+            "follower_count":4,
+            "mixed_religion":true
+        }
+    },
+    {
+        "name":"Pilgrim's Path",
+        "description":"+1 Faith from trade routes to cities following this religion.",
+        "yields":{
+            "faith_per_trade_route_to":1
+        },
+        "trade_route_yields":{
+            "faith":1,
+            "to_religious_city":true
+        }
+    },
+    {
+        "name":"Martyrdom",
+        "description":"Religious units gain +5 Faith when defeated in religious combat.",
+        "yields":{
+            "faith_per_defeated_unit":5
+        },
+        "religious_unit_death_yields":{
+            "faith":5
+        }
+    },
+    {
+        "name":"Inner Light",
+        "description":"+1 Science in cities with at least 4 followers of this religion and no other religions present.",
+        "yields":{
+            "science_per_city":1
+        },
+        "city_follower_requirements":{
+            "science":1,
+            "follower_count":4,
+            "only_religion":true
+        }
+    },
+    {
+        "name":"Religious Fervor",
+        "description":"+1 Production towards religious units in cities following this religion.",
+        "yields":{
+            "production_towards_religious_units":1
+        },
+        "city_religious_unit_production":{
+            "production":1
+        }
+    },
+    {
+        "name": "Religious Patronage",
+        "description": "+1 Gold from City-State trade routes to cities following this religion.",
+        "yields": {
+          "gold_per_city_state_trade_route": 1
+        },
+        "trade_route_yields": {
+          "gold": 1,
+          "from_city_state": true,
+          "to_religious_city": true
+        }
+    },
+    {
+        "name": "Scriptural Learning",
+        "description": "+1 Science from Great Works of Writing in cities following this religion.",
+        "yields": {
+          "science_from_great_works": 1
+        },
+        "city_great_work_yields": {
+          "science": 1,
+          "great_work_type": "Writing"
+        }
+    },
+    {
+        "name": "Artistic Devotion",
+        "description": "+1 Culture from Great Works of Art in cities following this religion.",
+        "yields": {
+          "culture_from_great_works": 1
+        },
+        "city_great_work_yields": {
+          "culture": 1,
+          "great_work_type": "Art"
+        }
+    },
+    {
+        "name": "Musical Worship",
+        "description": "+1 Culture from Great Works of Music in cities following this religion.",
+        "yields": {
+          "culture_from_great_works": 1
+        },
+        "city_great_work_yields": {
+          "culture": 1,
+          "great_work_type": "Music"
+        }
+    },
+    {
+        "name": "Loyal Congregation",
+        "description": "+1 Loyalty per turn in cities following this religion.",
+        "yields": {
+          "loyalty_per_turn": 1
+        },
+        "city_loyalty_yields": {
+          "loyalty": 1
+        }
+    },
+    {
+        "name": "Temple Gardens",
+        "description": "+1 Food in cities with a Temple following this religion.",
+        "yields": {
+          "food_per_temple": 1
+        },
+        "city_temple_yields": {
+          "food": 1
+        }
+    },
+    {
+        "name": "Harbor Blessings",
+        "description": "+1 Gold from Harbors in cities following this religion.",
+        "yields": {
+          "gold_per_harbor": 1
+        },
+        "city_harbor_yields": {
+          "gold": 1
+        }
+    },
+    {
+        "name": "Library Sanctity",
+        "description": "+1 Culture from Libraries in cities following this religion.",
+        "yields": {
+          "culture_per_library": 1
+        },
+        "city_library_yields": {
+          "culture": 1
+        }
+    },
+    {
+        "name": "Wonder Inspiration",
+        "description": "+1 Culture from Wonders in cities following this religion.",
+        "yields": {
+          "culture_per_wonder": 1
+        },
+        "city_wonder_yields": {
+          "culture": 1
+        }
+    },
+    {
+        "name": "City-State Devotion",
+        "description": "+1 Influence per turn with City-States following this religion.",
+        "yields": {
+          "city_state_influence": 1
+        },
+        "city_state_yields": {
+          "influence": 1
+        }
+    },
+    {
+        "name": "Religious Fortitude",
+        "description": "+1 Combat Strength to units in friendly territory following this religion.",
+        "yields": null,
+        "unit_combat_bonus": {
+          "combat_strength": 1,
+          "friendly_territory": true
+        }
+    },
+    {
+        "name": "Religious Endurance",
+        "description": "+1 Healing per turn to units in friendly territory following this religion.",
+        "yields": null,
+        "unit_healing_bonus": {
+          "healing_amount": 1,
+          "friendly_territory": true
+        }
+    }
+  ],
+  "enhancer_beliefs":[
+    {
+        "name": "Holy Order",
+        "description": "Religious units gain +1 Movement and +10 Combat Strength.",
+        "religious_unit_bonuses": {
+          "movement": 1,
+          "combat_strength": 10
+        }
+    },
+    {
+        "name": "Sacred Scripture",
+        "description": "+2 Faith, +2 Culture, and +2 Science in cities following this religion.",
+        "city_yields": {
+          "faith": 2,
+          "culture": 2,
+          "science": 2
+        }
+    },
+    {
+        "name": "Transcendence",
+        "description": "+1 Amenity and +1 Housing in cities following this religion.",
+        "city_yields": {
+          "amenities": 1,
+          "housing": 1
+        }
+    },
+    {
+        "name": "Religious Unity",
+        "description": "+2 Production and +2 Gold in cities with at least 6 followers of this religion.",
+        "city_follower_requirements": {
+          "production": 2,
+          "gold": 2,
+          "follower_count": 6
+        }
+    },
+    {
+        "name": "Divine Power",
+        "description": "+10 Combat Strength to all units in cities following this religion.",
+        "city_unit_combat_bonus": {
+          "combat_strength": 10
+        }
+    },
+    {
+        "name": "Holy Warriors",
+        "description": "Religious units can move after attacking.",
+        "religious_unit_abilities": [
+          "Move After Attacking"
+        ]
+    },
+    {
+        "name": "Trade Pilgrimage",
+        "description": "+2 Gold and +2 Faith from all trade routes to cities following this religion.",
+        "trade_route_yields": {
+          "gold": 2,
+          "faith": 2,
+          "to_religious_city": true
+        }
+    },
+    {
+        "name": "Wonder Worship",
+        "description": "+2 Culture and +2 Faith from all Wonders.",
+        "wonder_yields": {
+          "culture": 2,
+          "faith": 2
+        }
+    },
+    {
+        "name": "City-State Alliance",
+        "description": "+2 Influence per turn with all City-States following this religion.",
+        "city_state_yields": {
+          "influence": 2
+        }
+    },
+    {
+        "name": "Religious Domination",
+        "description": "Cities converted to this religion gain +10% Production and +10% Gold for 10 turns.",
+        "conversion_bonus": {
+          "production_percent": 10,
+          "gold_percent": 10,
+          "turns": 10
+        }
+    },
+    {
+        "name": "Divine Righteousness",
+        "description": "Units in cities following this religion gain +5 Combat Strength against units of other religions.",
+        "city_unit_combat_bonus": {
+          "combat_strength": 5,
+          "against_other_religions": true
+        }
+    },
+    {
+        "name": "Religious Enlightenment",
+        "description": "Great People points generated in cities following this religion are increased by 20%.",
+        "city_great_people_bonus": {
+          "great_people_percent": 20
+        }
+    },
+    {
+        "name": "Holy Inquisition",
+        "description": "Religious units can remove 100% of another religion's followers from a city in one action.",
+        "religious_unit_abilities": [
+          "Purge Heresy (Full)"
+        ]
+    },
+    {
+        "name": "Religious Prosperity",
+        "description": "+1 Gold and +1 Production from all districts in cities following this religion.",
+        "district_yields": {
+          "gold": 1,
+          "production": 1
+        }
+    },
+    {
+        "name": "Religious Supremacy",
+        "description": "Cities following this religion ignore Loyalty pressure from cities following other religions.",
+        "city_loyalty_immunity": {
+          "against_other_religions": true
+        }
+    },
+    {
+        "name": "Religious Expansion",
+        "description": "+1 Tile Culture Bomb effect when converting a city to this religion.",
+        "conversion_bonus": {
+          "culture_bomb_tiles": 1
+        }
+    },
+    {
+        "name": "Religious Sovereignty",
+        "description": "Cities following this religion cannot be converted by other religions if they have a garrisoned military unit.",
+        "city_religion_protection": {
+          "garrison_required": true
+        }
+    },
+    {
+        "name": "Religious Maritime Dominance",
+        "description": "+2 Movement to all [Water] units in cities following this religion.",
+        "city_naval_unit_bonus": {
+          "movement": 2
+        }
+    },
+    {
+        "name": "Religious Industrialization",
+        "description": "+1 Production from all strategic resources in cities following this religion.",
+        "resource_yields": {
+          "production": 1,
+          "strategic": true
+        }
     }
   ]
 }
