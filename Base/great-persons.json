@@ -1,0 +1,79 @@
+{
+  "great_people": {
+    "great_generals": [
+      "Minamoto no Yoshitsune",
+      "Takeda Shingen",
+      "Uesugi Kenshin",
+      "Sanada Yukimura",
+      "Toyotomi Hideyoshi",
+      "Saigo Takamori",
+      "Date Masamune",
+      "Sanada Yukimura",
+      "Yamagata Aritomo",
+      "Tadamichi Kuribayashi"
+    ],
+    "great_admirals": [
+      "Minamoto no Yoshitsune",
+      "Kuki Yoshitaka",
+      "Todo Takatora",
+      "Yamamoto Isoroku",
+      "Togo Heihachiro"
+    ],
+    "great_scientists": [
+      "Kitasato Shibasaburo",
+      "Noguchi Hideyo",
+      "Okakura Kakuzo",
+      "Yabuta Teijiro",
+      "Fukui Kenichi",
+      "Leo Esaki",
+      "Ei-ichi Negishi"
+    ],
+    "great_writers": [
+      "Murasaki Shikibu",
+      "Sei Shonagon",
+      "Matsuo Basho",
+      "Ihars Saiaku",
+      "Natsume Soseki",
+      "Mori Ogai",
+      "Akutagawa Ryunosuke",
+      "Yukio Mishima",
+      "Haruki Murakami"
+    ],
+    "great_artists": [
+      "Hokusai",
+      "Utagawa Hiroshige",
+      "Sesshu Toyo",
+      "Kano Eitoku",
+      "Tawaraya Sotatsu",
+      "Ogata Korin"
+    ],
+    "great_musicians": [
+      "Yatsuhashi Kengyo",
+      "Rentaro Taki",
+      "Kosaku Yamada","Toru Takemitsu",
+      "Ryuichi Sakamoto"
+    ],
+    "great_merchants": [
+      "Sumitomo Masatomo",
+      "Mitsui Takatoshi",
+      "Yasuda Zenjiro",
+      "Eiichi Shibusawa",
+      "Konosuke Matsushita",
+      "Soichiro Honda",
+      "Akio Morita"
+    ],
+    "great_engineers": [
+      "Tanaka Hisashige",
+      "Hideo Shima",
+      "Kisho Kurokawa"
+    ],
+    "great_prophets": [
+      "Kukai",
+      "Shinran",
+      "Nichiren",
+      "Dogen",
+      "Honen",
+      "Eisai"
+    ]
+  }
+}
