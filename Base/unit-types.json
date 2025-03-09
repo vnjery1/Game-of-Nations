@@ -22,6 +22,7 @@
     },
     {
       "name": "Militant Deep Naval",
+      "requiredResources":["Iron"],
       "terrain": "Water"
     },
     {
@@ -30,26 +31,32 @@
     },
     {
       "name": "Cavalry",
+      "requiredResources":["Horses"],
       "terrain": "Land"
     },
     {
       "name": "Armoured",
+      "requiredResources":["Niter", "Iron"],
       "terrain": "Land"
     },
     {
       "name": "Aircraft",
+      "requiredResources":["Iron"],
       "terrain": "Both"
     },
     {
       "name": "Spacecraft",
+      "requiredResources":["Iron"],
       "terrain": "Both"
     },
     {
       "name": "Siege",
+      "requiredResources":["Stone"],
       "terrain": "Land"
     },
     {
       "name": "Gunpowder",
+      "requiredResources":["Niter","Saltpeter"],
       "terrain": "Land"
     },
     {
@@ -70,6 +77,7 @@
     },
     {
       "name": "Religious Cavalry",
+      "requiredResources":["Horses"],
       "terrain": "Land"
     }
   ]

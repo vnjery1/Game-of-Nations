@@ -493,7 +493,7 @@
       "name": "Coal Power Plant",
       "era": "Industrial",
       "requiredTech": "Electricity",
-      "requiredResource":"Coal",
+      "requiredResources":["Coal"],
       "uniqueTo": null,
       "cost": 250,
       "yields": {
