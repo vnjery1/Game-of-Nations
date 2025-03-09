@@ -550,7 +550,7 @@
       }
     }
   ],
-  "believer_beliefs":[
+  "follower_beliefs":[
     {
         "name": "Mandirs",
         "description": "Unlocks the Mandir religious building, which provides +2 Faith and +1 Culture.",

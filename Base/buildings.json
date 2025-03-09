@@ -1158,5 +1158,933 @@
       ],
       "replaces": null
     }
+  ],
+  "wonders": [
+    {
+      "name": "Great Pyramids",
+      "cost": 250,
+      "era":"Ancient",
+      "terrainRequirement": "Desert",
+      "effects": {
+        "cultureBonus": 2,
+        "builderCharges": 2
+      },
+      "quote": "Soldiers, from the summit of these pyramids, forty centuries look down upon you.",
+      "quoter": "Napoleon Bonaparte"
+    },
+    {
+      "name": "Hanging Gardens",
+      "cost": 220,
+      "era": "Ancient",
+      "terrainRequirement": "River",
+      "effects": {
+        "housingBonus": 2,
+        "cityGrowthBonus": 0.1
+      },
+      "quote": "The Hanging Gardens are a true wonder.",
+      "quoter": "Diodorus Siculus"
+    },
+    {
+      "name": "Temple of Artemis",
+      "cost": 200,
+      "era": "Ancient",
+      "terrainRequirement": "Forest",
+      "effects": {
+        "amenitiesBonus": 2,
+        "growthBonus": 0.1
+      },
+      "quote": "Of all the marvels I have seen, the Temple of Artemis is the most magnificent.",
+      "quoter": "Antipater of Sidon"
+    },
+    {
+      "name": "Colossus",
+      "cost": 280,
+      "era": "Ancient",
+      "terrainRequirement": "Coast",
+      "effects": {
+        "goldBonus": 3,
+        "navalUnitProductionBonus": 0.15
+      },
+      "quote": "The Colossus was a masterpiece of art.",
+      "quoter": "Pliny the Elder"
+    },
+    {
+      "name": "Oracle",
+      "cost": 180,
+      "era": "Ancient",
+      "effects": {
+        "freeCivicBoost": true,
+        "freeTechnologyBoost": true
+      },
+      "quote": "Know thyself.",
+      "quoter": "Inscribed at the Oracle of Delphi"
+    },
+    {
+      "name": "Stonehenge",
+      "cost": 230,
+      "era": "Ancient",
+      "terrainRequirement": "Plains",
+      "effects": {
+        "faithBonus": 3,
+        "spreadReligionBonus": 0.1
+      },
+      "quote": "The wisest men follow their own direction.",
+      "quoter": "Euripides"
+    },
+    {
+      "name": "Great Lighthouse",
+      "cost": 240,
+      "era": "Ancient",
+      "terrainRequirement": "Coast",
+      "effects": {
+        "navalMovementBonus": 1,
+        "goldBonus": 2
+      },
+      "quote": "The sea is the universal highway.",
+      "quoter": "Polybius"
+    },
+    {
+      "name": "Terracotta Army",
+      "cost": 270,
+      "era": "Ancient",
+      "effects": {
+        "freeMilitaryUnit": true,
+        "militaryUnitProductionBonus": 0.1
+      },
+      "quote": "The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him.",
+      "quoter": "Sun Tzu"
+    },
+    {
+      "name": "Apadana",
+      "cost": 210,
+      "era": "Ancient",
+      "effects": {
+        "cultureBonus": 2,
+        "diplomaticFavorPerTurn": 1
+      },
+      "quote": "The Apadana: a hall where the might of the Persian Empire was displayed.",
+      "quoter": "Persian Royal Inscription"
+    },
+    {
+      "name": "Statue of Zeus",
+      "cost": 290,
+      "era": "Ancient",
+      "effects": {
+        "cultureBonus": 3,
+        "amenitiesBonus": 1
+      },
+      "quote": "The best revenge is to be unlike him who performed the injury.",
+      "quoter": "Marcus Aurelius"
+    },
+    {
+      "name": "Mausoleum at Halicarnassus",
+      "cost": 240,
+      "era": "Ancient",
+      "terrainRequirement": "Coast",
+      "effects": {
+        "loyaltyBonus": 10,
+        "cultureBonus": 2
+      },
+      "quote": "Time is the wisest counselor of all.",
+      "quoter": "Pericles"
+    },
+    {
+      "name": "Great Bath of Mohenjo-daro",
+      "cost": 200,
+      "era": "Ancient",
+      "terrainRequirement": "River",
+      "effects": {
+        "housingBonus": 3,
+        "amenitiesBonus": 1
+      },
+      "quote": "Civilization is a stream with banks. The stream is sometimes filled with blood from people killing, and the banks sometimes erode.",
+      "quoter": "Ibn Khaldun"
+    },
+    {
+      "name": "Amphitheatre of El Djem",
+      "cost": 300,
+      "era": "Classical",
+      "effects": {
+        "cultureBonus": 3,
+        "amenitiesBonus": 2
+      },
+      "quote": "Give them bread and circuses, and they will never revolt.",
+      "quoter": "Juvenal"
+    },
+    {
+      "name": "Temple of Amun",
+      "cost": 320,
+      "era": "Classical",
+      "terrainRequirement": "Desert",
+      "effects": {
+        "faithBonus": 4,
+        "cultureBonus": 2
+      },
+      "quote": "Religion is regarded by the common people as true, by the wise as false, and by the rulers as useful.",
+      "quoter": "Seneca the Younger"
+    },
+    {
+      "name": "Great Library of Alexandria",
+      "cost": 350,
+      "era": "Classical",
+      "effects": {
+        "scienceBonus": 4,
+        "freeTechnologyBoost": true
+      },
+      "quote": "The true wealth of a nation lies not in its gold or silver, but in its learning, wisdom, and the uprightness of its sons.",
+      "quoter": "Hypatia"
+    },
+    {
+      "name": "Meteora",
+      "cost": 280,
+      "era": "Classical",
+      "terrainRequirement": "Hills",
+      "effects": {
+        "faithBonus": 3,
+        "defenseBonus": 15
+      },
+      "quote": "The soul never thinks without a picture.",
+      "quoter": "Aristotle"
+    },
+    {
+      "name": "Petra",
+      "cost": 310,
+      "era": "Classical",
+      "terrainRequirement": "Desert Hills",
+      "effects": {
+        "tradeRouteBonus": 2,
+        "goldBonus": 3
+      },
+      "quote": "The art of getting rich consists... in preserving capital and putting it to the best advantage.",
+      "quoter": "Cicero"
+    },
+    {
+      "name": "Chichen Itza",
+      "cost": 330,
+      "era": "Classical",
+      "terrainRequirement": "Jungle",
+      "effects": {
+        "cultureBonus": 3,
+        "foodBonus": 3
+      },
+      "quote": "The best index to a person's character is how he treats people who can't do him any good, and how he treats people who can't fight back.",
+      "quoter": "Thucydides"
+    },
+    {
+      "name": "Huei Teocalli",
+      "cost": 340,
+      "era": "Classical",
+      "effects": {
+        "faithBonus": 4,
+        "militaryUnitProductionBonus": 0.15
+      },
+      "quote": "The strength of a nation derives from the integrity of the home.",
+      "quoter": "Confucius"
+    },
+    {
+      "name": "Circus Maximus",
+      "cost": 320,
+      "era": "Classical",
+      "effects": {
+        "amenitiesBonus": 3,
+        "cultureBonus": 2
+      },
+      "quote": "In war, events of importance are the result of trivial causes.",
+      "quoter": "Julius Caesar"
+    },
+    {
+      "name": "Temple of Confucius",
+      "cost": 300,
+      "era": "Classical",
+      "effects": {
+        "scienceBonus": 3,
+        "cultureBonus": 2
+      },
+      "quote": "Wherever you go, go with all your heart.",
+      "quoter": "Confucius"
+    },
+    {
+      "name": "Forum of Trajan",
+      "cost": 310,
+      "era": "Classical",
+      "effects": {
+        "goldBonus": 3,
+        "diplomaticFavorPerTurn": 1
+      },
+      "quote": "It is not enough to conquer; one must also learn to seduce.",
+      "quoter": "Voltaire"
+    },
+    {
+      "name": "Pergamon Altar",
+      "cost": 330,
+      "era": "Classical",
+      "effects": {
+        "cultureBonus": 4,
+        "greatWorksSlots": 2
+      },
+      "quote": "The aim of art is to represent not the outward appearance of things, but their inward significance.",
+      "quoter": "Aristotle"
+    },
+    {
+      "name": "Basilica Cistern",
+      "cost": 290,
+      "era": "Classical",
+      "terrainRequirement": "Fresh Water",
+      "effects": {
+        "housingBonus": 4,
+        "amenitiesBonus": 1
+      },
+      "quote": "Water is the principle, or the element, of everything.",
+      "quoter": "Thales"
+    },
+    {
+      "name": "Ajanta Caves",
+      "cost": 310,
+      "era": "Classical",
+      "effects": {
+        "cultureBonus": 3,
+        "faithBonus": 2,
+        "greatArtistPoints": 2
+      },
+      "quote": "The mind is its own place, and in itself can make a heaven of hell, a hell of heaven.",
+      "quoter": "John Milton"
+    },
+    {
+      "name": "Hagia Sophia",
+      "cost": 400,
+      "era": "Medieval",
+      "effects": {
+        "faithBonus": 5,
+        "cultureBonus": 3
+      },
+      "quote": "O Lord, surely this is thy house, and this is thy gate of heaven.",
+      "quoter": "Justinian I"
+    },
+    {
+      "name": "Notre Dame",
+      "cost": 380,
+      "era": "Medieval",
+      "effects": {
+        "faithBonus": 4,
+        "greatWorksSlots": 3
+      },
+      "quote": "The most terrible and splendid of all the Churches built by the hand of man.",
+      "quoter": "Victor Hugo"
+    },
+    {
+      "name": "Alhambra",
+      "cost": 420,
+      "era": "Medieval",
+      "terrainRequirement": "Hills",
+      "effects": {
+        "cultureBonus": 4,
+        "defenseBonus": 20
+      },
+      "quote": "Give him alms, woman, for there is nothing sadder in life than being blind in Granada.",
+      "quoter": "Francisco de Icaza"
+    },
+    {
+      "name": "Angkor Wat",
+      "cost": 410,
+      "era": "Medieval",
+      "terrainRequirement": "Jungle",
+      "effects": {
+        "faithBonus": 4,
+        "foodBonus": 4
+      },
+      "quote": "The only constant is change.",
+      "quoter": "Buddha"
+    },
+    {
+      "name": "Borobudur",
+      "cost": 390,
+      "era": "Medieval",
+      "terrainRequirement": "Hills",
+      "effects": {
+        "faithBonus": 5,
+        "cultureBonus": 2
+      },
+      "quote": "Peace comes from within. Do not seek it without.",
+      "quoter": "Buddha"
+    },
+    {
+      "name": "Great Zimbabwe",
+      "cost": 370,
+      "era": "Medieval",
+      "terrainRequirement": "Hills",
+      "effects": {
+        "goldBonus": 4,
+        "loyaltyBonus": 15
+      },
+      "quote": "The value of a man should be seen in what he gives and not in what he is able to receive.",
+      "quoter": "Albert Einstein"
+    },
+    {
+      "name": "University of Bologna",
+      "cost": 430,
+      "era": "Medieval",
+      "effects": {
+        "scienceBonus": 5,
+        "greatScientistPoints": 3
+      },
+      "quote": "The roots of education are bitter, but the fruit is sweet.",
+      "quoter": "Aristotle"
+    },
+    {
+      "name": "Mont Saint-Michel",
+      "cost": 360,
+      "era": "Medieval",
+      "terrainRequirement": "Coast",
+      "effects": {
+        "faithBonus": 4,
+        "defenseBonus": 18
+      },
+      "quote": "Faith is taking the first step even when you don't see the whole staircase.",
+      "quoter": "Martin Luther King Jr."
+    },
+    {
+      "name":"Krak des Chevaliers",
+      "cost":400,
+      "era":"Medieval",
+      "terrainRequirement":"Hills",
+      "effects":{
+          "defenseBonus":25,
+          "militaryUnitProductionBonus":0.15
+      },
+      "quote":"He who wishes to secure the good of others has already secured his own.",
+      "quoter":"Confucius"
+    },
+    {
+      "name": "Chartres Cathedral",
+      "cost": 410,
+      "era": "Medieval",
+      "effects": {
+        "faithBonus": 5,
+        "cultureBonus": 3,
+        "greatWorksSlots": 2
+      },
+      "quote": "You are Peter, and on this rock I will build my church, and the gates of Hades will not overcome it.",
+      "quoter": "Matthew 16:18"
+    },
+    {
+      "name": "Brihadeeswarar Temple",
+      "cost": 410,
+      "era": "Medieval",
+      "effects": {
+        "faithBonus": 5,
+        "cultureBonus": 3
+      },
+      "quote": "Let there be peace and prosperity in the land.",
+      "quoter": "Rajaraja Chola I"
+    },
+    {
+      "name": "Temple of Literature",
+      "cost": 380,
+      "era": "Medieval",
+      "effects": {
+        "cultureBonus": 3,
+        "scienceBonus": 3,
+        "greatPeoplePoints": 2
+      },
+      "quote": "A country will become prosperous if it is fond of education.",
+      "quoter": "Lý Thánh Tông"
+    },
+    {
+      "name": "Gur-e Amir",
+      "cost": 450,
+      "era": "Medieval",
+      "effects": {
+        "militaryUnitProductionBonus": 0.2,
+        "cultureBonus": 3,
+        "loyaltyBonus": 10
+      },
+      "quote": "With Heaven's aid, I have conquered the world.",
+      "quoter": "Timur"
+    },
+    {
+      "name": "Machu Picchu",
+      "cost": 440,
+      "era": "Medieval",
+      "terrainRequirement": "Mountain",
+      "effects":{
+          "productionBonus":0.15,
+          "cultureBonus":3,
+          "loyaltyBonus":10
+      },
+      "quote":"Earth provides enough to satisfy every man's needs, but not every man's greed.",
+      "quoter":"Mahatma Gandhi"
+    },
+    {
+      "name": "Forbidden City",
+      "cost": 450,
+      "era": "Renaissance",
+      "effects": {
+        "cultureBonus": 4,
+        "diplomaticFavorPerTurn": 2
+      },
+      "quote": "Let the Emperor's will be known throughout the land.",
+      "quoter": "Ming Dynasty Edict"
+    },
+    {
+      "name": "St. Peter's Basilica",
+      "cost": 480,
+      "era": "Renaissance",
+      "effects": {
+        "faithBonus": 6,
+        "cultureBonus": 3
+      },
+      "quote": "The glory of God's house is built for all time.",
+      "quoter": "Michelangelo"
+    },
+    {
+      "name": "Taj Mahal",
+      "cost": 460,
+      "era": "Renaissance",
+      "effects": {
+        "amenitiesBonus": 4,
+        "cultureBonus": 4
+      },
+      "quote": "If there is paradise on earth, it is this, it is this, it is this.",
+      "quoter": "Shah Jahan"
+    },
+    {
+      "name": "University of Sankore",
+      "cost": 440,
+      "era": "Renaissance",
+      "effects": {
+        "scienceBonus": 5,
+        "greatScientistPoints": 3
+      },
+      "quote": "Knowledge is the most precious thing, and the wisest man is he who seeks it.",
+      "quoter": "Leo Africanus"
+    },
+    {
+      "name": "Globe Theatre",
+      "cost": 430,
+      "era": "Renaissance",
+      "effects": {
+        "cultureBonus": 5,
+        "greatWriterPoints": 3
+      },
+      "quote": "All the world’s a stage, and all the men and women merely players.",
+      "quoter": "William Shakespeare"
+    },
+    {
+      "name": "Topkapi Palace",
+      "cost": 470,
+      "era": "Renaissance",
+      "effects": {
+        "goldBonus": 5,
+        "loyaltyBonus": 20
+      },
+      "quote": "The power of the Sultan is absolute.",
+      "quoter": "Suleiman the Magnificent"
+    },
+    {
+      "name": "Shwedagon Pagoda",
+      "cost": 450,
+      "era": "Renaissance",
+      "effects": {
+        "faithBonus": 6,
+        "cultureBonus": 2
+      },
+      "quote": "May the light of the Buddha illuminate the world.",
+      "quoter": "Burmese Monk"
+    },
+    {
+      "name": "El Escorial",
+      "cost": 490,
+      "era": "Renaissance",
+      "effects": {
+        "scienceBonus": 4,
+        "faithBonus": 4,
+        "cultureBonus": 2
+      },
+      "quote": "I did not send you to school to make theologians of you; you must learn to govern the state.",
+      "quoter": "Philip II of Spain"
+    },
+    {
+      "name":"Uffizi Gallery",
+      "cost":460,
+      "era":"Renaissance",
+      "effects":{
+          "cultureBonus":5,
+          "greatArtistPoints":3,
+          "greatWorksSlots":3
+      },
+      "quote":"Art is the queen of all sciences communicating knowledge to all the generations of the world.",
+      "quoter":"Leonardo da Vinci"
+    },
+    {
+      "name":"Château de Chambord",
+      "cost":440,
+      "era":"Renaissance",
+      "effects":{
+          "cultureBonus":4,
+          "productionBonus":0.15
+      },
+      "quote":"Architecture should have no other aim but to put in concrete form the spirit of its time.",
+      "quoter":"Auguste Perret"
+    },
+    {
+      "name": "Frauenkirche (Dom zu Unserer Lieben Frau)",
+      "cost": 470,
+      "era": "Renaissance",
+      "effects": {
+        "faithBonus": 5,
+        "cultureBonus": 3,
+        "loyaltyBonus": 10
+      },
+      "quote": "A mighty fortress is our God.",
+      "quoter": "Martin Luther"
+    },
+    {
+      "name": "Potala Palace",
+      "cost": 480,
+      "era": "Renaissance",
+      "effects": {
+        "faithBonus": 5,
+        "cultureBonus": 4,
+        "defenseBonus": 15
+      },
+      "quote": "If you want others to be happy, practice compassion. If you want to be happy, practice compassion.",
+      "quoter": "Dalai Lama"
+    },
+    {
+      "name": "Saint Basil's Cathedral",
+      "cost": 450,
+      "era": "Renaissance",
+      "effects": {
+        "faithBonus": 4,
+        "cultureBonus": 3,
+        "tourismBonus": 0.1
+      },
+      "quote": "Better than beauty, better than grandeur, is the charm of simplicity.",
+      "quoter": "Isaac Ilyich Levitan"
+    },
+    {
+      "name": "Himeji Castle",
+      "cost": 460,
+      "era": "Renaissance",
+      "effects": {
+        "defenseBonus": 25,
+        "cultureBonus": 3,
+        "loyaltyBonus": 10
+      },
+      "quote": "One must proceed with caution.",
+      "quoter": "Tokugawa Ieyasu"
+    },
+    {
+      "name": "Eiffel Tower",
+      "cost": 500,
+      "era": "Industrial",
+      "effects": {
+        "tourismBonus": 0.2,
+        "cultureBonus": 4,
+        "amenitiesBonus": 2
+      },
+      "quote": "France was for her a vast picture of delight.",
+      "quoter": "Henry James"
+    },
+    {
+      "name": "Statue of Liberty",
+      "cost": 520,
+      "era": "Industrial",
+      "effects": {
+        "loyaltyBonus": 25,
+        "diplomaticFavorPerTurn": 3,
+        "cultureBonus": 3
+      },
+      "quote": "Give me your tired, your poor, your huddled masses yearning to breathe free.",
+      "quoter": "Emma Lazarus"
+    },
+    {
+      "name": "Big Ben",
+      "cost": 490,
+      "era": "Industrial",
+      "effects": {
+        "goldBonus": 5,
+        "diplomaticFavorPerTurn": 2,
+        "cultureBonus": 3
+      },
+      "quote": "Time is what we want most, but what we use worst.",
+      "quoter": "William Penn"
+    },
+    {
+      "name": "Panama Canal",
+      "cost": 530,
+      "era": "Industrial",
+      "effects": {
+        "navalMovementBonus": 2,
+        "goldBonus": 4,
+        "tradeRouteBonus": 2
+      },
+      "quote": "I took the canal zone and let Congress debate.",
+      "quoter": "Theodore Roosevelt"
+    },
+    {
+      "name": "Trans-Siberian Railway",
+      "cost": 510,
+      "era": "Industrial",
+      "effects": {
+        "productionBonus": 0.2,
+        "tradeRouteBonus": 2,
+        "loyaltyBonus": 15
+      },
+      "quote": "The railway is the greatest instrument of human progress.",
+      "quoter": "Cecil Rhodes"
+    },
+    {
+      "name": "Oxford University",
+      "cost": 500,
+      "era": "Industrial",
+      "effects": {
+        "scienceBonus": 6,
+        "greatScientistPoints": 4,
+        "cultureBonus": 3
+      },
+      "quote": "The aim of the university is to enable keen and original minds to develop to their full potential.",
+      "quoter": "John Smith (Master of Balliol)"
+    },
+    {
+      "name": "Neuschwanstein Castle",
+      "cost": 480,
+      "era": "Industrial",
+      "effects": {
+        "cultureBonus": 5,
+        "tourismBonus": 0.15,
+        "loyaltyBonus": 10
+      },
+      "quote": "I intend to remain a perpetual mystery to myself and to others.",
+      "quoter": "Ludwig II of Bavaria"
+    },
+    {
+      "name": "Brooklyn Bridge",
+      "cost": 490,
+      "era": "Industrial",
+      "effects": {
+        "housingBonus": 5,
+        "goldBonus": 3,
+        "amenitiesBonus": 2
+      },
+      "quote": "The bridge will be the eighth wonder of the world.",
+      "quoter": "Washington Roebling"
+    },
+    {
+      "name": "Palace of Westminster",
+      "cost": 510,
+      "era": "Industrial",
+      "effects": {
+        "diplomaticFavorPerTurn": 3,
+        "cultureBonus": 4,
+        "goldBonus": 3
+      },
+      "quote": "Let parliament be ever vigilant.",
+      "quoter": "Benjamin Disraeli"
+    },
+    {
+      "name": "Hagi Reverberatory Furnace",
+      "cost": 520,
+      "era": "Industrial",
+      "effects": {
+        "productionBonus": 0.2,
+        "scienceBonus": 4,
+        "militaryUnitProductionBonus": 0.1
+      },
+      "quote": "To build a strong nation, we must forge the tools of progress.",
+      "quoter": "Takasugi Shinsaku"
+    },
+    {
+      "name": "Empire State Building",
+      "cost": 550,
+      "era": "Modern",
+      "effects": {
+        "goldBonus": 6,
+        "tourismBonus": 0.2,
+        "amenitiesBonus": 3
+      },
+      "quote": "The skyscraper is the symbol of capitalism.",
+      "quoter": "Joseph Stalin"
+    },
+    {
+      "name": "Golden Gate Bridge",
+      "cost": 540,
+      "era": "Modern",
+      "effects": {
+        "housingBonus": 6,
+        "tradeRouteBonus": 3,
+        "amenitiesBonus": 2
+      },
+      "quote": "The bridge is a poem wrought in steel.",
+      "quoter": "Joseph Strauss"
+    },
+    {
+      "name": "United Nations Headquarters",
+      "cost": 560,
+      "era": "Modern",
+      "effects": {
+        "diplomaticFavorPerTurn": 4,
+        "cultureBonus": 4,
+        "loyaltyBonus": 15
+      },
+      "quote": "We have to learn to live together as brothers or perish together as fools.",
+      "quoter": "Martin Luther King Jr."
+    },
+    {
+      "name": "Broadway",
+      "cost": 530,
+      "era": "Modern",
+      "effects": {
+        "cultureBonus": 6,
+        "tourismBonus": 0.25,
+        "greatWriterPoints": 4
+      },
+      "quote": "The theatre is a place where one can learn about life.",
+      "quoter": "Stella Adler"
+    },
+    {
+      "name": "Cristo Redentor",
+      "cost": 540,
+      "era": "Modern",
+      "effects": {
+        "faithBonus": 6,
+        "cultureBonus": 4,
+        "tourismBonus": 0.2
+      },
+      "quote": "Christ the Redeemer, a symbol of hope and peace.",
+      "quoter": "Pope Pius XI"
+    },
+    {
+      "name": "Hoover Dam",
+      "cost": 550,
+      "era": "Modern",
+      "effects": {
+        "productionBonus": 0.2,
+        "goldBonus": 4,
+        "amenitiesBonus": 2
+      },
+      "quote": "Every man who has shown the world the way to do something new has been called a crank at first.",
+      "quoter": "Charles Kettering"
+    },
+    {
+      "name": "Mount Rushmore",
+      "cost": 560,
+      "era": "Modern",
+      "effects": {
+        "cultureBonus": 5,
+        "tourismBonus": 0.2,
+        "loyaltyBonus": 15
+      },
+      "quote": "There is nothing permanent except change.",
+      "quoter": "Heraclitus"
+    },
+    {
+      "name": "International Space Station",
+      "cost": 590,
+      "era": "Atomic",
+      "effects": {
+        "scienceBonus": 8,
+        "cultureBonus": 4,
+        "diplomaticFavorPerTurn": 2
+      },
+      "quote": "To confine our attention to terrestrial matters would be to limit the human spirit.",
+      "quoter": "Stephen Hawking"
+    },
+    {
+      "name": "The Kremlin",
+      "cost": 570,
+      "era": "Atomic",
+      "effects": {
+        "cultureBonus": 4,
+        "loyaltyBonus": 20,
+        "defenseBonus": 15
+      },
+      "quote": "The Kremlin is the heart of Russia.",
+      "quoter": "Vladimir Putin"
+    },
+    {
+      "name": "The Pentagon",
+      "cost": 580,
+      "era": "Atomic",
+      "effects": {
+        "militaryUnitProductionBonus": 0.2,
+        "defenseBonus": 20,
+        "diplomaticFavorPerTurn": 2
+      },
+      "quote": "The supreme art of war is to subdue the enemy without fighting.",
+      "quoter": "Sun Tzu"
+    },
+    {
+      "name": "Conseil Européen pour la Recherche Nucléaire Headquarters",
+      "cost": 570,
+      "era": "Atomic",
+      "effects": {
+        "scienceBonus": 7,
+        "greatScientistPoints": 5,
+        "freeTechnologyBoost": true
+      },
+      "quote": "The pursuit of knowledge for its own sake, an almost fanatical love of justice and the desire for personal independence—these are the features of the Jewish tradition which make me thank my stars that I belong to it.",
+      "quoter": "Albert Einstein"
+    },
+    {
+      "name": "National Aeronautics and Space Administration Headquarters",
+      "cost": 580,
+      "era": "Atomic",
+      "effects": {
+        "scienceBonus": 6,
+        "productionBonus": 0.2,
+        "greatEngineerPoints": 4
+      },
+      "quote": "That's one small step for a man, one giant leap for mankind.",
+      "quoter": "Neil Armstrong"
+    },
+    {
+      "name": "Sydney Opera House",
+      "cost": 550,
+      "era": "Atomic",
+      "effects": {
+        "cultureBonus": 7,
+        "tourismBonus": 0.3,
+        "greatMusicianPoints": 4
+      },
+      "quote": "The aim of art is to represent not the outward appearance of things, but their inward significance.",
+      "quoter": "Aristotle"
+    },
+    { 
+      "name": "Global Seed Vault",
+      "cost": 590,
+      "era": "Information",
+      "effects": {
+        "foodBonus": 6,
+        "scienceBonus": 4,
+        "cultureBonus": 3
+      },
+      "quote": "The Seed Vault is the ultimate insurance policy for the world's food supply.",
+      "quoter": "Crop Trust"
+    },
+    {
+      "name": "Silicon Valley",
+      "cost": 600,
+      "era": "Information",
+      "effects": {
+        "productionBonus": 0.25,
+        "scienceBonus": 7,
+        "greatEngineerPoints": 5
+      },
+      "quote": "The best way to predict the future is to invent it.",
+      "quoter": "Alan Kay"
+    },
+    {
+      "name":"Three Gorges Dam",
+      "cost": 580,
+      "era":"Information",
+      "effects":{
+          "productionBonus":0.2,
+          "housingBonus":5,
+          "goldBonus":4
+      },
+      "quote":"Man must control nature.",
+      "quoter":"Mao Zedong"
+    }
   ]
 }

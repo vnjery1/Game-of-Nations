@@ -238,5 +238,261 @@
         "permanent": true
       }
     }
+  },
+  "espionageMechanics": {
+    "spyLevels": {
+      "experiencePerLevel": 100,
+      "attributeBonusPerLevel": 5
+    },
+    "actions": {
+      "gatherInformation": {
+        "difficulty": 50,
+        "stealthRequirement": 30,
+        "intelligenceBonus": 10,
+        "effects": {
+          "revealCityDetails": true,
+          "revealUnitPositions": true,
+          "revealTechnologies": true,
+          "revealDiplomaticRelations": true
+        },
+        "risk": {
+          "captureChance": 0.1,
+          "detectionChance": 0.3
+        }
+      },
+      "sabotage": {
+        "difficulty": 70,
+        "agilityRequirement": 40,
+        "effects": {
+          "productionDisruption": 0.3,
+          "infrastructureDamage": true
+        },
+        "risk": {
+          "captureChance": 0.4,
+          "deathChance": 0.1
+        }
+      },
+      "stealTechnology": {
+        "difficulty": 80,
+        "intelligenceRequirement": 50,
+        "effects": {
+          "technologyProgressStolen": 20
+        },
+        "risk": {
+          "captureChance": 0.5,
+          "diplomaticPenalty": 20
+        }
+      },
+      "sowDiscord": {
+        "difficulty": 60,
+        "charismaRequirement": 30,
+        "effects": {
+          "loyaltyReduction": 10
+        },
+        "risk": {
+          "captureChance": 0.3
+        }
+      },
+      "inciteWar": {
+        "difficulty": 90,
+        "charismaRequirement": 60,
+        "effects": {
+          "diplomaticManipulation": true
+        },
+        "risk": {
+          "captureChance": 0.6,
+          "diplomaticPenalty": 40
+        }
+      },
+      "acquireArtifacts": {
+        "difficulty": 75,
+        "stealthRequirement": 45,
+        "effects": {
+          "artifactStolen": true
+        },
+        "risk": {
+          "captureChance": 0.4,
+          "deathChance": 0.15
+        }
+      },
+      "assassinateGovernors": {
+        "difficulty": 95,
+        "agilityRequirement": 70,
+        "effects": {
+          "governorEliminated": true,
+          "cityLoyaltyPenalty": 20
+        },
+        "risk": {
+          "deathChance": 0.7,
+          "diplomaticPenalty": 30
+        }
+      },
+      "establishSpyNetwork": {
+        "difficulty": 40,
+        "stealthRequirement": 20,
+        "effects": {
+          "networkBonus": 10
+        },
+        "risk": {
+          "captureChance": 0.2
+        }
+      },
+      "propaganda": {
+        "difficulty": 50,
+        "charismaRequirement": 30,
+        "effects": {
+          "loyaltyChange": 5
+        },
+        "risk": {
+          "detectionChance": 0.2
+        }
+      }
+    },
+    "cityDefense": {
+      "detectionChance": 0.2,
+      "captureChance": 0.5,
+      "buildings": {
+        "counterIntelligenceAgency": {
+          "detectionBonus": 0.1,
+          "captureBonus": 0.2
+        }
+      },
+      "citizenAssignment": {
+        "counterEspionage": {
+          "detectionBonus": 0.05,
+          "captureBonus": 0.1
+        }
+      }
+    },
+    "networks": {
+      "networkBonusPerLevel": 5,
+      "maxNetworkLevel": 3,
+      "disruptionChance": 0.3
+    },
+    "technologies": {
+      "cryptography": {
+        "spyLevelBonus": 1,
+        "counterEspionageBonus": 0.1
+      },
+      "espionageAgency": {
+        "newActions": ["inciteWar", "assassinateGovernors"],
+        "networkLevelBonus": 1
+      }
+    }
+  },
+    "governorMechanics": {
+      "governorTypes": {
+        "military": {
+          "abilities": {
+            "cityDefenseBonus": 10,
+            "unitProductionBonus": 0.2
+          },
+          "promotions": {
+            "fortificationExpert": {
+              "cityWallBonus": 20
+            },
+            "garrisonCommander": {
+              "garrisonStrengthBonus": 5
+            }
+          }
+        },
+        "economic": {
+          "abilities": {
+            "goldYieldBonus": 0.2,
+            "productionYieldBonus": 0.1
+          },
+          "promotions": {
+            "tradeMagnate": {
+              "tradeRouteBonus": 2
+            },
+            "industrialPlanner": {
+              "buildingProductionBonus": 0.15
+            }
+          }
+        },
+        "cultural": {
+          "abilities": {
+            "cultureYieldBonus": 0.2,
+            "loyaltyBonus": 5
+          },
+          "promotions": {
+            "patronOfTheArts": {
+              "greatPeoplePointsBonus": 2
+            },
+            "culturalAmbassador": {
+              "tourismBonus": 0.1
+            }
+          }
+        },
+        "scientific": {
+          "abilities": {
+            "scienceYieldBonus": 0.2,
+            "housingBonus": 2
+          },
+          "promotions": {
+            "researchDirector": {
+              "technologyBoostBonus": 0.1
+            },
+            "infrastructurePlanner": {
+              "districtYieldBonus": 0.1
+            }
+          }
+        }
+      },
+      "governorExperience": {
+        "experiencePerTurn": 1,
+        "experiencePerBuilding": 5,
+        "experiencePerUnit": 2
+      },
+      "governorAssignment": {
+        "cooldownTurns": 5,
+        "maxGovernors": 5
+      },
+      "governorLoyalty": {
+        "baseLoyalty": 50,
+        "loyaltyLossPerTurn": 1,
+        "highLoyaltyThreshold": 75,
+        "lowLoyaltyThreshold": 25
+      },
+      "governorNames": {
+        "military": [
+          "Anya", "Kael", "Xiang", "Brutus", "Isolde", "Ragnar", "Kenzo", "Nadia", "Darius", "Yuki"
+        ],
+        "economic": [
+          "Elara", "Jian", "Silas", "Aisha", "Gunter", "Mei", "Cyrus", "Zara", "Viktor", "Riko"
+        ],
+        "cultural": [
+          "Lyra", "Takumi", "Seraphina", "Rohan", "Leila", "Bjorn", "Akira", "Esmeralda", "Cassius", "Hana"
+        ],
+        "scientific": [
+          "Nova", "Zhen", "Thales", "Indira", "Felix", "Lin", "Orion", "Selene", "Galen", "Sora"
+        ]
+      }
+    },
+    "religionMechanics": {
+    "founding": {
+      "faithCost": 200,
+      "prophetRequirement": true
+    },
+    "spread": {
+      "pressurePerTurn": 1,
+      "enhanceSpreadModifier": 0.2
+    },
+    "combat": {
+      "combatStrengthModifier": 0.5,
+      "enhanceCombatModifier": 0.2
+    },
+    "victory": {
+      "dominantReligionPercentage": 0.5
+    },
+    "tolerance": {
+      "religiousUnrestReduction": 0.2
+    },
+    "externalReferences": {
+      "beliefs": "beliefs.json",
+      "buildings": "buildings.json",
+      "units": "units.json",
+      "policies": "policies.json"
+    }
   }
   }
