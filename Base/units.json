@@ -1225,6 +1225,17 @@
         "pointsPerTurn": 3
       },
       {
+        "name": "Great Prophet",
+        "type": "Great Person",
+        "era": "Classical",
+        "abilities": [
+          "Found Religion: Allows the founding of a new religion.",
+          "Religious Influence: Spreads your religion to nearby cities."
+        ],
+        "cost": 100,
+        "pointsPerTurn": 3
+      },
+      {
         "name": "Great Admiral",
         "type": "Great Person",
         "era": "Classical",
