@@ -1291,8 +1291,8 @@
     },
     {
         "name": "Religious Prosperity",
-        "description": "+1 Gold and +1 Production from all districts in cities following this religion.",
-        "district_yields": {
+        "description": "+1 Gold and +1 Production from all improvements in cities following this religion.",
+        "improvement_yields": {
           "gold": 1,
           "production": 1
         }

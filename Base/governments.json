@@ -1,0 +1,564 @@
+{
+  "governments": {
+    "Ancient": [
+      {
+        "name": "Tribal Confederation",
+        "era": "Ancient",
+        "description": "A loose alliance of tribes, focused on expansion and raiding.",
+        "bonuses": {
+          "unit_production_bonus": 10,
+          "barbarian_conversion_chance": 15,
+          "culture_from_barbarian_kills": 5
+        },
+        "policy_slots": {
+          "military": 2,
+          "economic": 1,
+          "diplomatic": 0,
+          "wildcard": 1
+        },
+        "legacy_bonus": "+1 Movement for all land units."
+      },
+      {
+        "name": "Theocratic Monarchy",
+        "era": "Ancient",
+        "description": "A centralized rule by a religious leader, emphasizing faith and stability.",
+        "bonuses": {
+          "faith_per_city": 2,
+          "loyalty_per_turn": 1,
+          "religious_unit_production_bonus": 15
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 1,
+          "diplomatic": 1,
+          "wildcard": 1
+        },
+        "legacy_bonus": "+1 Faith from Holy Sites."
+      },
+      {
+        "name": "Warrior Oligarchy",
+        "era": "Ancient",
+        "description": "Rule by a small group of military elites, prioritizing military strength and discipline.",
+        "bonuses": {
+          "unit_combat_bonus": 3,
+          "experience_per_combat": 20,
+          "production_towards_military_units": 20
+        },
+        "policy_slots": {
+          "military": 3,
+          "economic": 0,
+          "diplomatic": 0,
+          "wildcard": 1
+        },
+        "legacy_bonus": "+1 Combat Strength for all melee units."
+      },
+      {
+        "name":"Ancestor Veneration",
+        "era":"Ancient",
+        "description":"A system based on the respect and worship of ancestors, providing stability and cultural growth.",
+        "bonuses":{
+            "culture_per_city":1,
+            "loyalty_per_turn":1,
+            "great_people_points_per_turn":1
+        },
+        "policy_slots":{
+            "military": 1,
+            "economic": 2,
+            "diplomatic": 0,
+            "wildcard": 1
+        },
+        "legacy_bonus":"+1 Culture from monuments."
+      }
+    ],
+    "Classical": [
+      {
+        "name": "Classical Republic",
+        "era": "Classical",
+        "description": "A government where citizens have the power to elect their leaders, balancing civic participation with military expansion.",
+        "bonuses": {
+          "amenities_per_city": 1,
+          "science_from_government_buildings": 1,
+          "unit_production_bonus": 10
+        },
+        "policy_slots": {
+          "military": 2,
+          "economic": 1,
+          "diplomatic": 1,
+          "wildcard": 1
+        },
+        "legacy_bonus": "+1 Citizen slot in the capital."
+      },
+      {
+        "name": "Early Empire",
+        "era": "Classical",
+        "description": "A centralized state ruled by an emperor, focused on conquest and infrastructure development.",
+        "bonuses": {
+          "gold_from_cities": 5,
+          "production_towards_improvements": 15,
+          "movement_for_all_units": 1
+        },
+        "policy_slots": {
+          "military": 2,
+          "economic": 2,
+          "diplomatic": 0,
+          "wildcard": 1
+        },
+        "legacy_bonus": "+1 Trade Route capacity."
+      },
+      {
+        "name": "Philosophical Monarchy",
+        "era": "Classical",
+        "description": "A monarchy guided by philosophical principles, promoting culture and learning.",
+        "bonuses": {
+          "culture_per_city": 2,
+          "science_from_culture": 10,
+          "great_people_points_per_turn": 2
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 1,
+          "diplomatic": 1,
+          "wildcard": 2
+        },
+        "legacy_bonus": "+2 Great Writer points per turn."
+      },
+      {
+        "name":"Commercial Monarchy",
+        "era":"Classical",
+        "description":"A centralized monarchy that promotes trade and cultural exchange.",
+        "bonuses":{
+            "gold_from_international_trade_routes":1,
+            "culture_from_international_trade_routes":1,
+            "science_from_international_trade_routes":1
+        },
+        "policy_slots":{
+            "military":1,
+            "economic":2,
+            "diplomatic":1,
+            "wildcard":1
+        },
+        "legacy_bonus":"+1 Gold and +1 Culture from city-states you are the Suzerain of."
+      }
+    ],
+    "Medieval": [
+      {
+        "name": "Feudal Monarchy",
+        "era": "Medieval",
+        "description": "A decentralized monarchy where power is distributed among lords, focusing on land ownership and military service.",
+        "bonuses": {
+          "production_towards_military_units": 15,
+          "loyalty_per_turn": 2,
+          "gold_from_farms": 1
+        },
+        "policy_slots": {
+          "military": 2,
+          "economic": 2,
+          "diplomatic": 1,
+          "wildcard": 1
+        },
+        "legacy_bonus": "+1 Production from Castles."
+      },
+      {
+        "name": "Theocratic Federation",
+        "era": "Medieval",
+        "description": "A federation of religious communities, emphasizing faith, stability, and religious expansion.",
+        "bonuses": {
+          "faith_per_city": 3,
+          "loyalty_per_turn": 2,
+          "religious_unit_production_bonus": 20
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 1,
+          "diplomatic": 2,
+          "wildcard": 2
+        },
+        "legacy_bonus": "+1 Faith from religious relics."
+      },
+      {
+        "name": "Guild Republic",
+        "era": "Medieval",
+        "description": "A government dominated by powerful merchant guilds, prioritizing trade and economic growth.",
+        "bonuses": {
+          "gold_from_trade_routes": 2,
+          "gold_from_city_centers": 2,
+          "great_merchant_points_per_turn": 2
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 3,
+          "diplomatic": 1,
+          "wildcard": 1
+        },
+        "legacy_bonus": "+1 Gold from Commercial Hubs."
+      },
+      {
+        "name": "Monastic Order Government",
+        "era": "Medieval",
+        "description": "A government ruled by a powerful religious order, focused on faith, scholarship, and monastic expansion.",
+        "bonuses": {
+          "faith_per_city": 3,
+          "science_from_faith": 10,
+          "production_towards_holy_sites_and_buildings": 20
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 1,
+          "diplomatic": 2,
+          "wildcard": 2
+        },
+        "legacy_bonus": "+1 Science from Monasteries and other religious buildings."
+      }
+    ],
+    "Renaissance":[
+      {
+        "name": "Enlightened Despotism",
+        "era": "Renaissance",
+        "description": "A centralized government ruled by a monarch who embraces reason and progress, emphasizing science and culture.",
+        "bonuses": {
+          "science_per_city": 2,
+          "culture_per_city": 2,
+          "great_scientist_points_per_turn": 2
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 2,
+          "diplomatic": 1,
+          "wildcard": 2
+        },
+        "legacy_bonus": "+1 Great Scientist point per turn."
+      },
+      {
+        "name": "Merchant Republic",
+        "era": "Renaissance",
+        "description": "A republic dominated by wealthy merchant families, prioritizing trade, exploration, and colonial expansion.",
+        "bonuses": {
+          "gold_from_trade_routes": 3,
+          "gold_from_coastal_cities": 2,
+          "movement_for_naval_units": 1
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 3,
+          "diplomatic": 1,
+          "wildcard": 1
+        },
+        "legacy_bonus": "+1 Trade Route Capacity."
+      },
+      {
+        "name": "Faithful Confederation",
+        "era": "Renaissance",
+        "description": "A confederation of religious states, emphasizing faith, religious tolerance, and diplomatic influence.",
+        "bonuses": {
+          "faith_per_city": 4,
+          "diplomatic_influence_per_turn": 2,
+          "amenities_from_religious_diversity": 1
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 1,
+          "diplomatic": 3,
+          "wildcard": 1
+        },
+        "legacy_bonus": "+1 Diplomatic Influence per turn."
+      },
+      {
+        "name": "Overseas Dominion",
+        "era": "Renaissance",
+        "description": "A government focused on expansion through colonization, prioritizing production and military strength in overseas territories.",
+        "bonuses": {
+          "production_in_overseas_cities": 20,
+          "unit_combat_bonus_in_overseas_cities": 3,
+          "loyalty_in_overseas_cities": 2
+        },
+        "policy_slots": {
+          "military": 2,
+          "economic": 2,
+          "diplomatic": 1,
+          "wildcard": 1
+        },
+        "legacy_bonus": "+1 Production in overseas cities."
+      }
+    ],
+    "Industrial":[
+      {
+        "name": "Constitutional Monarchy",
+        "era": "Industrial",
+        "description": "A government where a monarch's power is limited by a constitution, balancing tradition with modern reforms.",
+        "bonuses": {
+          "culture_per_city": 3,
+          "gold_from_city_centers": 5,
+          "production_towards_wonders": 15
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 2,
+          "diplomatic": 2,
+          "wildcard": 2
+        },
+        "legacy_bonus": "+2 Culture from each wonder."
+      },
+      {
+        "name": "Early Democracy",
+        "era": "Industrial",
+        "description": "A government where citizens have the right to vote and participate in political decision-making, emphasizing individual liberty and civic responsibility.",
+        "bonuses": {
+          "amenities_per_city": 2,
+          "science_from_government_buildings": 2,
+          "production_from_factories": 1
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 2,
+          "diplomatic": 2,
+          "wildcard": 2
+        },
+        "legacy_bonus": "+1 Amenity in the capital."
+      },
+      {
+        "name": "Industrial Republic",
+        "era": "Industrial",
+        "description": "A republic focused on industrial growth and technological advancement, prioritizing production and scientific research.",
+        "bonuses": {
+          "production_per_city": 10,
+          "science_per_city": 3,
+          "great_engineer_points_per_turn": 2
+        },
+        "policy_slots": {
+          "military": 2,
+          "economic": 3,
+          "diplomatic": 0,
+          "wildcard": 2
+        },
+        "legacy_bonus": "+1 Production from Industrial Zones."
+      },
+      {
+        "name":"Revolutionary Republic",
+        "era":"Industrial",
+        "description":"A government born from revolution, emphasizing popular sovereignty and military mobilization.",
+        "bonuses":{
+            "unit_production_bonus":20,
+            "unit_combat_bonus":5,
+            "experience_per_combat":30
+        },
+        "policy_slots":{
+            "military":3,
+            "economic":1,
+            "diplomatic":1,
+            "wildcard":2
+        },
+        "legacy_bonus":"+1 Movement for all units."
+      }
+    ],
+    "Modern":[
+      {
+        "name": "Representative Democracy",
+        "era": "Modern",
+        "description": "A government where elected representatives make decisions on behalf of the people, emphasizing individual rights and international cooperation.",
+        "bonuses": {
+          "amenities_per_city": 3,
+          "diplomatic_influence_per_turn": 3,
+          "great_diplomat_points_per_turn": 2
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 2,
+          "diplomatic": 3,
+          "wildcard": 2
+        },
+        "legacy_bonus": "+1 Diplomatic Influence per turn with City-States."
+      },
+      {
+        "name": "Totalitarian State",
+        "era": "Modern",
+        "description": "A centralized state with absolute control over all aspects of life, prioritizing military strength and national unity.",
+        "bonuses": {
+          "unit_production_bonus": 25,
+          "unit_combat_bonus": 7,
+          "loyalty_per_turn": 3
+        },
+        "policy_slots": {
+          "military": 3,
+          "economic": 1,
+          "diplomatic": 1,
+          "wildcard": 2
+        },
+        "legacy_bonus": "+2 Combat Strength for all units."
+      },
+      {
+        "name": "Socialist Republic",
+        "era": "Modern",
+        "description": "A government that emphasizes social equality and collective ownership, prioritizing production and social welfare.",
+        "bonuses": {
+          "production_per_city": 15,
+          "housing_per_city": 2,
+          "science_from_population": 1
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 3,
+          "diplomatic": 1,
+          "wildcard": 2
+        },
+        "legacy_bonus": "+1 Housing in all cities."
+      },
+      {
+        "name":"Corporatist State",
+        "era":"Modern",
+        "description":"A government heavily influenced by powerful corporations, prioritizing economic growth and technological innovation.",
+        "bonuses":{
+            "gold_per_city":10,
+            "science_from_commercial_hubs":2,
+            "great_merchant_points_per_turn":3
+        },
+        "policy_slots":{
+            "military":1,
+            "economic":3,
+            "diplomatic":1,
+            "wildcard":2
+        },
+        "legacy_bonus":"+1 Gold from Commercial Hubs and Banks."
+     }
+    ],
+    "Atomic":[
+      {
+        "name": "Modern Democracy",
+        "era": "Atomic",
+        "description": "A government that balances individual freedoms with social responsibility, emphasizing international cooperation and technological progress.",
+        "bonuses": {
+          "amenities_per_city": 4,
+          "science_from_government_buildings": 3,
+          "diplomatic_influence_per_turn": 4
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 2,
+          "diplomatic": 3,
+          "wildcard": 3
+        },
+        "legacy_bonus": "+1 Amenity and +1 Science in the capital."
+      },
+      {
+        "name": "Police State",
+        "era": "Atomic",
+        "description": "A government that maintains control through surveillance and suppression, prioritizing national security and order.",
+        "bonuses": {
+          "unit_combat_bonus": 10,
+          "loyalty_per_turn": 4,
+          "production_towards_military_units": 30
+        },
+        "policy_slots": {
+          "military": 3,
+          "economic": 1,
+          "diplomatic": 1,
+          "wildcard": 3
+        },
+        "legacy_bonus": "+10 Combat Strength for all units in your territory."
+      },
+      {
+        "name": "Communist State",
+        "era": "Atomic",
+        "description": "A government based on the principles of communism, emphasizing social equality and collective ownership.",
+        "bonuses": {
+          "production_per_city": 20,
+          "science_from_population": 2,
+          "amenities_from_entertainment": 2
+        },
+        "policy_slots": {
+          "military": 2,
+          "economic": 3,
+          "diplomatic": 0,
+          "wildcard": 3
+        },
+        "legacy_bonus": "+1 Production from all improvements."
+      },
+      {
+        "name": "Technocracy",
+        "era": "Atomic",
+        "description": "A government led by scientists and engineers, prioritizing technological advancement and scientific research.",
+        "bonuses": {
+          "science_per_city": 5,
+          "production_towards_space_race_projects": 30,
+          "great_scientist_points_per_turn": 3
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 2,
+          "diplomatic": 1,
+          "wildcard": 4
+        },
+        "legacy_bonus": "+20% Production towards Space Race projects."
+      }
+    ],
+    "Information":[
+      {
+        "name": "Digital Democracy",
+        "era": "Information",
+        "description": "A government that utilizes advanced technology to enhance citizen participation, transparency, and global cooperation.",
+        "bonuses": {
+          "amenities_per_city": 5,
+          "diplomatic_influence_per_turn": 5,
+          "science_from_networks": 3
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 2,
+          "diplomatic": 4,
+          "wildcard": 3
+        },
+        "legacy_bonus": "+3 Diplomatic Favor per turn."
+      },
+      {
+        "name": "Cybernetic State",
+        "era": "Information",
+        "description": "A highly centralized state that integrates advanced cybernetics and artificial intelligence to maximize efficiency and control.",
+        "bonuses": {
+          "unit_combat_bonus": 12,
+          "loyalty_per_turn": 5,
+          "production_towards_cybernetic_units": 35
+        },
+        "policy_slots": {
+          "military": 3,
+          "economic": 1,
+          "diplomatic": 1,
+          "wildcard": 4
+        },
+        "legacy_bonus": "+12 Combat Strength for all units in your territory."
+      },
+      {
+        "name": "Decentralized Network Government",
+        "era": "Information",
+        "description": "A government based on decentralized networks and collective decision-making, emphasizing social equity and technological integration.",
+        "bonuses": {
+          "production_per_city": 25,
+          "science_from_population": 3,
+          "amenities_from_networks": 3
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 3,
+          "diplomatic": 1,
+          "wildcard": 4
+        },
+        "legacy_bonus": "+2 Production from all improvements."
+      },
+      {
+        "name": "Transhumanist Republic",
+        "era": "Information",
+        "description": "A government guided by advanced artificial intelligence, prioritizing scientific breakthroughs and transhumanist goals.",
+        "bonuses": {
+          "science_per_city": 7,
+          "production_towards_futuristic_projects": 40,
+          "great_scientist_points_per_turn": 4
+        },
+        "policy_slots": {
+          "military": 1,
+          "economic": 2,
+          "diplomatic": 1,
+          "wildcard": 5
+        },
+        "legacy_bonus": "+30% Production towards futuristic projects."
+      }
+    ]
+  }
+}

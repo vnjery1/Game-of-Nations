@@ -1,0 +1,1692 @@
+{
+  "policies": {
+    "Ancient": {
+      "Military": {
+        "Warrior Code": {
+          "name": "Warrior Code",
+          "description": "+2 Combat Strength for all melee units.",
+          "effects": {
+            "unit_combat_bonus": {
+              "unit_type": "Melee",
+              "combat_strength": 2
+            }
+          }
+        },
+        "Tribal Levy": {
+          "name": "Tribal Levy",
+          "description": "+10% Production towards military units.",
+          "effects": {
+            "unit_production_bonus": 10
+          }
+        },
+        "Forced March": {
+          "name": "Forced March",
+          "description": "+1 Movement for all land units in friendly territory.",
+          "effects": {
+            "unit_movement_bonus": {
+              "terrain": "Land",
+              "movement": 1,
+              "friendly_territory": true
+            }
+          }
+        }
+      },
+      "Economic": {
+        "Communal Farming": {
+          "name": "Communal Farming",
+          "description": "+1 Food from Farms.",
+          "effects": {
+            "tile_yield_bonus": {
+              "tile_type": "Farm",
+              "yield_type": "Food",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Barter Economy": {
+          "name": "Barter Economy",
+          "description": "+1 Gold from trade routes.",
+          "effects": {
+            "trade_route_yield_bonus": {
+              "yield_type": "Gold",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Hunting Parties": {
+          "name": "Hunting Parties",
+          "description": "+1 Food from Camps.",
+          "effects": {
+            "improvement_yield_bonus": {
+              "improvement_type": "Camp",
+              "yield_type": "Food",
+              "yield_amount": 1
+            }
+          }
+        }
+      },
+      "Diplomatic": {
+        "Tribal Alliances": {
+          "name": "Tribal Alliances",
+          "description": "+1 Influence per turn with City-States.",
+          "effects": {
+            "city_state_influence_bonus": 1
+          }
+        },
+        "Open Borders": {
+          "name": "Open Borders",
+          "description": "+1 Gold from trade routes to nations with open borders.",
+          "effects": {
+            "trade_route_yield_bonus": {
+              "yield_type": "Gold",
+              "yield_amount": 1,
+              "open_borders": true
+            }
+          }
+        }
+      },
+      "Wildcard": {
+        "Oral Tradition": {
+          "name": "Oral Tradition",
+          "description": "+1 Culture from Villages.",
+          "effects": {
+            "improvement_yield_bonus": {
+              "improvement_type": "Village",
+              "yield_type": "Culture",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Ancestor Worship": {
+          "name": "Ancestor Worship",
+          "description": "+1 Faith per city.",
+          "effects": {
+            "city_yield_bonus": {
+              "yield_type": "Faith",
+              "yield_amount": 1
+            }
+          }
+        }
+      }
+    },
+    "Classical": {
+      "Military": {
+        "Professional Army": {
+          "name": "Professional Army",
+          "description": "+1 Combat Strength for all land units and +10% Production towards military units.",
+          "effects": {
+            "unit_combat_bonus": {
+              "terrain": "Land",
+              "combat_strength": 1
+            },
+            "unit_production_bonus": 10
+          }
+        },
+        "Disciplined Legions": {
+          "name": "Disciplined Legions",
+          "description": "+1 Movement for all melee units and +1 Experience per combat.",
+          "effects": {
+            "unit_movement_bonus": {
+              "unit_type": "Melee",
+              "movement": 1
+            },
+            "unit_experience_bonus": 1
+          }
+        },
+        "Naval Supremacy": {
+          "name": "Naval Supremacy",
+          "description": "+2 Combat Strength for all naval units.",
+          "effects": {
+            "unit_combat_bonus": {
+              "terrain": "Water",
+              "combat_strength": 2
+            }
+          }
+        },
+        "Siege Tactics": {
+          "name": "Siege Tactics",
+          "description": "+15% Production towards siege units and +1 Combat Strength for siege units.",
+          "effects": {
+            "unit_production_bonus": {
+              "unit_type": "Siege",
+              "production_bonus": 15
+            },
+            "unit_combat_bonus":{
+              "unit_type":"Siege",
+              "combat_strength":1
+            }
+          }
+        },
+        "Defensive Strategies": {
+          "name": "Defensive Strategies",
+          "description": "+5 Combat Strength for all units in friendly territory.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 5,
+              "friendly_territory": true
+            }
+          }
+        },
+        "Logistics": {
+          "name": "Logistics",
+          "description": "+1 Movement for all units.",
+          "effects": {
+            "unit_movement_bonus": {
+              "movement": 1
+            }
+          }
+        }
+      },
+"Economic": {
+        "Urban Planning": {
+          "name": "Urban Planning",
+          "description": "+1 Housing in all cities.",
+          "effects": {
+            "city_yield_bonus": {
+              "yield_type": "Housing",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Commercial Hubs": {
+          "name": "Commercial Hubs",
+          "description": "+1 Gold from Commercial Hubs.",
+          "effects": {
+            "improvement_yield_bonus": {
+              "improvement_type": "Commercial Hub",
+              "yield_type": "Gold",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Agricultural Development": {
+          "name": "Agricultural Development",
+          "description": "+1 Food from all Farms and Plantations.",
+          "effects": {
+            "tile_yield_bonus": {
+              "tile_type": ["Farm", "Plantation"],
+              "yield_type": "Food",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Maritime Trade": {
+          "name": "Maritime Trade",
+          "description": "+1 Gold from all Harbors.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Harbor",
+              "yield_type": "Gold",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Artisan Workshops": {
+          "name": "Artisan Workshops",
+          "description": "+1 Production from Workshops.",
+          "effects":{
+            "building_yield_bonus":{
+              "building_type":"Workshop",
+              "yield_type":"Production",
+              "yield_amount":1
+            }
+          }
+        },
+        "Tributary System": {
+          "name": "Tributary System",
+          "description": "+1 Gold from City-State trade routes.",
+          "effects": {
+            "trade_route_yield_bonus": {
+              "yield_type": "Gold",
+              "yield_amount": 1,
+              "from_city_state": true
+            }
+          }
+        }
+      },
+      "Cultural Exchange": {
+          "name": "Cultural Exchange",
+          "description": "+1 Culture from trade routes to other nations.",
+          "effects": {
+            "trade_route_yield_bonus": {
+              "yield_type": "Culture",
+              "yield_amount": 1,
+              "to_other_civ": true
+            }
+          }
+        },
+        "Diplomatic Corps": {
+          "name": "Diplomatic Corps",
+          "description": "+2 Diplomatic Influence per turn.",
+          "effects": {
+            "diplomatic_influence_per_turn": 2
+          }
+        },
+        "Alliance System": {
+          "name": "Alliance System",
+          "description": "+1 Combat Strength for units when fighting alongside allied units.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 1,
+              "allied_units_nearby": true
+            }
+          }
+        },
+        "City-State Patronage": {
+          "name": "City-State Patronage",
+          "description": "+2 Influence per turn with City-States you are Suzerain of.",
+          "effects": {
+            "city_state_influence_bonus": {
+              "influence": 2,
+              "suzerain": true
+            }
+          }
+        },
+        "International Games":{
+            "name":"International Games",
+            "description":"+1 Amenity from each City-State you are Suzerain of.",
+            "effects":{
+                "city_state_suzerain_amenities":1
+            }
+        },
+        "Wildcard": {
+        "Philosophical Inquiry": {
+          "name": "Philosophical Inquiry",
+          "description": "+1 Science from all Libraries.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Library",
+              "yield_type": "Science",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Artistic Patronage": {
+          "name": "Artistic Patronage",
+          "description": "+1 Culture from all Monuments.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Monument",
+              "yield_type": "Culture",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Religious Tolerance": {
+          "name": "Religious Tolerance",
+          "description": "+1 Amenity in cities with at least two different religions.",
+          "effects": {
+            "city_mixed_religion_yields": {
+              "amenities": 1
+            }
+          }
+        },
+        "Monumental Architecture": {
+          "name": "Monumental Architecture",
+          "description": "+1 Production towards Wonders.",
+          "effects": {
+            "wonder_production_bonus": 1
+          }
+        },
+        "Civic Development": {
+          "name": "Civic Development",
+          "description": "+1 Production in all cities.",
+          "effects": {
+            "city_yield_bonus": {
+              "yield_type": "Production",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Scholarly Pursuits":{
+          "name":"Scholarly Pursuits",
+          "description":"+1 Great Scientist point per turn.",
+          "effects":{
+            "great_scientist_points_per_turn":1
+          }
+        }
+      }
+    },
+"Medieval": {
+      "Military": {
+        "Standing Army": {
+          "name": "Standing Army",
+          "description": "+2 Combat Strength for all land units and +15% Production towards military units.",
+          "effects": {
+            "unit_combat_bonus": {
+              "terrain": "Land",
+              "combat_strength": 2
+            },
+            "unit_production_bonus": 15
+          }
+        },
+        "Knightly Orders": {
+          "name": "Knightly Orders",
+          "description": "+2 Movement and +2 Combat Strength for Heavy Cavalry units.",
+          "effects": {
+            "unit_movement_bonus": {
+              "unit_type": "Heavy Cavalry",
+              "movement": 2
+            },
+            "unit_combat_bonus": {
+              "unit_type": "Heavy Cavalry",
+              "combat_strength": 2
+            }
+          }
+        },
+        "Fortified Cities": {
+          "name": "Fortified Cities",
+          "description": "+7 Combat Strength for all units in friendly city territory.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 7,
+              "friendly_city_territory": true
+            }
+          }
+        },
+        "Religious Warfare": {
+          "name": "Religious Warfare",
+          "description": "+3 Combat Strength for all units when fighting units from a different religion.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 3,
+              "against_other_religions": true
+            }
+          }
+        },
+        "Mercenary Companies": {
+          "name":"Mercenary Companies",
+          "description":"-10% Unit maintenance cost, and +15% gold when selling military units.",
+          "effects":{
+            "unit_maintenance_cost_reduction":10,
+            "unit_sale_gold_bonus":15
+          }
+        }
+      },
+      "Economic": {
+        "Feudal Contracts": {
+          "name": "Feudal Contracts",
+          "description": "+2 Gold from Farms and Plantations.",
+          "effects": {
+            "tile_yield_bonus": {
+              "tile_type": ["Farm", "Plantation"],
+              "yield_type": "Gold",
+              "yield_amount": 2
+            }
+          }
+        },
+        "Guild System": {
+          "name": "Guild System",
+          "description": "+2 Production from Workshops and Guilds.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": ["Workshop", "Guild"],
+              "yield_type": "Production",
+              "yield_amount": 2
+            }
+          }
+        },
+        "Trade Fairs": {
+          "name": "Trade Fairs",
+          "description": "+2 Gold from all trade routes.",
+          "effects": {
+            "trade_route_yield_bonus": {
+              "yield_type": "Gold",
+              "yield_amount": 2
+            }
+          }
+        },
+        "Serfdom":{
+            "name":"Serfdom",
+            "description":"+2 Food from Farms, -1 Housing in all cities.",
+            "effects":{
+                "tile_yield_bonus":{
+                    "tile_type":"Farm",
+                    "yield_type":"Food",
+                    "yield_amount":2
+                },
+                "city_yield_reduction":{
+                    "yield_type":"Housing",
+                    "yield_amount":1
+                }
+            }
+        },
+        "Monastic Economics": {
+          "name": "Monastic Economics",
+          "description": "+2 Faith from all Temples and Shrines.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": ["Temple", "Shrine"],
+              "yield_type": "Faith",
+              "yield_amount": 2
+            }
+          }
+        }
+      },
+      "Diplomatic": {
+        "Royal Marriages": {
+          "name": "Royal Marriages",
+          "description": "+1 Diplomatic Influence per turn with nations you have a Royal Marriage with.",
+          "effects": {
+            "diplomatic_influence_per_turn": {
+              "royal_marriage": true,
+              "influence": 1
+            }
+          }
+        },
+        "Religious Diplomacy": {
+          "name": "Religious Diplomacy",
+          "description": "+2 Diplomatic Influence per turn with nations sharing your religion.",
+          "effects": {
+            "diplomatic_influence_per_turn": {
+              "shared_religion": true,
+              "influence": 2
+            }
+          }
+        },
+        "Trade League": {
+          "name": "Trade League",
+          "description": "+2 Gold from trade routes to City-States and +1 Influence per turn with City-States.",
+          "effects": {
+            "trade_route_yield_bonus": {
+              "yield_type": "Gold",
+              "yield_amount": 2,
+              "to_city_state": true
+            },
+            "city_state_influence_bonus": 1
+          }
+        },
+        "Holy Orders": {
+          "name": "Holy Orders",
+          "description": "+1 Combat Strength to all units when fighting alongside allied units of the same religion.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 1,
+              "allied_units_nearby": true,
+              "shared_religion_with_allies": true
+            }
+          }
+        }
+      },
+      "Wildcard": {
+        "Scholasticism": {
+          "name": "Scholasticism",
+          "description": "+1 Science from Universities.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "University",
+              "yield_type": "Science",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Gothic Architecture": {
+          "name": "Gothic Architecture",
+          "description": "+1 Culture and +1 Faith from Cathedrals.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Cathedral",
+              "yield_type": ["Culture", "Faith"],
+              "yield_amount": 1
+            }
+          }
+        },
+        "Chivalry": {
+          "name": "Chivalry",
+          "description": "+1 Great General point per turn.",
+          "effects": {
+            "great_general_points_per_turn": 1
+          }
+        },
+        "Courtly Love": {
+          "name": "Courtly Love",
+          "description": "+1 Amenity in cities with at least 4 population.",
+          "effects": {
+            "city_population_yield": {
+              "yield_type": "Amenities",
+              "yield_amount": 1,
+              "min_population": 4
+            }
+          }
+        },
+        "Divine Right":{
+            "name":"Divine Right",
+            "description":"+1 Loyalty per turn in cities with a Governor.",
+            "effects":{
+                "city_governor_yield":{
+                    "yield_type":"Loyalty",
+                    "yield_amount":1
+                }
+            }
+        }
+      }
+    },
+    "Renaissance": {
+      "Military": {
+        "Conscription": {
+          "name": "Conscription",
+          "description": "+20% Production towards military units, -1 Amenity in all cities.",
+          "effects": {
+            "unit_production_bonus": 20,
+            "city_yield_reduction": {
+              "yield_type": "Amenities",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Gunpowder Mastery": {
+          "name": "Gunpowder Mastery",
+          "description": "+2 Combat Strength for all Gunpowder units.",
+          "effects": {
+            "unit_combat_bonus": {
+              "unit_type": "Gunpowder",
+              "combat_strength": 2
+            }
+          }
+        },
+        "Naval Blockade": {
+          "name": "Naval Blockade",
+          "description": "+3 Combat Strength for all naval units in friendly coastal territory.",
+          "effects": {
+            "unit_combat_bonus": {
+              "terrain": "Water",
+              "combat_strength": 3,
+              "friendly_coastal_territory": true
+            }
+          }
+        },
+        "Fortified Garrisons": {
+          "name": "Fortified Garrisons",
+          "description": "+10 Combat Strength for all units in friendly city territory.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 10,
+              "friendly_city_territory": true
+            }
+          }
+        },
+        "Professional Siegecraft":{
+            "name":"Professional Siegecraft",
+            "description":"+2 Combat Strength for siege units and +25% production towards siege units.",
+            "effects":{
+                "unit_combat_bonus":{
+                    "unit_type":"Siege",
+                    "combat_strength":2
+                },
+                "unit_production_bonus":{
+                    "unit_type":"Siege",
+                    "production_bonus":25
+                }
+            }
+        }
+      },
+      "Economic":{
+      "Mercantilism": {
+          "name": "Mercantilism",
+          "description": "+3 Gold from trade routes, -1 Science per city.",
+          "effects": {
+            "trade_route_yield_bonus": {
+              "yield_type": "Gold",
+              "yield_amount": 3
+            },
+            "city_yield_reduction": {
+              "yield_type": "Science",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Colonial Charters": {
+          "name": "Colonial Charters",
+          "description": "+3 Production in cities on other continents.",
+          "effects": {
+            "city_continent_yield_bonus": {
+              "yield_type": "Production",
+              "yield_amount": 3,
+              "other_continent": true
+            }
+          }
+        },
+        "Stock Companies": {
+          "name": "Stock Companies",
+          "description": "+2 Gold from Banks and Markets.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": ["Bank", "Market"],
+              "yield_type": "Gold",
+              "yield_amount": 2
+            }
+          }
+        },
+        "Patronage of the Arts": {
+          "name": "Patronage of the Arts",
+          "description": "+2 Culture from all Theater buildings.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": ["Amphitheater", "Opera House", "Museum"],
+              "yield_type": "Culture",
+              "yield_amount": 2
+            }
+          }
+        },
+        "Textile Industry":{
+            "name":"Textile Industry",
+            "description":"+2 Gold from Plantations.",
+            "effects":{
+                "tile_yield_bonus":{
+                    "tile_type":"Plantation",
+                    "yield_type":"Gold",
+                    "yield_amount":2
+                }
+            }
+        }
+      },
+        "Diplomatic": {
+        "Religious Tolerance Act": {
+          "name": "Religious Tolerance Act",
+          "description": "+3 Diplomatic Influence per turn with nations of a different religion.",
+          "effects": {
+            "diplomatic_influence_per_turn": {
+              "different_religion": true,
+              "influence": 3
+            }
+          }
+        },
+        "Colonial Treaties": {
+          "name": "Colonial Treaties",
+          "description": "+2 Diplomatic Influence per turn with nations on other continents.",
+          "effects": {
+            "diplomatic_influence_per_turn": {
+              "other_continent": true,
+              "influence": 2
+            }
+          }
+        },
+        "Grand Embassy": {
+          "name": "Grand Embassy",
+          "description": "+4 Diplomatic Influence per turn.",
+          "effects": {
+            "diplomatic_influence_per_turn": 4
+          }
+        },
+        "Royal Decree": {
+          "name": "Royal Decree",
+          "description": "+2 Diplomatic Influence per turn with nations you have a Declaration of Friendship with.",
+          "effects": {
+            "diplomatic_influence_per_turn": {
+              "declaration_of_friendship": true,
+              "influence": 2
+            }
+          }
+        },
+        "Privateering":{
+            "name":"Privateering",
+            "description":"+2 Gold from naval combat victories against nations you are at war with.",
+            "effects":{
+                "naval_combat_gold_bonus":{
+                    "gold":2,
+                    "at_war":true
+                }
+            }
+        },
+        "Sakoku": {
+          "name": "Sakoku",
+          "uniqueTo": "Japan",
+          "description": "+4 Loyalty per turn in all cities. -3 Diplomatic Influence per turn with all nations.",
+          "effects": {
+            "city_yield_bonus": {
+              "yield_type": "Loyalty",
+              "yield_amount": 4
+            },
+            "diplomatic_influence_per_turn": -3
+          }
+        }
+      }
+      },
+        "Wildcard": {
+        "Scientific Revolution": {
+          "name": "Scientific Revolution",
+          "description": "+3 Science from Universities.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "University",
+              "yield_type": "Science",
+              "yield_amount": 3
+            }
+          }
+        },
+        "Artistic Flourishing": {
+          "name": "Artistic Flourishing",
+          "description": "+3 Culture from all Art buildings.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": ["Art Museum", "Archaeological Museum"],
+              "yield_type": "Culture",
+              "yield_amount": 3
+            }
+          }
+        },
+        "Enlightenment": {
+          "name": "Enlightenment",
+          "description": "+2 Great Writer and +2 Great Artist points per turn.",
+          "effects": {
+            "great_writer_points_per_turn": 2,
+            "great_artist_points_per_turn": 2
+          }
+        },
+        "Merchant Guilds": {
+          "name": "Merchant Guilds",
+          "description": "+2 Gold from Markets and +1 Trade Route capacity.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Market",
+              "yield_type": "Gold",
+              "yield_amount": 2
+            },
+            "trade_route_capacity": 1
+          }
+        },
+        "National Identity":{
+            "name":"National Identity",
+            "description":"+2 Loyalty per turn in all cities.",
+            "effects":{
+                "city_yield_bonus":{
+                    "yield_type":"Loyalty",
+                    "yield_amount":2
+                }
+            }
+        }
+      }
+    },
+    "Industrial": {
+      "Military": {
+        "Mobilization": {
+          "name": "Mobilization",
+          "description": "+25% Production towards military units, -2 Amenities in all cities.",
+          "effects": {
+            "unit_production_bonus": 25,
+            "city_yield_reduction": {
+              "yield_type": "Amenities",
+              "yield_amount": 2
+            }
+          }
+        },
+        "Modern Warfare": {
+          "name": "Modern Warfare",
+          "description": "+3 Combat Strength for all Gunpowder and Armored units.",
+          "effects": {
+            "unit_combat_bonus": {
+              "unit_type": ["Gunpowder", "Armored"],
+              "combat_strength": 3
+            }
+          }
+        },
+        "Trench Warfare": {
+          "name": "Trench Warfare",
+          "description": "+5 Combat Strength for all units in friendly territory.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 5,
+              "friendly_territory": true
+            }
+          }
+        },
+        "Blitzkrieg": {
+          "name": "Blitzkrieg",
+          "description": "+2 Movement for all Armored units.",
+          "effects": {
+            "unit_movement_bonus": {
+              "unit_type": "Armored",
+              "movement": 2
+            }
+          }
+        },
+        "Combined Arms":{
+            "name":"Combined Arms",
+            "description":"+2 Combat Strength for all units adjacent to a unit of a different type.",
+            "effects":{
+                "unit_combat_bonus":{
+                    "combat_strength":2,
+                    "adjacent_to_different_unit_type":true
+                }
+            }
+        }
+      },
+      "Economic": {
+        "Factory Act": {
+          "name": "Factory Act",
+          "description": "+3 Production from Factories, -1 Amenity in cities with Factories.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Factory",
+              "yield_type": "Production",
+              "yield_amount": 3
+            },
+            "city_building_yield_reduction": {
+              "building_type": "Factory",
+              "yield_type": "Amenities",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Corporations": {
+          "name": "Corporations",
+          "description": "+3 Gold from Banks and Stock Exchanges.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": ["Bank", "Stock Exchange"],
+              "yield_type": "Gold",
+              "yield_amount": 3
+            }
+          }
+        },
+        "Railroads": {
+          "name": "Railroads",
+          "description": "+2 Production from Mines and Quarries.",
+          "effects": {
+            "tile_yield_bonus": {
+              "tile_type": ["Mine", "Quarry"],
+              "yield_type": "Production",
+              "yield_amount": 2
+            }
+          }
+        },
+        "Mass Production": {
+          "name": "Mass Production",
+          "description": "+20% Production towards all buildings.",
+          "effects": {
+            "building_production_bonus": 20
+          }
+        },
+        "Urbanization":{
+            "name":"Urbanization",
+            "description":"+2 Housing in all cities, -1 Food from Farms.",
+            "effects":{
+                "city_yield_bonus":{
+                    "yield_type":"Housing",
+                    "yield_amount":2
+                },
+                "tile_yield_reduction":{
+                    "tile_type":"Farm",
+                    "yield_type":"Food",
+                    "yield_amount":1
+                }
+            }
+        }
+      },
+      "Diplomatic": {
+        "Imperialism": {
+          "name": "Imperialism",
+          "description": "+3 Diplomatic Influence per turn with nations you have more cities than.",
+          "effects": {
+            "diplomatic_influence_per_turn": {
+              "more_cities": true,
+              "influence": 3
+            }
+          }
+        },
+        "Open Diplomacy": {
+          "name": "Open Diplomacy",
+          "description": "+2 Diplomatic Influence per turn with all nations.",
+          "effects": {
+            "diplomatic_influence_per_turn": 2
+          }
+        },
+        "International Trade Agreements": {
+          "name": "International Trade Agreements",
+          "description": "+3 Gold from trade routes to other nations.",
+          "effects": {
+            "trade_route_yield_bonus": {
+              "yield_type": "Gold",
+              "yield_amount": 3,
+              "to_other_civ": true
+            }
+          }
+        },
+        "Colonial Administration": {
+          "name": "Colonial Administration",
+          "description": "+2 Loyalty per turn in cities on other continents.",
+          "effects": {
+            "city_continent_yield_bonus": {
+              "yield_type": "Loyalty",
+              "yield_amount": 2,
+              "other_continent": true
+            }
+          }
+        },
+        "Gunboat Diplomacy": {
+          "name": "Gunboat Diplomacy",
+          "description": "+3 Combat Strength for all naval units when at war.",
+          "effects": {
+            "unit_combat_bonus": {
+              "terrain": "Water",
+              "combat_strength": 3,
+              "at_war": true
+            }
+          }
+        }
+      },
+      "Wildcard": {
+        "Industrial Engineering": {
+          "name": "Industrial Engineering",
+          "description": "+2 Production from all Factories.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Factory",
+              "yield_type": "Production",
+              "yield_amount": 2
+            }
+          }
+        },
+        "Skyscrapers": {
+          "name": "Skyscrapers",
+          "description": "+1 Production and +1 Housing in all cities with at least 10 Population.",
+          "effects": {
+            "city_population_yield": {
+              "yield_type": ["Production", "Housing"],
+              "yield_amount": 1,
+              "min_population": 10
+            }
+          }
+        },
+        "Nationalism": {
+          "name": "Nationalism",
+          "description": "+3 Loyalty per turn in all cities.",
+          "effects": {
+            "city_yield_bonus": {
+              "yield_type": "Loyalty",
+              "yield_amount": 3
+            }
+          }
+        },
+        "Labor Unions": {
+          "name": "Labor Unions",
+          "description": "+1 Production from all Factories and +1 Amenity in all cities.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Factory",
+              "yield_type": "Production",
+              "yield_amount": 1
+            },
+            "city_yield_bonus": {
+              "yield_type": "Amenities",
+              "yield_amount": 1
+            }
+          }
+        },
+        "Sanitation":{
+            "name":"Sanitation",
+            "description":"+2 Housing and +1 Amenity in all cities with at least 5 Population.",
+            "effects":{
+                "city_population_yield":{
+                    "yield_type":["Housing", "Amenities"],
+                    "yield_amount":1,
+                    "min_population":5
+                }
+            }
+        }
+    }
+  },
+  "Modern": {
+      "Military": {
+        "Total War": {
+          "name": "Total War",
+          "description": "+30% Production towards military units, -3 Amenities in all cities.",
+          "effects": {
+            "unit_production_bonus": 30,
+            "city_yield_reduction": {
+              "yield_type": "Amenities",
+              "yield_amount": 3
+            }
+          }
+        },
+        "Air Power": {
+          "name": "Air Power",
+          "description": "+4 Combat Strength for all Air units.",
+          "effects": {
+            "unit_combat_bonus": {
+              "unit_type": "Air",
+              "combat_strength": 4
+            }
+          }
+        },
+        "Nuclear Arms": {
+          "name": "Nuclear Arms",
+          "description": "+2 Combat Strength for all units, +100% Production towards Nuclear Weapons.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 2
+            },
+            "unit_production_bonus": {
+              "unit_type": "Nuclear",
+              "production_bonus": 100
+            }
+          }
+        },
+        "Mechanized Infantry": {
+          "name": "Mechanized Infantry",
+          "description": "+3 Combat Strength for all Mechanized Infantry units and +1 Movement",
+          "effects": {
+            "unit_combat_bonus": {
+              "unit_type": "Mechanized Infantry",
+              "combat_strength": 3
+            },
+             "unit_movement_bonus": {
+              "unit_type": "Mechanized Infantry",
+              "movement": 1
+            }
+          }
+        },
+        "Guerrilla Warfare":{
+            "name":"Guerrilla Warfare",
+            "description":"+7 Combat Strength for all units in rough terrain.",
+            "effects":{
+                "unit_combat_bonus":{
+                    "combat_strength":7,
+                    "rough_terrain":true
+                }
+            }
+        }
+      },
+      "Economic": {
+        "Consumerism": {
+          "name": "Consumerism",
+          "description": "+2 Gold and +1 Amenity from all Commercial Hub buildings.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": ["Market", "Bank", "Stock Exchange"],
+              "yield_type": ["Gold", "Amenities"],
+              "yield_amount": 2
+            }
+          }
+        },
+        "Welfare State": {
+          "name": "Welfare State",
+          "description": "+2 Housing and +1 Amenity in all cities.",
+          "effects": {
+            "city_yield_bonus": {
+              "yield_type": ["Housing", "Amenities"],
+              "yield_amount": 2
+            }
+          }
+        },
+        "Five-Year Plan": {
+          "name": "Five-Year Plan",
+          "description": "+25% Production towards all buildings.",
+          "effects": {
+            "building_production_bonus": 25
+          }
+        },
+        "Mass Media": {
+          "name": "Mass Media",
+          "description": "+3 Culture from Broadcast Centers.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Broadcast Center",
+              "yield_type": "Culture",
+              "yield_amount": 3
+            }
+          }
+        },
+         "Globalization":{
+            "name":"Globalization",
+            "description":"+3 Gold from all trade routes.",
+            "effects":{
+                "trade_route_yield_bonus":{
+                    "yield_type":"Gold",
+                    "yield_amount":3
+                }
+            }
+        }
+      },
+      "Diplomatic": {
+        "International Organizations": {
+          "name": "International Organizations",
+          "description": "+4 Diplomatic Influence per turn.",
+          "effects": {
+            "diplomatic_influence_per_turn": 4
+          }
+        },
+        "Free Trade Agreements": {
+          "name": "Free Trade Agreements",
+          "description": "+4 Gold from trade routes to other nations.",
+          "effects": {
+            "trade_route_yield_bonus": {
+              "yield_type": "Gold",
+              "yield_amount": 4,
+              "to_other_civ": true
+            }
+          }
+        },
+        "Cultural Diplomacy": {
+          "name": "Cultural Diplomacy",
+          "description": "+2 Culture and +2 Diplomatic Influence per turn with nations you have Open Borders with.",
+          "effects": {
+            "diplomatic_influence_per_turn":{
+              "open_borders":true,
+              "influence":2
+            },
+            "city_yield_bonus":{
+              "open_borders":true,
+              "yield_type":"Culture",
+              "yield_amount":2
+            }
+          }
+        },
+        "Mutual Defense Pacts": {
+          "name": "Mutual Defense Pacts",
+          "description": "+4 Combat Strength for all units when fighting alongside allied units.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 4,
+              "allied_units_nearby": true
+            }
+          }
+        },
+        "Limited War":{
+            "name":"Limited War",
+            "description":"+4 Combat Strength for all units when fighting a nation you have a formal war declaration against.",
+            "effects":{
+                "unit_combat_bonus":{
+                    "combat_strength":4,
+                    "formal_war":true
+                }
+            }
+        }
+      },
+      "Wildcard": {
+        "Urban Planning": {
+          "name": "Urban Planning",
+          "description": "+3 Housing in all cities.",
+          "effects": {
+            "city_yield_bonus": {
+              "yield_type": "Housing",
+              "yield_amount": 3
+            }
+          }
+        },
+        "Space Program": {
+          "name": "Space Program",
+          "description": "+30% Production towards Space Race projects.",
+          "effects": {
+            "project_production_bonus": {
+              "project_type": "Space Race",
+              "production_bonus": 30
+            }
+          }
+        },
+        "Ideology": {
+          "name": "Ideology",
+          "description": "+2 Great People points of your choice per turn.",
+          "effects": {
+            "great_people_points_per_turn": 2
+          }
+        },
+        "Cultural Heritage": {
+          "name": "Cultural Heritage",
+          "description": "+3 Culture from all Wonders.",
+          "effects": {
+            "wonder_yield_bonus": {
+              "yield_type": "Culture",
+              "yield_amount": 3
+            }
+          }
+        }
+      }
+    },
+    "Atomic": {
+      "Military": {
+        "Strategic Air Command": {
+          "name": "Strategic Air Command",
+          "description": "+5 Combat Strength for all Air units and +2 Movement.",
+          "effects": {
+            "unit_combat_bonus": {
+              "unit_type": "Air",
+              "combat_strength": 5
+            },
+            "unit_movement_bonus": {
+              "unit_type": "Air",
+              "movement": 2
+            }
+          }
+        },
+        "Missile Defense Systems": {
+          "name": "Missile Defense Systems",
+          "description": "+5 Combat Strength for all Anti-Air units and +50% Production towards Anti-Air units.",
+          "effects": {
+            "unit_combat_bonus": {
+              "unit_type": "Anti-Air",
+              "combat_strength": 5
+            },
+            "unit_production_bonus": {
+              "unit_type": "Anti-Air",
+              "production_bonus": 50
+            }
+          }
+        },
+        "Nuclear Deterrence": {
+          "name": "Nuclear Deterrence",
+          "description": "+3 Combat Strength for all units, +150% Production towards Nuclear Weapons.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 3
+            },
+            "unit_production_bonus": {
+              "unit_type": "Nuclear",
+              "production_bonus": 150
+            }
+          }
+        },
+        "Armored Warfare Doctrine": {
+          "name": "Armored Warfare Doctrine",
+          "description": "+4 Combat Strength for all Armored units and +2 Movement.",
+          "effects": {
+            "unit_combat_bonus": {
+              "unit_type": "Armored",
+              "combat_strength": 4
+            },
+            "unit_movement_bonus": {
+              "unit_type": "Armored",
+              "movement": 2
+            }
+          }
+        },
+        "Special Forces":{
+            "name":"Special Forces",
+            "description":"+5 Combat Strength for all units when fighting in rough terrain or jungle.",
+            "effects":{
+                "unit_combat_bonus":{
+                    "combat_strength":5,
+                    "rough_terrain_or_jungle":true
+                }
+            }
+        }
+      },
+      "Economic": {
+        "Automation": {
+          "name": "Automation",
+          "description": "+4 Production from Factories.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Factory",
+              "yield_type": "Production",
+              "yield_amount": 4
+            }
+          }
+        },
+        "Information Age": {
+          "name": "Information Age",
+          "description": "+4 Science from Research Labs.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Research Lab",
+              "yield_type": "Science",
+              "yield_amount": 4
+            }
+          }
+        },
+        "Global Markets": {
+          "name": "Global Markets",
+          "description": "+4 Gold from all trade routes.",
+          "effects": {
+            "trade_route_yield_bonus": {
+              "yield_type": "Gold",
+              "yield_amount": 4
+            }
+          }
+        },
+        "Consumer Electronics": {
+          "name": "Consumer Electronics",
+          "description": "+3 Amenities from Shopping Malls.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Shopping Mall",
+              "yield_type": "Amenities",
+              "yield_amount": 3
+            }
+          }
+        },
+        "Planned Economy":{
+            "name":"Planned Economy",
+            "description":"+30% Production towards all buildings, -2 Amenities per city.",
+            "effects":{
+                "building_production_bonus":30,
+                "city_yield_reduction":{
+                    "yield_type":"Amenities",
+                    "yield_amount":2
+                }
+            }
+        }
+      },
+      "Diplomatic": {
+        "United Nations": {
+          "name": "United Nations",
+          "description": "+5 Diplomatic Influence per turn.",
+          "effects": {
+            "diplomatic_influence_per_turn": 5
+          }
+        },
+        "International Space Agency": {
+          "name": "International Space Agency",
+          "description": "+2 Diplomatic Influence per turn with nations working on Space Race projects.",
+          "effects": {
+            "diplomatic_influence_per_turn": {
+              "space_race": true,
+              "influence": 2
+            }
+          }
+        },
+        "Arms Control Treaties": {
+          "name": "Arms Control Treaties",
+          "description": "-2 Combat Strength for all units when at war.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": -2,
+              "at_war": true
+            }
+          }
+        },
+        "Multilateral Diplomacy": {
+          "name": "Multilateral Diplomacy",
+          "description": "+3 Diplomatic Influence per turn with nations you have a Declaration of Friendship with.",
+          "effects": {
+            "diplomatic_influence_per_turn": {
+              "declaration_of_friendship": true,
+              "influence": 3
+            }
+          }
+        },
+        "Proxy Wars":{
+            "name":"Proxy Wars",
+            "description":"+4 Combat Strength for all units when fighting a nation you are not at war with, but is allied with a nation you are at war with.",
+            "effects":{
+                "unit_combat_bonus":{
+                    "combat_strength":4,
+                    "proxy_war":true
+                }
+            }
+        }
+      },
+      "Wildcard": {
+        "Advanced Robotics": {
+          "name": "Advanced Robotics",
+          "description": "+4 Production from Factories.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Factory",
+              "yield_type": "Production",
+              "yield_amount": 4
+            }
+          }
+        },
+        "Quantum Computing": {
+          "name": "Quantum Computing",
+          "description": "+4 Science from Research Labs.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Research Lab",
+              "yield_type": "Science",
+              "yield_amount": 4
+            }
+          }
+        },
+        "Global Communication": {
+          "name": "Global Communication",
+          "description": "+4 Culture from Broadcast Centers.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": "Broadcast Center",
+              "yield_type": "Culture",
+              "yield_amount": 4
+            }
+          }
+        },
+        "Modern Architecture": {
+          "name": "Modern Architecture",
+          "description": "+4 Housing in all cities with at least 15 Population.",
+          "effects": {
+            "city_population_yield": {
+              "yield_type": "Housing",
+              "yield_amount": 4,
+              "min_population": 15
+            }
+          }
+        },
+        "Genetic Engineering":{
+            "name":"Genetic Engineering",
+            "description":"+2 Food and +1 Production from Farms.",
+            "effects":{
+                "tile_yield_bonus":{
+                    "tile_type":"Farm",
+                    "yield_type":["Food", "Production"],
+                    "yield_amount":2
+                }
+            }
+        }
+      }
+    },
+    "Information": {
+      "Military": {
+        "Stealth Technology": {
+          "name": "Stealth Technology",
+          "description": "+6 Combat Strength for all Stealth units and +3 Movement.",
+          "effects": {
+            "unit_combat_bonus": {
+              "unit_type": "Stealth",
+              "combat_strength": 6
+            },
+            "unit_movement_bonus": {
+              "unit_type": "Stealth",
+              "movement": 3
+            }
+          }
+        },
+        "Robotics Warfare": {
+          "name": "Robotics Warfare",
+          "description": "+6 Combat Strength for all Robotic units and +50% Production towards Robotic units.",
+          "effects": {
+            "unit_combat_bonus": {
+              "unit_type": "Robotic",
+              "combat_strength": 6
+            },
+            "unit_production_bonus": {
+              "unit_type": "Robotic",
+              "production_bonus": 50
+            }
+          }
+        },
+        "Cyber Warfare": {
+          "name": "Cyber Warfare",
+          "description": "+4 Combat Strength for all units and +1 Diplomatic Influence per turn.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 4
+            },
+            "diplomatic_influence_per_turn": 1
+          }
+        },
+        "Satellite Surveillance": {
+          "name": "Satellite Surveillance",
+          "description": "+3 Combat Strength for all units and reveals strategic resources.",
+          "effects": {
+            "unit_combat_bonus": {
+              "combat_strength": 3
+            },
+            "reveal_strategic_resources": true
+          }
+        },
+        "Drone Swarms":{
+            "name":"Drone Swarms",
+            "description":"+8 Combat Strength for all units when fighting in friendly territory.",
+            "effects":{
+                "unit_combat_bonus":{
+                    "combat_strength":8,
+                    "friendly_territory":true
+                }
+            }
+        }
+      },
+      "Economic": {
+        "E-Commerce": {
+          "name": "E-Commerce",
+          "description": "+5 Gold from all trade routes.",
+          "effects": {
+            "trade_route_yield_bonus": {
+              "yield_type": "Gold",
+              "yield_amount": 5
+            }
+          }
+        },
+        "Global Supply Chains": {
+          "name": "Global Supply Chains",
+          "description": "+5 Production from all buildings.",
+          "effects": {
+             "building_yield_bonus":{
+                "yield_type":"Production",
+                "yield_amount":5
+             }
+          }
+        },
+        "Financial Deregulation": {
+          "name": "Financial Deregulation",
+          "description": "+5 Gold from Banks and Stock Exchanges.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": ["Bank", "Stock Exchange"],
+              "yield_type": "Gold",
+              "yield_amount": 5
+            }
+          }
+        },
+        "Sustainable Development": {
+          "name": "Sustainable Development",
+          "description": "+3 Food and +3 Production from all renewable energy sources.",
+           "effects":{
+              "tile_yield_bonus":{
+                 "tile_type":"Renewable Energy",
+                 "yield_type":["Food", "Production"],
+                 "yield_amount":3
+              }
+           }
+        },
+        "Artificial Intelligence":{
+            "name":"Artificial Intelligence",
+            "description":"+5 Science from Research Labs, -1 Amenity in all cities.",
+            "effects":{
+                "building_yield_bonus":{
+                    "building_type":"Research Lab",
+                    "yield_type":"Science",
+                    "yield_amount":5
+                },
+                "city_yield_reduction":{
+                    "yield_type":"Amenities",
+                    "yield_amount":1
+                }
+            }
+        }
+      },
+      "Diplomatic": {
+        "World Government": {
+          "name": "World Government",
+          "description": "+6 Diplomatic Influence per turn.",
+          "effects": {
+            "diplomatic_influence_per_turn": 6
+          }
+        },
+        "Cybersecurity Protocols": {
+          "name": "Cybersecurity Protocols",
+          "description": "+3 Diplomatic Influence per turn with nations you have a Defensive Pact with.",
+          "effects": {
+            "diplomatic_influence_per_turn": {
+              "defensive_pact": true,
+              "influence": 3
+            }
+          }
+        },
+        "Climate Accords": {
+          "name": "Climate Accords",
+          "description": "+2 Diplomatic Influence per turn with nations that have not used Nuclear Weapons.",
+          "effects": {
+            "diplomatic_influence_per_turn": {
+              "no_nuclear_weapons": true,
+              "influence": 2
+            }
+          }
+        },
+        "Open Borders Treaty": {
+          "name": "Open Borders Treaty",
+          "description": "+3 Diplomatic Influence per turn with nations you have Open Borders with.",
+          "effects": {
+             "diplomatic_influence_per_turn":{
+                "open_borders":true,
+                "influence":3
+             }
+          }
+        },
+        "Space Exploration Treaty":{
+            "name":"Space Exploration Treaty",
+            "description":"+3 Diplomatic Influence per turn with nations working on Space Race projects.",
+            "effects":{
+                "diplomatic_influence_per_turn":{
+                    "space_race":true,
+                    "influence":3
+                }
+            }
+        }
+      },
+      "Wildcard": {
+        "Virtual Reality": {
+          "name": "Virtual Reality",
+          "description": "+3 Culture and +2 Amenities from all Broadcast Centers and Shopping Malls.",
+          "effects": {
+            "building_yield_bonus": {
+              "building_type": ["Broadcast Center", "Shopping Mall"],
+              "yield_type": ["Culture", "Amenities"],
+              "yield_amount": 3
+            }
+          }
+        },
+        "Nanotechnology": {
+          "name": "Nanotechnology",
+          "description": "+5 Production from all Factories and +5 Science from all Research Labs.",
+          "effects": {
+             "building_yield_bonus":{
+                "building_type":["Factory", "Research Lab"],
+                "yield_type":["Production", "Science"],
+                "yield_amount":5
+             }
+          }
+        },
+        "Hypermodernism": {
+          "name": "Hypermodernism",
+          "description": "+5 Culture from all Wonders.",
+          "effects": {
+            "wonder_yield_bonus": {
+              "yield_type": "Culture",
+              "yield_amount": 5
+            }
+          }
+        },
+        "Social Engineering": {
+          "name": "Social Engineering",
+          "description": "+4 Loyalty per turn in all cities.",
+          "effects": {
+            "city_yield_bonus": {
+              "yield_type": "Loyalty",
+              "yield_amount": 4
+            }
+          }
+        },
+        "Transhumanism":{
+            "name":"Transhumanism",
+            "description":"+3 Housing and +1 Amenity in all cities with at least 10 population.",
+            "effects":{
+                "city_population_yield":{
+                    "yield_type":["Housing", "Amenities"],
+                    "yield_amount":3,
+                    "min_population":10
+                }
+            }
+        }
+      }
+    }
+}

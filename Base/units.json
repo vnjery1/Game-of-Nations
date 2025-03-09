@@ -74,7 +74,7 @@
         "movement": 2,
         "abilities": [
           "Build Improvements: Can build improvements on tiles.",
-          "Repair: Can repair damaged buildings and districts."
+          "Repair: Can repair damaged buildings and improvements."
         ],
         "replaces": null
     },
@@ -775,7 +775,7 @@
         "movement": 3,
         "abilities": [
           "Diplomatic Negotiation: Enhances diplomatic relations and can negotiate treaties.",
-          "Intelligence Gathering: Gathers information about other civilizations."
+          "Intelligence Gathering: Gathers information about other nations."
         ],
         "upgradesFrom": null,
         "replaces": null

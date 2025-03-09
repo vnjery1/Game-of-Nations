@@ -31,7 +31,7 @@
     "nationOutsideColor": [255,255,255],
     "nationInsideColor": [237,41,57],
     "leaderAbilityName": "Rapid Conquest",
-    "leaderAbility": "[Military] units gain a combat bonus against [cities] and [civilizations] with more [cities] than [Japan].",
+    "leaderAbility": "[Military] units gain a combat bonus against [cities] and [nations] with more [cities] than [Japan].",
     "cities":["Azuchi","Gifu","Kyoto","Nagoya","Osaka","Sakai","Nara","Kamakura","Odawara","Hiroshima","Kofu","Sendai","Yamaguchi","Kanazawa","Matsumoto","Ueda","Tsuruga","Hakodate"],
     "spyNames":["Karasu","Kitsune","Kage","Yami","Shinobi","Hayabusa","Suzume","Tsubame","Kumogakure","Oni"]
    },
