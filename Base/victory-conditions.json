@@ -1,0 +1,60 @@
+{
+    "victoryConditions": [
+      {
+        "name": "Domination Victory",
+        "description": "Conquer all other civilizations' original capital cities.",
+        "type": "military",
+        "requirement": "Eliminate all other civilizations' original capital cities."
+      },
+      {
+        "name": "Science Victory",
+        "description": "Be the first civilization to launch and complete a space colonization project.",
+        "type": "science",
+        "requirement": "Complete the space colonization project."
+      },
+      {
+        "name": "Culture Victory",
+        "description": "Achieve cultural dominance by having a significant number of visiting tourists from other civilizations.",
+        "type": "culture",
+        "requirement": "Achieve a specific number of visiting tourists from other civilizations."
+      },
+      {
+        "name": "Diplomatic Victory",
+        "description": "Win a world leader vote, achieving the support of a majority of civilizations.",
+        "type": "diplomatic",
+        "requirement": "Win a world leader vote with a majority of support."
+      },
+      {
+        "name": "Religious Victory",
+        "description": "Have your religion become the dominant religion in a majority of civilizations.",
+        "type": "religious",
+        "requirement": "Have your religion be the dominant religion in a majority of civilizations."
+      },
+      {
+        "name": "Economic Victory",
+        "description": "Accumulate a specific, very high amount of gold.",
+        "type": "economic",
+        "requirement": "Accumulate a specific amount of gold."
+      },
+      {
+        "name": "Score Victory",
+        "description": "If no other victory condition is met by a certain turn limit, the civilization with the highest score wins.",
+        "type": "score",
+        "requirement": "Achieve the highest score by a specified turn limit."
+      },
+      {
+          "name":"Bushido Victory",
+          "description":"Oda Nobunaga must eliminate all civilizations that have declared war on him or his allies.",
+          "type":"military",
+          "leader":"Oda Nobunaga",
+          "requirement":"Eliminate all civilizations that have declared war on Oda Nobunaga or his allies."
+      },
+      {
+          "name":"Shogunate Victory",
+          "description":"Tokugawa Ieyasu must have the highest loyalty in all cities of at least 5 civilizations.",
+          "type":"diplomatic/loyalty",
+          "leader":"Tokugawa Ieyasu",
+          "requirement":"Have the highest loyalty in all cities of at least 5 civilizations."
+      }
+    ]
+  }
