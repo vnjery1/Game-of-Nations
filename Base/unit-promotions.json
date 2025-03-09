@@ -1,0 +1,193 @@
+{
+  "promotions": {
+    "Melee": {
+      "Veteran": {
+        "level": 1,
+        "effect": "+1 Combat Strength",
+        "description": "This unit has seen combat and gained valuable experience."
+      },
+      "Hardened": {
+        "level": 2,
+        "effect": "+2 Combat Strength, +5 Defense vs Ranged Attacks",
+        "description": "This unit has become more resilient to enemy attacks."
+      },
+      "Assault": {
+        "level": 3,
+        "effect": "+3 Combat Strength, +1 Movement when attacking",
+        "description": "This unit excels at aggressive assaults and closing the distance."
+      },
+      "Ironclad": {
+        "level": 4,
+        "effect": "+4 Combat Strength, +10 Defense vs all attacks",
+        "description": "This unit is a stalwart defender, nearly impervious to harm."
+      },
+      "Elite Guard": {
+        "level": 5,
+        "effect": "+5 Combat Strength, Heals 10 hit points after each kill",
+        "description": "This unit is among the best of the best, a true force to be reckoned with."
+      }
+    },
+    "Ranged": {
+      "Sharpshooter": {
+        "level": 1,
+        "effect": "+1 Ranged Combat Strength",
+        "description": "This unit has improved its accuracy."
+      },
+      "Long Range": {
+        "level": 2,
+        "effect": "+1 Range",
+        "description": "This unit can now attack from a greater distance."
+      },
+      "Volley": {
+        "level": 3,
+        "effect": "+2 Ranged Combat Strength, Attacks ignore terrain defense bonuses",
+        "description": "This unit's volleys are devastating and ignore cover."
+      },
+      "Barrage": {
+        "level": 4,
+        "effect": "+3 Ranged Combat Strength, +1 attack against fortified units",
+        "description": "This unit excels at attacking fortified positions"
+      },
+      "Sniper": {
+        "level": 5,
+        "effect": "+4 Ranged Combat Strength, first attack in a turn has a 20% chance to be a critical hit",
+        "description": "This unit is a master of precision and stealth."
+      }
+    },
+    "Cavalry": {
+      "Swiftness": {
+        "level": 1,
+        "effect": "+1 Movement",
+        "description": "This unit has improved its speed."
+      },
+      "Charge": {
+        "level": 2,
+        "effect": "+2 Combat Strength when attacking",
+        "description": "This unit gains bonus strength when charging into combat."
+      },
+      "Raider": {
+        "level": 3,
+        "effect": "+1 Movement, +1 Gold from pillaging",
+        "description": "This unit excels at raiding and pillaging enemy lands."
+      },
+      "Lancer": {
+        "level": 4,
+        "effect": "+3 Combat Strength, +5 combat strength against ranged units",
+        "description": "This unit excels at taking out ranged units."
+      },
+      "Blitz": {
+        "level": 5,
+        "effect": "+2 Movement, Can attack twice if the first attack kills the target",
+        "description": "This unit is a whirlwind of destruction."
+      }
+    },
+    "Militant Naval": {
+        "Seaworthy":{
+            "level":1,
+            "effect":"+1 Movement",
+            "description":"This ship is more nimble."
+        },
+        "Boarding Party":{
+            "level":2,
+            "effect":"+2 Combat Strength when attacking",
+            "description":"This ship excels at boarding enemy ships."
+        },
+        "Long Range Cannons":{
+            "level":3,
+            "effect":"+1 Range",
+            "description":"This ship can attack from a greater distance."
+        },
+        "Ironclad Hull":{
+            "level":4,
+            "effect":"+3 Combat Strength, +5 Defense vs all attacks",
+            "description":"This ship is more resistant to damage."
+        },
+        "Flagship":{
+            "level":5,
+            "effect":"+4 Combat Strength, Heals adjacent naval units for 5 hit points per turn",
+            "description":"This ship is a powerful leader of the fleet."
+        }
+    },
+    "Siege": {
+      "Setup": {
+        "level": 1,
+        "effect": "+1 Combat Strength when attacking cities",
+        "description": "This unit is more effective at attacking cities."
+      },
+      "Volley": {
+        "level": 2,
+        "effect": "+1 Range",
+        "description": "This unit can attack from a greater distance."
+      },
+      "Accurate": {
+        "level": 3,
+        "effect": "+2 Combat Strength when attacking cities, Ignores city walls",
+        "description": "This unit is more accurate when attacking cities."
+      },
+      "Rapid Deployment": {
+        "level": 4,
+        "effect": "+3 Combat Strength when attacking cities, +1 Movement",
+        "description": "This unit can quickly deploy and attack cities."
+      },
+      "Devastator": {
+        "level": 5,
+        "effect": "+4 Combat Strength when attacking cities, +10 against city defenses",
+        "description": "This unit is a master of siege warfare."
+      }
+    },
+    "Militant Deep Naval": {
+      "Silent Running": {
+        "level": 1,
+        "effect": "+1 Movement",
+        "description": "This submarine is more stealthy."
+      },
+      "Torpedo Mastery": {
+        "level": 2,
+        "effect": "+2 Combat Strength when attacking",
+        "description": "This submarine's torpedoes are more powerful."
+      },
+      "Acoustic Sensors": {
+        "level": 3,
+        "effect": "+1 Sight Range",
+        "description": "This submarine can detect enemies from further away."
+      },
+      "Wolfpack Tactics": {
+        "level": 4,
+        "effect": "+3 Combat Strength, +5 combat strength when adjacent to another submarine",
+        "description": "This submarine excels when fighting in groups."
+      },
+      "Nuclear Strike": {
+        "level": 5,
+        "effect": "+4 Combat Strength, +10 against naval units",
+        "description": "This submarine is a deadly hunter of enemy ships."
+      }
+    },
+    "Recon": {
+      "Scouting": {
+        "level": 1,
+        "effect": "+1 Movement",
+        "description": "This unit is faster at exploring."
+      },
+      "Survivalist": {
+        "level": 2,
+        "effect": "Ignores terrain cost",
+        "description": "This unit can move through any terrain without penalty."
+      },
+      "Tracking": {
+        "level": 3,
+        "effect": "+1 Sight Range",
+        "description": "This unit can see further."
+      },
+      "Ambush": {
+        "level": 4,
+        "effect": "+5 Combat Strength when attacking",
+        "description": "This unit excels at ambushing enemies."
+      },
+      "Pathfinder": {
+        "level": 5,
+        "effect": "+2 Movement, Reveals hidden resources",
+        "description": "This unit is a master of exploration and discovery."
+      }
+    }
+  }
+}
