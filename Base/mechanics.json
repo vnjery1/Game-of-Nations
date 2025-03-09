@@ -1,0 +1,242 @@
+{
+  "cityMechanics": {
+    "growth": {
+      "foodSurplusPerPopulation": 2,
+      "housingLimitMultiplier": 1
+    },
+    "buildings": {
+      "maxBuildingsPerPopulation": 1,
+      "buildingYields": {
+        "Farm": {
+          "food": 2
+        },
+        "Mine": {
+          "production": 2
+        },
+         "Library":{
+            "science":3
+         }
+      }
+    },
+    "citizens": {
+      "yieldsPerCitizen": {
+        "food": 1,
+        "production": 1,
+        "gold": 1
+      }
+    },
+    "loyalty": {
+      "baseLoyalty": 1,
+      "distanceModifier": -0.5,
+      "amenityModifier": 0.2
+    }
+  },
+    "battleMechanics": {
+      "combatCalculation": {
+        "baseDamage": 10,
+        "strengthModifier": 0.5,
+        "randomFactor": 0.2,
+        "armorReduction": 1
+      },
+      "terrainModifiers": {
+        "hills": {
+          "defenseBonus": 0.2,
+          "movementCostModifier": 1.5
+        },
+        "forest": {
+          "combatStrengthModifier": -0.2,
+          "movementCostModifier": 2
+        },
+        "river": {
+          "movementBonus": 0.5,
+          "combatStrengthModifier": -0.2
+        },
+        "mountains": {
+          "impassable": true
+        },
+        "marsh": {
+          "combatStrengthModifier": -0.1,
+          "movementCostModifier": 1.5
+        },
+        "jungle": {
+          "combatStrengthModifier": -0.15,
+          "movementCostModifier": 1.75
+        }
+      },
+      "flankingBonus": 0.2,
+      "rearFlankingBonus": 0.3,
+      "zoneOfControl": true,
+      "cityDefense": {
+        "baseStrength": 10,
+        "hitPointsPerPopulation": 5,
+        "wallBonus": 20,
+        "garrisonStrength": 5,
+        "rangedDefense": true
+      },
+      "rangedAttack": {
+        "lineOfSight": true,
+        "fortificationPenalty": 0.2
+      },
+      "navalCombat": {
+        "shallowWaterModifier": -0.1,
+        "deepWaterModifier": 0.1,
+        "captureCoastalCities": true
+      },
+      "airCombat": {
+        "airfieldRequirement": true,
+        "carrierRequirement": true,
+        "strategicBombing": true,
+        "airSuperiority": true,
+        "antiAirDefense": true,
+        "limitedRange": true
+      },
+      "unitStats": {
+        "melee": {
+          "armor": 2,
+          "antiCavalryBonus": 0,
+          "antiAirBonus": 0,
+          "visibility": 2
+        },
+        "ranged": {
+          "armor": 1,
+          "antiCavalryBonus": 0,
+          "antiAirBonus": 0,
+          "visibility": 3
+        },
+        "cavalry": {
+          "armor": 0,
+          "antiCavalryBonus": -0.2,
+          "antiAirBonus": 0,
+          "visibility": 3
+        },
+        "siege": {
+          "armor": 0,
+          "antiCavalryBonus": 0,
+          "antiAirBonus": 0,
+          "visibility": 2,
+          "wallDamageBonus": 2
+        },
+        "naval": {
+          "armor": 2,
+          "antiCavalryBonus": 0,
+          "antiAirBonus": 0,
+          "visibility": 4
+        },
+        "air": {
+          "armor": 0,
+          "antiCavalryBonus": 0,
+          "antiAirBonus": -0.3,
+          "visibility": 5,
+          "strategicBombingDamage": 10,
+          "airSuperiorityBonus":0.2
+        },
+        "support":{
+            "healer":{
+                "healingAmount":10,
+                "visibility":2
+            },
+            "siegeSupport":{
+                "siegeDamageBonus":0.2,
+                "visibility":2
+            },
+            "scout":{
+                "visibility":4,
+                "ignoresZOC":true
+            }
+        }
+      }
+    },
+      "diplomacyMechanics": {
+    "relationship": {
+      "baseRelationship": 0,
+      "friendlyThreshold": 50,
+      "hostileThreshold": -50,
+      "relationshipPerTurn": 1
+    },
+    "worldCongress": {
+      "votingFrequency": 20,
+      "diplomaticVictoryPoints": 10
+    },
+    "grievances": {
+      "warDeclarationGrievance": 20,
+      "cityCaptureGrievance": 10
+    },
+    "promises": {
+      "promiseBreakPenalty": -30
+    },
+    "agreements": {
+      "agreementBreakPenalty": -50
+    },
+    "embassy": {
+      "relationshipBonus": 10,
+      "goldCost": 100
+    },
+    "friendship": {
+      "relationshipBonus": 20,
+      "relationshipRequirement": 30
+    },
+    "alliance": {
+      "relationshipRequirement": 60
+    },
+    "actions": {
+      "declareWar": {
+        "grievanceIncrease": 20,
+        "relationshipPenalty": -50,
+        "warState": true,
+        "validWhen": "peace"
+      },
+      "declarePeace": {
+        "warState": false,
+        "validWhen": "war"
+      },
+      "formFriendship": {
+        "relationshipRequirement": 30,
+        "relationshipBonus": 20,
+        "durationTurns": 30
+      },
+      "formAlliance": {
+        "relationshipRequirement": 60,
+        "allianceType": ["Military", "Economic", "Research"],
+        "durationTurns": 50
+      },
+      "tradeAgreement": {
+        "durationTurns": 20,
+        "resourceExchange": true,
+        "goldExchange": true
+      },
+      "openBorders": {
+        "durationTurns": 20,
+        "movementPermission": true,
+        "relationshipBonus":5
+      },
+      "denounce": {
+        "relationshipPenalty": -20,
+        "grievanceIncrease": 10,
+        "durationTurns": 10
+      },
+      "gossip": {
+        "informationGain": true,
+        "relationshipChange": -5
+      },
+      "proposeTradeRoute": {
+        "goldPerTurn": 3,
+        "durationTurns": 30,
+        "relationshipBonus": 5
+      },
+      "sendDelegation": {
+        "relationshipBonus": 5,
+        "goldCost": 50
+      },
+      "issueDemand": {
+        "resourceDemand": true,
+        "goldDemand": true,
+        "relationshipPenalty": -10
+      },
+      "establishEmbassy": {
+        "relationshipBonus": 10,
+        "goldCost": 100,
+        "permanent": true
+      }
+    }
+  }
+  }
