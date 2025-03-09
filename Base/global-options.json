@@ -1,0 +1,20 @@
+{
+  "ai_leaders": {
+    "Oda Nobunaga": {
+      "military_focus": 0.8,
+      "expansionist_tendencies": 0.7,
+      "city_development_priorities": ["military_buildings", "production"],
+      "diplomacy_willingness": 0.2,
+      "religion_focus": 0.1,
+      "tech_civic_priorities": ["military", "expansion"]
+    },
+    "Tokugawa Ieyasu": {
+      "military_focus": 0.3,
+      "expansionist_tendencies": 0.2,
+      "city_development_priorities": ["faith_buildings", "gold_buildings", "economic_buildings"],
+      "diplomacy_willingness": 0.7,
+      "religion_focus": 0.7,
+      "tech_civic_priorities": ["economic", "faith", "defensive"]
+    }
+  }
+}

@@ -1,5 +1,6 @@
 {
   "great_people": {
+    "Japan":{
     "great_generals": [
       "Minamoto no Yoshitsune",
       "Takeda Shingen",
@@ -76,4 +77,5 @@
       "Eisai"
     ]
   }
+ }
 }

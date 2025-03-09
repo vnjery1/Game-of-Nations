@@ -1,0 +1,124 @@
+{
+  "difficulties": {
+    "Settler": {
+      "player_bonuses": {
+        "production": 0.2,
+        "science": 0.2,
+        "culture": 0.2,
+        "faith": 0.2,
+        "gold": 0.2,
+        "unit_combat": 0.1,
+        "city_defense": 0.1
+      },
+      "ai_penalties": {
+        "production": -0.2,
+        "science": -0.2,
+        "culture": -0.2,
+        "faith": -0.2,
+        "gold": -0.2,
+        "unit_combat": -0.1,
+        "city_defense": -0.1
+      }
+    },
+    "Chieftain": {
+      "player_bonuses": {
+        "production": 0.1,
+        "science": 0.1,
+        "culture": 0.1,
+        "faith": 0.1,
+        "gold": 0.1,
+        "unit_combat": 0.05,
+        "city_defense": 0.05
+      },
+      "ai_penalties": {
+        "production": -0.1,
+        "science": -0.1,
+        "culture": -0.1,
+        "faith": -0.1,
+        "gold": -0.1,
+        "unit_combat": -0.05,
+        "city_defense": -0.05
+      }
+    },
+    "Warlord": {
+      "player_bonuses": {},
+      "ai_penalties": {}
+    },
+    "Prince": {
+      "player_penalties": {
+        "production": -0.05,
+        "science": -0.05,
+        "culture": -0.05,
+        "faith": -0.05,
+        "gold": -0.05
+      },
+      "ai_bonuses": {
+        "production": 0.05,
+        "science": 0.05,
+        "culture": 0.05,
+        "faith": 0.05,
+        "gold": 0.05
+      }
+    },
+    "King": {
+      "player_penalties": {
+        "production": -0.1,
+        "science": -0.1,
+        "culture": -0.1,
+        "faith": -0.1,
+        "gold": -0.1,
+        "unit_combat": -0.05,
+        "city_defense": -0.05
+      },
+      "ai_bonuses": {
+        "production": 0.1,
+        "science": 0.1,
+        "culture": 0.1,
+        "faith": 0.1,
+        "gold": 0.1,
+        "unit_combat": 0.05,
+        "city_defense": 0.05
+      }
+    },
+    "Emperor": {
+      "player_penalties": {
+        "production": -0.15,
+        "science": -0.15,
+        "culture": -0.15,
+        "faith": -0.15,
+        "gold": -0.15,
+        "unit_combat": -0.1,
+        "city_defense": -0.1
+      },
+      "ai_bonuses": {
+        "production": 0.15,
+        "science": 0.15,
+        "culture": 0.15,
+        "faith": 0.15,
+        "gold": 0.15,
+        "unit_combat": 0.1,
+        "city_defense": 0.1
+      }
+    },
+    "Deity": {
+      "player_penalties": {
+        "production": -0.2,
+        "science": -0.2,
+        "culture": -0.2,
+        "faith": -0.2,
+        "gold": -0.2,
+        "unit_combat": -0.15,
+        "city_defense": -0.15
+      },
+      "ai_bonuses": {
+        "production": 0.2,
+        "science": 0.2,
+        "culture": 0.2,
+        "faith": 0.2,
+        "gold": 0.2,
+        "unit_combat": 0.15,
+        "city_defense": 0.15
+      }
+    }
+  }
+}
