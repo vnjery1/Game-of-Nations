@@ -1,0 +1,421 @@
+{
+  "terrains": [
+    {
+      "name": "Grassland",
+      "foodYield": 2,
+      "productionYield": 0,
+      "movementCost": 1,
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "foodYield": 1,
+      "productionYield": 1,
+      "movementCost": 1,
+      "features": []
+    },
+    {
+      "name": "Desert",
+      "foodYield": 0,
+      "productionYield": 0,
+      "movementCost": 1,
+      "features": []
+    },
+    {
+      "name": "Tundra",
+      "foodYield": 0,
+      "productionYield": 0,
+      "movementCost": 2,
+      "features": []
+    },
+    {
+      "name": "Snow",
+      "foodYield": 0,
+      "productionYield": 0,
+      "movementCost": 3,
+      "features": []
+    },
+    {
+      "name": "Ocean",
+      "foodYield": 1,
+      "productionYield": 0,
+      "movementCost": 1,
+      "features": []
+    },
+    {
+      "name": "Coast",
+      "foodYield": 2,
+      "productionYield": 0,
+      "movementCost": 1,
+      "features": []
+    },
+    {
+      "name": "Lake",
+      "foodYield": 2,
+      "productionYield": 0,
+      "movementCost": 1,
+      "features": []
+    }
+  ],
+  "features": [
+    {
+      "name": "Hills",
+      "productionBonus": 2,
+      "movementCostModifier": 1
+    },
+    {
+      "name": "Mountains",
+      "impassable": true,
+      "faithBonus": 1,
+      "scienceBonus":1
+    },
+    {
+      "name": "Oasis",
+      "foodBonus": 3,
+      "terrain": "Desert"
+    },
+    {
+      "name": "Marsh",
+      "foodBonus": 1,
+      "movementCostModifier": 1
+    },
+    {
+      "name": "Volcanic",
+      "foodBonus": 2,
+      "productionBonus": 1
+    },
+    {
+      "name": "Geothermal",
+      "scienceBonus": 2
+    },
+    {
+      "name": "Volcanoes",
+      "impassable": true,
+      "foodBonus": 3,
+      "productionBonus": 3
+    },
+    {
+      "name": "Forest",
+      "productionBonus": 1,
+      "movementCostModifier": 1
+    },
+    {
+      "name": "Jungle",
+      "foodBonus": 2,
+      "movementCostModifier": 2
+    },
+    {
+      "name": "Rainforest",
+      "foodBonus": 3,
+      "movementCostModifier": 2
+    },
+    {
+      "name":"Atoll",
+      "foodBonus":2,
+      "terrains":["Coast", "Ocean", "Lake"]
+    }
+  ],
+  "naturalWonders": [
+    {
+      "name": "Crater Lake",
+      "description": "A stunningly beautiful lake formed in a volcanic caldera.",
+      "foodBonus": 3,
+      "scienceBonus": 2,
+      "terrain": "Lake"
+    },
+    {
+      "name": "Great Barrier Reef",
+      "description": "A vast and vibrant coral reef teeming with marine life.",
+      "foodBonus": 4,
+      "goldBonus": 2,
+      "terrain": "Coast"
+    },
+    {
+      "name": "Mount Kilimanjaro",
+      "description": "A majestic, snow-capped mountain rising from the plains.",
+      "faithBonus": 3,
+      "productionBonus": 2,
+      "terrain": "Mountains"
+    },
+    {
+      "name": "The Grand Canyon",
+      "description": "A massive, colorful canyon carved by a powerful river.",
+      "productionBonus": 3,
+      "cultureBonus": 2,
+      "terrain": "Desert"
+    },
+    {
+      "name": "The Giant's Causeway",
+      "description": "An area of about 40,000 interlocking basalt columns, the result of an ancient volcanic fissure eruption.",
+      "productionBonus": 2,
+      "cultureBonus": 3,
+      "terrain": "Coast"
+    },
+    {
+      "name":"The Dead Sea",
+      "description":"A salt lake bordered by Jordan to the east and Israel and the West Bank to the west.",
+      "foodBonus": 1,
+      "scienceBonus": 3,
+      "terrain":"Lake"
+    },
+    {
+      "name": "The Cliffs of Moher",
+      "description": "Dramatic sea cliffs overlooking the Atlantic Ocean.",
+      "cultureBonus": 4,
+      "faithBonus": 1,
+      "terrain": "Coast"
+    },
+    {
+      "name": "The Chocolate Hills",
+      "description": "Conical hills that turn brown during the dry season.",
+      "foodBonus": 2,
+      "productionBonus": 2,
+      "terrain": "Hills"
+    },
+    {
+      "name": "The Sahara Eye",
+      "description": "A large, circular geological feature in the Sahara Desert.",
+      "scienceBonus": 3,
+      "goldBonus": 2,
+      "terrain": "Desert"
+    },
+    {
+      "name": "The Rainbow Mountain (Mount Winikunka)",
+      "description": "A mountain with colorful layers of sediment.",
+      "cultureBonus": 3,
+      "productionBonus": 2,
+      "terrain": "Mountains"
+    },
+    {
+      "name": "The Waitomo Glowworm Caves",
+      "description": "Caves illuminated by thousands of glowworms.",
+      "scienceBonus": 2,
+      "cultureBonus": 3,
+      "terrain": "Hills"
+    },
+    {
+      "name": "The Salar de Uyuni",
+      "description": "The world's largest salt flat, creating a mirror-like surface.",
+      "goldBonus": 4,
+      "scienceBonus": 1,
+      "terrain": "Plains"
+    },
+    {
+      "name": "The Pamukkale",
+      "description": "Terraced hot springs and travertine pools.",
+      "foodBonus": 2,
+      "faithBonus": 3,
+      "terrain": "Hills"
+    },
+    {
+      "name": "Ha Long Bay",
+      "description": "A bay with thousands of limestone karsts and islets.",
+      "foodBonus": 3,
+      "cultureBonus": 2,
+      "terrain": "Coast"
+    },
+    {
+      "name":"The Spotted Lake",
+      "description":"A lake with mineral deposits forming colorful spots.",
+      "scienceBonus": 3,
+      "foodBonus": 2,
+      "terrain":"Lake"
+    },
+    {
+      "name":"Eisriesenwelt",
+      "description":"A cave formed in glaciers, with stunning ice formations.",
+      "scienceBonus": 2,
+      "productionBonus": 3,
+      "terrain":"Snow"
+    },
+    {
+      "name":"The Bioluminescent Bay",
+      "description":"A bay where microorganisms emit light, creating a glowing effect.",
+      "cultureBonus":3,
+      "foodBonus":2,
+      "terrain":"Coast"
+    },
+    {
+      "name":"The Petrified Forest",
+      "description":"A forest of fossilized trees, turned to stone.",
+      "productionBonus":3,
+      "scienceBonus":2,
+      "terrain":"Plains"
+    },
+    {
+      "name":"The Blue Lagoon",
+      "description":"A geothermal spa with milky blue water.",
+      "foodBonus":2,
+      "faithBonus":3,
+      "terrain":"Lake"
+    },
+    {
+      "name":"The Fly Ranch Geyser",
+      "description":"A colorful geothermal geyser with vibrant mineral deposits.",
+      "scienceBonus":3,
+      "faithBonus":2,
+      "terrain":"Desert"
+    },
+    {
+      "name":"The Capillas de Mármol",
+      "description":"Caves carved into marble, creating stunning reflections on the water.",
+      "cultureBonus":3,
+      "goldBonus":2,
+      "terrain":"Lake"
+    },
+    {
+      "name":"The Valley of Flowers",
+      "description":"A valley filled with a vast variety of alpine flowers.",
+      "foodBonus":3,
+      "cultureBonus":2,
+      "terrain":"Plains"
+    },
+    {
+      "name":"The Kokkini Beach",
+      "description":"A beach covered in a type of seaweed that turns bright red in autumn.",
+      "foodBonus":2,
+      "cultureBonus":3,
+      "terrain":"Coast"
+    },
+    {
+      "name":"The Puerto Princesa Subterranean River",
+      "description":"A river flowing through a cave system, creating underground waterfalls and pools.",
+      "foodBonus":2,
+      "scienceBonus":3,
+      "terrain":"Hills"
+    },
+    {
+        "name":"The Devil's Tower",
+        "description":"A monolithic igneous intrusion in the Black Hills.",
+        "productionBonus":3,
+        "faithBonus":2,
+        "terrain":"Plains"
+    },
+    {
+        "name":"The Moeraki Boulders",
+        "description":"Unusually large and spherical boulders scattered along a beach.",
+        "cultureBonus":2,
+        "scienceBonus":3,
+        "terrain":"Coast"
+    },
+    {
+        "name":"The Zhāngjiājiè Sēnlín",
+        "description":"Known for its surreal quartz-sandstone pillars and peaks.",
+        "cultureBonus":4,
+        "productionBonus":1,
+        "terrain":"Hills"
+    },
+    {
+      "name": "Mount Everest",
+      "description": "The world's highest mountain, a symbol of extreme challenge.",
+      "faithBonus": 3,
+      "productionBonus": 2,
+      "terrain": "Mountains"
+    },
+    {
+      "name": "Mount Vesuvius",
+      "description": "An active volcano with a history of devastating eruptions.",
+      "scienceBonus": 3,
+      "productionBonus": 2,
+      "terrain": "Hills"
+    },
+    {
+      "name": "Cave of Crystals",
+      "description": "A cave filled with giant selenite crystals.",
+      "scienceBonus": 4,
+      "productionBonus": 1,
+      "terrain": "Hills"
+    },
+    {
+      "name": "White Cliffs of Dover",
+      "description": "Iconic white chalk cliffs overlooking the English Channel.",
+      "cultureBonus": 3,
+      "faithBonus": 2,
+      "terrain": "Coast"
+    },
+    {
+      "name": "Matterhorn",
+      "description": "A distinctive pyramidal peak in the Alps.",
+      "productionBonus": 3,
+      "faithBonus": 2,
+      "terrain": "Mountains"
+    },
+    {
+      "name": "Lake Hillier",
+      "description": "A pink-colored lake with a unique ecosystem.",
+      "foodBonus": 2,
+      "scienceBonus": 3,
+      "terrain": "Lake"
+    },
+    {
+      "name": "Pantanal",
+      "description": "The world's largest tropical wetland area.",
+      "foodBonus": 4,
+      "goldBonus": 1,
+      "terrain": "Plains"
+    },
+    {
+      "name": "The Great Blue Hole",
+      "description": "A giant marine sinkhole off the coast of Belize.",
+      "foodBonus": 3,
+      "scienceBonus": 2,
+      "terrain": "Ocean"
+    },
+    {
+      "name": "The Stone Forest",
+      "description": "A set of limestone formations creating a forest-like landscape.",
+      "productionBonus": 2,
+      "cultureBonus": 3,
+      "terrain": "Hills"
+    },
+    {
+      "name": "The Wadden Sea",
+      "description": "A large intertidal zone with rich biodiversity.",
+      "foodBonus": 3,
+      "goldBonus": 2,
+      "terrain": "Coast"
+    },
+    {
+      "name": "The Waitomo Caves",
+      "description": "Caves known for their glowworm displays.",
+      "cultureBonus": 3,
+      "scienceBonus": 2,
+      "terrain": "Hills"
+    },
+    {
+      "name": "The Mono Lake",
+      "description": "A saline lake with unique tufa towers.",
+      "scienceBonus": 3,
+      "faithBonus": 2,
+      "terrain": "Lake"
+    },
+    {
+      "name": "The Socotra Archipelago",
+      "description": "An isolated archipelago with unique flora and fauna.",
+      "scienceBonus": 3,
+      "cultureBonus": 2,
+      "terrain": "Plains"
+    },
+    {
+      "name":"The Fingal's Cave",
+      "description":"A sea cave known for its basalt columns.",
+      "productionBonus":2,
+      "cultureBonus":3,
+      "terrain":"Coast"
+    },
+    {
+      "name":"The Danakil Depression",
+      "description":"One of the hottest and lowest places on Earth, with unique geological features.",
+      "scienceBonus":3,
+      "productionBonus":2,
+      "terrain":"Desert"
+    },
+    {
+      "name":"The Antelope Canyon",
+      "description":"A slot canyon known for its wave-like rock formations and light beams.",
+      "cultureBonus":3,
+      "productionBonus":2,
+      "terrain":"Desert"
+    }
+  ]
+}
