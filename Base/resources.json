@@ -1,0 +1,332 @@
+{
+  "resources": [
+    {
+      "name": "Wheat",
+      "category": "Bonus",
+      "yields": {
+        "food": 2
+      },
+      "terrain": "Grassland"
+    },
+    {
+      "name": "Sheep",
+      "category": "Bonus",
+      "yields": {
+        "food": 1,
+        "production": 1
+      },
+      "terrain": "Plains"
+    },
+    {
+      "name": "Fish",
+      "category": "Bonus",
+      "yields": {
+        "food": 2
+      },
+      "terrain": "Coast"
+    },
+    {
+      "name": "Deer",
+      "category": "Bonus",
+      "yields": {
+        "food": 1,
+        "production": 1
+      },
+      "terrain": "Forest"
+    },
+    {
+      "name": "Bananas",
+      "category": "Bonus",
+      "yields": {
+        "food": 2
+      },
+      "terrain": "Jungle"
+    },
+    {
+      "name": "Rice",
+      "category": "Bonus",
+      "yields": {
+        "food": 3
+      },
+      "terrain": "Marsh"
+    },
+    {
+      "name": "Crabs",
+      "category": "Bonus",
+      "yields": {
+        "food": 2
+      },
+      "terrain": "Coast"
+    },
+    {
+      "name": "Honey",
+      "category": "Bonus",
+      "yields": {
+        "food": 1,
+        "culture": 1
+      },
+      "terrain": "Forest"
+    },
+    {
+      "name":"Cattle",
+      "category":"Bonus",
+      "yields":{
+          "food":2,
+          "production":1
+      },
+      "terrain":"Grassland"
+    },
+    {
+        "name":"Berries",
+        "category":"Bonus",
+        "yields":{
+            "food":2
+        },
+        "terrain":"Tundra"
+    },
+    {
+        "name":"Oysters",
+        "category":"Bonus",
+        "yields":{
+            "food":2
+        },
+        "terrain":"Coast"
+    },
+    {
+      "name": "Potato",
+      "category": "Bonus",
+      "yields": {
+        "food": 2
+      },
+      "terrain": "Hills"
+    },
+    {
+      "name": "Spices",
+      "category": "Luxury",
+      "amenityValue": 1,
+      "terrain": "Jungle"
+    },
+    {
+      "name": "Gems",
+      "category": "Luxury",
+      "amenityValue": 1,
+      "terrain": "Hills"
+    },
+    {
+      "name": "Furs",
+      "category": "Luxury",
+      "amenityValue": 1,
+      "terrain": "Forest"
+    },
+    {
+      "name": "Silk",
+      "category": "Luxury",
+      "amenityValue": 1,
+      "terrain": "Plains"
+    },
+    {
+      "name": "Wine",
+      "category": "Luxury",
+      "amenityValue": 1,
+      "terrain": "Grassland"
+    },
+    {
+      "name": "Incense",
+      "category": "Luxury",
+      "amenityValue": 1,
+      "terrain": "Desert"
+    },
+    {
+      "name": "Cotton",
+      "category": "Luxury",
+      "amenityValue": 1,
+      "terrain": "Plains"
+    },
+    {
+      "name": "Dyes",
+      "category": "Luxury",
+      "amenityValue": 1,
+      "terrain": "Jungle"
+    },
+    {
+      "name":"Marble",
+      "category":"Luxury",
+      "amenityValue":1,
+      "terrain":"Hills"
+    },
+    {
+        "name":"Coffee",
+        "category":"Luxury",
+        "amenityValue":1,
+        "terrain":"Hills"
+    },
+    {
+        "name":"Tea",
+        "category":"Luxury",
+        "amenityValue":1,
+        "terrain":"Plains"
+    },
+    {
+        "name":"Whales",
+        "category":"Luxury",
+        "amenityValue":1,
+        "terrain":"Ocean"
+    },
+    {
+        "name":"Pearls",
+        "category":"Luxury",
+        "amenityValue":1,
+        "terrain":"Coast"
+    },
+    {
+        "name":"Salt",
+        "category":"Luxury",
+        "amenityValue":1,
+        "terrain":"Desert"
+    },
+    {
+        "name":"Chocolate",
+        "category":"Luxury",
+        "amenityValue":1,
+        "terrain":"Jungle"
+    },
+    {
+      "name":"Amber",
+      "category":"Luxury",
+      "amenityValue":1,
+      "terrain":"Coast"
+  },
+  {
+      "name":"Ivory",
+      "category":"Luxury",
+      "amenityValue":1,
+      "terrain":"Plains"
+  },
+  {
+      "name":"Tobacco",
+      "category":"Luxury",
+      "amenityValue":1,
+      "terrain":"Grassland"
+  },
+  {
+      "name":"Perfume",
+      "category":"Luxury",
+      "amenityValue":1,
+      "terrain":"Hills"
+  },
+  {
+      "name":"Jade",
+      "category":"Luxury",
+      "amenityValue":1,
+      "terrain":"Mountains"
+  },
+  {
+      "name":"Sugar",
+      "category":"Luxury",
+      "amenityValue":1,
+      "terrain":"Plains"
+  },
+  {
+    "name":"Citrus",
+    "category":"Luxury",
+    "amenityValue":1,
+    "terrain":"Grassland"
+},
+{
+    "name":"Olives",
+    "category":"Luxury",
+    "amenityValue":1,
+    "terrain":"Hills"
+},
+{
+    "name":"Truffles",
+    "category":"Luxury",
+    "amenityValue":1,
+    "terrain":"Forest"
+},
+{
+    "name":"Clams",
+    "category":"Luxury",
+    "amenityValue":1,
+    "terrain":"Coast"
+},
+{
+    "name":"Obsidian",
+    "category":"Luxury",
+    "amenityValue":1,
+    "terrain":"Hills"
+},
+{
+    "name":"Silk Worms",
+    "category":"Luxury",
+    "amenityValue":1,
+    "terrain":"Forest"
+},
+{
+  "name": "Iron",
+  "category": "Strategic",
+  "techRequirement": "Iron Working",
+  "terrain": "Hills"
+},
+{
+  "name": "Coal",
+  "category": "Strategic",
+  "techRequirement": "Industrialization",
+  "terrain": "Plains"
+},
+{
+  "name": "Oil",
+  "category": "Strategic",
+  "techRequirement": "Combustion",
+  "terrain": "Desert"
+},
+{
+  "name": "Uranium",
+  "category": "Strategic",
+  "techRequirement": "Nuclear Fission",
+  "terrain": ["Tundra", "Desert"]
+},
+{
+  "name": "Horses",
+  "category": "Strategic",
+  "techRequirement": "Animal Husbandry",
+  "terrain": "Plains"
+},
+{
+  "name": "Niter",
+  "category": "Strategic",
+  "techRequirement": "Gunpowder",
+  "terrain": "Desert"
+},
+{
+  "name": "Aluminum",
+  "category": "Strategic",
+  "techRequirement": "Flight",
+  "terrain": "Hills"
+},
+{
+  "name": "Stone",
+  "category": "Strategic",
+  "techRequirement": "Masonry",
+  "terrain": "Hills"
+},
+{
+  "name":"Copper",
+  "category":"Strategic",
+  "techRequirement":"Bronze Working",
+  "terrain":"Hills"
+},
+{
+    "name":"Saltpeter",
+    "category":"Strategic",
+    "techRequirement":"Chemistry",
+    "terrain":"Plains"
+},
+{
+    "name":"Rubber",
+    "category":"Strategic",
+    "techRequirement":"Scientific Theory",
+    "terrain":"Jungle"
+}
+  ]
+}
