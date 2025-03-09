@@ -27,6 +27,9 @@
     "denounced":["Your denouncement is noted. It carries little weight compared to the strength of my armies."],
     "embassyAccepted":["This agreement will serve as a foundation for future cooperation. We will send our envoys forthwith."],
     "embassyRejected":["I find your rejection disappointing. You have denied yourself a valuable avenue of communication."],
+    "delegationReceived":["I permit your delegations to enter my lands."],
+    "delegationAccepted":["I see you have recognized the value of my emissaries."],
+    "delegationRejected":["To reject my delegation is to reject me. You have chosen poorly."],
 
     "nationOutsideColor": [255,255,255],
     "nationInsideColor": [237,41,57],
@@ -62,6 +65,9 @@
     "denounced": ["Your denouncement is of little consequence. I will continue to govern according to my principles."],
     "embassyAccepted": ["The establishment of an embassy will foster understanding. We welcome your envoys."],
     "embassyRejected": ["Your refusal is unwise. You have closed a door to diplomacy."],
+    "delegationReceived":["Your envoys are welcome. I trust our discussions will be fruitful."],
+    "delegationAccepted":["Your acceptance of my delegation is appreciated. Let us work towards understanding."],
+    "delegationRejected":["Your decision is regrettable. I trust you understand the implications."],
 
     "nationOutsideColor": [253, 218, 13],
     "nationInsideColor": [0,0,0],
